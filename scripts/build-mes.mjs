@@ -4,6 +4,20 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 
 const raw = JSON.parse(readFileSync('data/raw/me_block.json', 'utf8'));
 
+// Bisbeard descriptions sometimes contain a literal backslash-n sequence as
+// paragraph separator (rendered as " \n " in the UI). Convert those to real
+// newlines and squeeze excessive whitespace.
+function cleanDescription(s) {
+  if (!s) return '';
+  return String(s)
+    .replace(/\s*\\n\s*/g, '\n')   // " \n " -> real newline
+    .replace(/\r\n/g, '\n')
+    .replace(/[ \t]+\n/g, '\n')
+    .replace(/\n[ \t]+/g, '\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
 const RARITY_ORDER = ['rare', 'epic', 'legendary', 'artifact'];
 const RARITY_LABEL = { rare: 'Rare', epic: 'Epic', legendary: 'Legendary', artifact: 'Artifact' };
 const CLASS_LABEL = {
@@ -34,7 +48,7 @@ for (const cls of Object.keys(raw)) {
         levelRange: LEVEL_RANGE_FOR_RARITY[rarity],
         specs: m.specs || [],
         icon: m.icon,
-        description: m.description,
+        description: cleanDescription(m.description),
         requiredTabs: m.requiredTabs || null,
         requiredSpellIds: m.requiredSpellIds || null,
       });

@@ -13,6 +13,17 @@ try {
   for (const k of Object.keys(aliasFile)) if (!k.startsWith('_')) aliases[k] = aliasFile[k];
 } catch {}
 
+function cleanDescription(s) {
+  if (!s) return '';
+  return String(s)
+    .replace(/\s*\\n\s*/g, '\n')
+    .replace(/\r\n/g, '\n')
+    .replace(/[ \t]+\n/g, '\n')
+    .replace(/\n[ \t]+/g, '\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
 function titleCase(s) {
   if (!s) return '';
   return String(s).replace(/(^|[\s-])([a-z])/g, (_, p, c) => p + c.toUpperCase()).replace(/-/g, ' ');
@@ -92,7 +103,7 @@ for (const mk of meMarkers) {
         rawTop: mk.top,
         rawLeft: mk.left,
         zoneBounds: zone?.bounds || null,
-        description: mk.description || '',
+        description: cleanDescription(mk.description),
         quality: mk.quality || null,
         resources: Array.isArray(mk.resources)
           ? mk.resources

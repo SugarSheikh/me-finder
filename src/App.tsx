@@ -18,6 +18,7 @@ type Filters = {
   spec: string | null;
   q: string;
   withVideoOnly: boolean;
+  hideNoData: boolean;
 };
 
 const ALL_RARITIES: Rarity[] = ['artifact', 'legendary', 'epic', 'rare'];
@@ -31,6 +32,7 @@ export default function App() {
     spec: null,
     q: '',
     withVideoOnly: false,
+    hideNoData: false,
   });
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
@@ -63,6 +65,7 @@ export default function App() {
     if (q) list = list.filter(m =>
       m.name.toLowerCase().includes(q) || m.description.toLowerCase().includes(q));
     if (filters.withVideoOnly) list = list.filter(m => m.videos.length > 0);
+    if (filters.hideNoData) list = list.filter(m => m.videos.length > 0 || m.locations.length > 0);
     return list.slice().sort((a, b) => {
       const ra = rarityRank(a.rarity), rb = rarityRank(b.rarity);
       if (ra !== rb) return ra - rb;
@@ -157,6 +160,13 @@ export default function App() {
         </section>
 
         <section>
+          <label className="toggle">
+            <input
+              type="checkbox"
+              checked={filters.hideNoData}
+              onChange={e => setFilters(f => ({ ...f, hideNoData: e.target.checked }))}
+            /> Hide MEs with no data
+          </label>
           <label className="toggle">
             <input
               type="checkbox"

@@ -15,7 +15,7 @@
       "BALANCE"
     ],
     "icon": "spell_nature_stranglevines",
-    "description": "Teaches you: Mass Entanglement. \\n Mass Entanglement \\n 25 yd range. 35 sec cooldown. Roots the target and all enemies within 8 yards in place for 8 sec. Damage may interrupt the effect. Usable while shapeshifted.",
+    "description": "Teaches you: Mass Entanglement.\nMass Entanglement\n25 yd range. 35 sec cooldown. Roots the target and all enemies within 8 yards in place for 8 sec. Damage may interrupt the effect. Usable while shapeshifted.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -83,7 +83,7 @@
       "BALANCE"
     ],
     "icon": "ability_vehicle_sonicshockwave",
-    "description": "Teaches you: Solar Beam. \\n Solar Beam \\n 30 yd range. 1 min cooldown. You summon a beam of solar light, silencing all enemies under the beam while it is active. Solar Beam lasts for 6 sec.",
+    "description": "Teaches you: Solar Beam.\nSolar Beam\n30 yd range. 1 min cooldown. You summon a beam of solar light, silencing all enemies under the beam while it is active. Solar Beam lasts for 6 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -133,7 +133,7 @@
       "FERAL"
     ],
     "icon": "spell_druid_stampedingroar_cat",
-    "description": "Teaches you: Stampeding Roar. \\n Stampeding Roar \\n 1.5 min cooldown. You roar, increasing the movement speed of all party members within 20 yards by 60% for 6 sec. Does not break prowling.",
+    "description": "Teaches you: Stampeding Roar.\nStampeding Roar\n1.5 min cooldown. You roar, increasing the movement speed of all party members within 20 yards by 60% for 6 sec. Does not break prowling.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -201,7 +201,7 @@
       "RESTORATION"
     ],
     "icon": "spell_druid_ironbark",
-    "description": "Teaches you: Stonebark. \\n Stonebark \\n 40 yd range. 1.5 min cooldown. Reduces all damage taken on the target by 20%, increases resistance to Dispel mechanics by 50% and increases healing taken from Healing over Time effects by 40% from the caster for 8 sec.",
+    "description": "Teaches you: Stonebark.\nStonebark\n40 yd range. 1.5 min cooldown. Reduces all damage taken on the target by 20%, increases resistance to Dispel mechanics by 50% and increases healing taken from Healing over Time effects by 40% from the caster for 8 sec.",
     "requiredTabs": [
       {
         "tab": "Restoration",
@@ -229,7 +229,7 @@
       "FERAL"
     ],
     "icon": "spell_druid_ursolsvortex",
-    "description": "Teaches you: Ursol's Vortex. \\n Ursol's Vortex \\n 40 sec cooldown. Conjures a vortex of wind for 8 sec around yourself, reducing the movement speed of all enemies within 5 yards by 30%. When an enemy leaves the vortex, winds will pull the enemy back to its center. Enemies can only get pulled from any vortext once every 8 seconds. This ability is usable while shapeshifted.",
+    "description": "Teaches you: Ursol's Vortex.\nUrsol's Vortex\n40 sec cooldown. Conjures a vortex of wind for 8 sec around yourself, reducing the movement speed of all enemies within 5 yards by 30%. When an enemy leaves the vortex, winds will pull the enemy back to its center. Enemies can only get pulled from any vortext once every 8 seconds. This ability is usable while shapeshifted.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -329,7 +329,7 @@
       "FERAL"
     ],
     "icon": "spell_druid_bearhug",
-    "description": "Teaches you: Carnage Incarnate. \\n Carnage Incarnate \\n 45 sec cooldown. Encase yourself in blood and bones, reducing physical damage taken by 10% and dealing 102 physical damage to nearby enemies and healing your for 81 for 55 every second. Lasts for 8 sec.",
+    "description": "Teaches you: Carnage Incarnate.\nCarnage Incarnate\n45 sec cooldown. Encase yourself in blood and bones, reducing physical damage taken by 10% and dealing 102 physical damage to nearby enemies and healing your for 81 for 55 every second. Lasts for 8 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -397,7 +397,7 @@
       "BALANCE"
     ],
     "icon": "ability_druid_cresentburn",
-    "description": "Your Starfire applies Star's Fury on targets not affected by your Moonfire. This effect does not stack with Moonfire. Your Wrath applies Nature's Wrath on targets not affected by your Insect Swarm. This effect does not stack with Insect Swarm. \\n Star's Fury \\n Increases the damage the target takes from your Starfire and Starsurge by 5%, stacking up to 3 times. Lasts 20 sec. \\n Nature's Wrath \\n Increases the damage the target takes from your Wrath and Starsurge by 5%, stacking up to 3 times. Lasts 20 sec.",
+    "description": "Your Starfire applies Star's Fury on targets not affected by your Moonfire. This effect does not stack with Moonfire. Your Wrath applies Nature's Wrath on targets not affected by your Insect Swarm. This effect does not stack with Insect Swarm.\nStar's Fury\nIncreases the damage the target takes from your Starfire and Starsurge by 5%, stacking up to 3 times. Lasts 20 sec.\nNature's Wrath\nIncreases the damage the target takes from your Wrath and Starsurge by 5%, stacking up to 3 times. Lasts 20 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -447,7 +447,7 @@
       "BALANCE"
     ],
     "icon": "spell_druid_incarnation",
-    "description": "Eclipse (Solar) increase your critical strike rating by 15% of your Spirit, and your Eclipse (Lunar) increase your haste rating by 15% of your Spirit. Teaches you: Chosen of Elune. \\n Chose of Elune \\n 1.5 min cooldown. Resets the cooldown of Starsurge and reduces its cooldown by 50% for 15 sec. Also activates both Lunar Eclipse and Solar Eclipse. This does not incur a cooldown on the Eclipse effects.",
+    "description": "Eclipse (Solar) increase your critical strike rating by 15% of your Spirit, and your Eclipse (Lunar) increase your haste rating by 15% of your Spirit. Teaches you: Chosen of Elune.\nChose of Elune\n1.5 min cooldown. Resets the cooldown of Starsurge and reduces its cooldown by 50% for 15 sec. Also activates both Lunar Eclipse and Solar Eclipse. This does not incur a cooldown on the Eclipse effects.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1148516"
@@ -549,7 +549,7 @@
       "RESTORATION"
     ],
     "icon": "inv_misc_herb_talandrasrose",
-    "description": "Teaches you: Efflorescence \\n Efflorescence \\n 1 min cooldown. Grows a healing blossom at the target location, increasing healing taken by 15% and restoring 107 health to allies within 10 yards every 2 sec for 10 sec. Also applies Rejuvenation to up to 5 targets.",
+    "description": "Teaches you: Efflorescence\nEfflorescence\n1 min cooldown. Grows a healing blossom at the target location, increasing healing taken by 15% and restoring 107 health to allies within 10 yards every 2 sec for 10 sec. Also applies Rejuvenation to up to 5 targets.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -599,7 +599,7 @@
       "FERAL"
     ],
     "icon": "artifactability_feraldruid_ashamanesbite",
-    "description": "Teaches you: Feral Frenzy. \\n Feral Frenzy \\n 5 yd range. 25 sec cooldown. Requires Cat Form (Shapeshift). Unleash a furious frenzy, clawing your target 5 times over 1.50 seconds for 50% weapon damage and applying a bleed which stacks up to 5 times and lasts for 10 sec. Awards 1 combo point.",
+    "description": "Teaches you: Feral Frenzy.\nFeral Frenzy\n5 yd range. 25 sec cooldown. Requires Cat Form (Shapeshift). Unleash a furious frenzy, clawing your target 5 times over 1.50 seconds for 50% weapon damage and applying a bleed which stacks up to 5 times and lasts for 10 sec. Awards 1 combo point.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -753,7 +753,7 @@
       "RESTORATION"
     ],
     "icon": "spell_nature_rune",
-    "description": "Transforms Tranquility into Flow of Life. \\n Flow of Life \\n Heals the 5 lowest health nearby party or raid members for (141+1.9 Points Per Level)+(Heal*0.0.085085) Every 1 seconds for 8 sec seconds and restores 1 seconds of your active heal over Time effects on allies healed.",
+    "description": "Transforms Tranquility into Flow of Life.\nFlow of Life\nHeals the 5 lowest health nearby party or raid members for (141+1.9 Points Per Level)+(Heal*0.0.085085) Every 1 seconds for 8 sec seconds and restores 1 seconds of your active heal over Time effects on allies healed.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -998,7 +998,7 @@
       "FERAL"
     ],
     "icon": "spell_druid_incarnation",
-    "description": "Teaches you: Incarnation: King of the Jungle. \\n Incarnation: King of the Jungle \\n 1 min cooldown. Your cat form is empowered for 15 sec. Mangle (Cat) and Shred causes an additional swiping attack, dealing damage to enemies within 5 yards. Ferocious Bite extends Rip to its full duration.",
+    "description": "Teaches you: Incarnation: King of the Jungle.\nIncarnation: King of the Jungle\n1 min cooldown. Your cat form is empowered for 15 sec. Mangle (Cat) and Shred causes an additional swiping attack, dealing damage to enemies within 5 yards. Ferocious Bite extends Rip to its full duration.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -1048,7 +1048,7 @@
       "FERAL"
     ],
     "icon": "ability_druid_ironfur",
-    "description": "Teaches you: Ironfur. \\n Ironfur \\n 3 Charges. 10 sec recharge. Grants 10 Rage and reduces damage taken by 4% plus an additional 4% per stack. Lasts 6 sec. Stacks up to 3.",
+    "description": "Teaches you: Ironfur.\nIronfur\n3 Charges. 10 sec recharge. Grants 10 Rage and reduces damage taken by 4% plus an additional 4% per stack. Lasts 6 sec. Stacks up to 3.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -1098,7 +1098,7 @@
       "FERAL"
     ],
     "icon": "inv_misc_summerfest_braziergreen",
-    "description": "Requires \\n Infected Wounds\\n Your Thrash ability now has a 9 second cooldown grants Nature's Fervor. \\n Nature's Fervor \\n Faerie Fire grants 8% increased agility for 10 sec. Swipe generates double threat and procs the last rank of Infected Wounds (if known). Growl generates significant threat, applies Demoralizing Roar and only triggers a 1 second cooldown.",
+    "description": "Requires\nInfected Wounds\nYour Thrash ability now has a 9 second cooldown grants Nature's Fervor.\nNature's Fervor\nFaerie Fire grants 8% increased agility for 10 sec. Swipe generates double threat and procs the last rank of Infected Wounds (if known). Growl generates significant threat, applies Demoralizing Roar and only triggers a 1 second cooldown.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1148485"
@@ -1302,7 +1302,7 @@
       "RESTORATION"
     ],
     "icon": "ability_druid_replenish",
-    "description": "Teaches you: Spirit of the Forest. \\n Spirit of the Forest \\n 1 min cooldown. Imbues you with the Spirit of the Forest for 20 sec, reducing the cooldown of Wild Growth by 50%, the mana cost of Lifebloom by 50%, and causes your Rejuvenation to also instantly heal your ally for 150.",
+    "description": "Teaches you: Spirit of the Forest.\nSpirit of the Forest\n1 min cooldown. Imbues you with the Spirit of the Forest for 20 sec, reducing the cooldown of Wild Growth by 50%, the mana cost of Lifebloom by 50%, and causes your Rejuvenation to also instantly heal your ally for 150.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -1352,7 +1352,7 @@
       "BALANCE"
     ],
     "icon": "ability_mage_firestarter",
-    "description": "Teaches you: Sunfire. \\n Sunfire \\n 30 yd range. 10 sec cooldown. Burns your target and 4 additional targets within 8 yards, dealing 137 to 171 Firestorm damage and 310 additional damage over 15 sec. Sunfire also increases the periodic damage from Moonfire and Insect Swarm by 15% per target hit for its duration.",
+    "description": "Teaches you: Sunfire.\nSunfire\n30 yd range. 10 sec cooldown. Burns your target and 4 additional targets within 8 yards, dealing 137 to 171 Firestorm damage and 310 additional damage over 15 sec. Sunfire also increases the periodic damage from Moonfire and Insect Swarm by 15% per target hit for its duration.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -1402,7 +1402,7 @@
       "BALANCE"
     ],
     "icon": "spell_holy_elunesgrace",
-    "description": "Teaches you: Touch of Elune. \\n Touch of Elune \\n 30 yd range. 1 min cooldown. Place the Touch of Elune on an enemy. All damage dealt by your Wrath, Starfire and Starsurge spells to other targets will damage the enemy marked by your Touch of Elune. Lasts for 15 sec. While Touch of Elune is active on any enemy, all damage you deal to any target is increased by 15%.",
+    "description": "Teaches you: Touch of Elune.\nTouch of Elune\n30 yd range. 1 min cooldown. Place the Touch of Elune on an enemy. All damage dealt by your Wrath, Starfire and Starsurge spells to other targets will damage the enemy marked by your Touch of Elune. Lasts for 15 sec. While Touch of Elune is active on any enemy, all damage you deal to any target is increased by 15%.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -1470,7 +1470,7 @@
       "FERAL"
     ],
     "icon": "ability_druid_predatoryinstincts",
-    "description": "Dealing damage with Rake or Rip has a 10% chance and Shred has a 20% chance to grant you Ambush Predator. \\n Ambush Predator \\n Your next Ravage can be cast outside of Prowl, has no positional requirement, costs 20 less energy and grants an additional combo point. Lasts 12 sec. Additionally, Ravage will trigger your Mangle debuff.",
+    "description": "Dealing damage with Rake or Rip has a 10% chance and Shred has a 20% chance to grant you Ambush Predator.\nAmbush Predator\nYour next Ravage can be cast outside of Prowl, has no positional requirement, costs 20 less energy and grants an additional combo point. Lasts 12 sec. Additionally, Ravage will trigger your Mangle debuff.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -2618,7 +2618,7 @@
       "BALANCE"
     ],
     "icon": "spell_nature_cyclone",
-    "description": "Teaches you: Localized Storm. \\n Localized Storm \\n 30 yd range. 12 sec cooldown. 2 sec cast. Summon a violent storm in the target area for 6 sec, dealing 65 Nature damage to enemies every second, reducing the attack speed of enemies by 20%.",
+    "description": "Teaches you: Localized Storm.\nLocalized Storm\n30 yd range. 12 sec cooldown. 2 sec cast. Summon a violent storm in the target area for 6 sec, dealing 65 Nature damage to enemies every second, reducing the attack speed of enemies by 20%.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -2896,7 +2896,7 @@
       "FERAL"
     ],
     "icon": "sha_ability_rogue_sturdyrecuperate_nightmare",
-    "description": "Requires \\n Omen of Clarity\\n Feral Bleed effects have a 35% chance of triggering Omen of Clarity and makes gaining Omen of Clarity increase your attack speed by 20% for 6. While this buff is active, Omen of Clarity cannot trigger again.",
+    "description": "Requires\nOmen of Clarity\nFeral Bleed effects have a 35% chance of triggering Omen of Clarity and makes gaining Omen of Clarity increase your attack speed by 20% for 6. While this buff is active, Omen of Clarity cannot trigger again.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1116864"
@@ -10036,7 +10036,7 @@
       "MARKSMANSHIP"
     ],
     "icon": "spell_shaman_bindelemental",
-    "description": "Teaches you: Binding Shot. \\n Binding Shot \\n 30 yd range. 40 sec cooldown. Fires a magical projectile, tethering the enemy and any other enemies within 5 yards for 5 sec, stunning them for 3 sec if they move more than 5 yards from the arrow.",
+    "description": "Teaches you: Binding Shot.\nBinding Shot\n30 yd range. 40 sec cooldown. Fires a magical projectile, tethering the enemy and any other enemies within 5 yards for 5 sec, stunning them for 3 sec if they move more than 5 yards from the arrow.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [],
@@ -10078,7 +10078,7 @@
       "SURVIVAL"
     ],
     "icon": "ability_hunter_pet_turtle",
-    "description": "Teaches you: Defense of the Turtle. \\n Defense of the Turtle \\n 1.5 min cooldown. Reduces damage taken by 50%. Your movement speed cannot exceed 80% of normal speed. Lasts 8 sec.",
+    "description": "Teaches you: Defense of the Turtle.\nDefense of the Turtle\n1.5 min cooldown. Reduces damage taken by 50%. Your movement speed cannot exceed 80% of normal speed. Lasts 8 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -10164,7 +10164,7 @@
       "SURVIVAL"
     ],
     "icon": "ability_hunter_invigeration",
-    "description": "Teaches you: Flanking Strike. \\n Flanking Strike \\n 25 yd range. 25 sec cooldown. You and your pet charge to the target and strike it as one, dealing Physical damage.",
+    "description": "Teaches you: Flanking Strike.\nFlanking Strike\n25 yd range. 25 sec cooldown. You and your pet charge to the target and strike it as one, dealing Physical damage.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -10300,7 +10300,7 @@
       "SURVIVAL"
     ],
     "icon": "ability_rogue_cannonballbarrage",
-    "description": "Grants the ability to launch your Explosive Trap and Immolation Trap up to 30 yards away. \\n Trap Launcher: Immolation Trap \\n Launches your Immolation Trap at the target location. \\n Trap Launcher: Explosive Trap \\n Launches your Explosive Trap at the target location.",
+    "description": "Grants the ability to launch your Explosive Trap and Immolation Trap up to 30 yards away.\nTrap Launcher: Immolation Trap\nLaunches your Immolation Trap at the target location.\nTrap Launcher: Explosive Trap\nLaunches your Explosive Trap at the target location.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -10350,7 +10350,7 @@
       "MARKSMANSHIP"
     ],
     "icon": "ability_hunter_aspectofthefox",
-    "description": "Teaches you: Aspect of the Fox. \\n Aspect of the Fox \\n 1 sec cooldown. Auto Shot and Steady Shot is usable while moving.",
+    "description": "Teaches you: Aspect of the Fox.\nAspect of the Fox\n1 sec cooldown. Auto Shot and Steady Shot is usable while moving.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -10400,7 +10400,7 @@
       "BEASTMASTERY"
     ],
     "icon": "ability_hunter_barbedshot",
-    "description": "Teaches you: Barbed Shot. \\n Barbed Shot \\n 35 yd range. 2 Charges. 10 sec recharge. Fire a shot that tears through your enemy, causing them to bleed for 679 Physical damage over 8 sec. This sends your pet into a frenzy, increasing the attack speed by 10% for 8 sec, stacking up to 3 times.",
+    "description": "Teaches you: Barbed Shot.\nBarbed Shot\n35 yd range. 2 Charges. 10 sec recharge. Fire a shot that tears through your enemy, causing them to bleed for 679 Physical damage over 8 sec. This sends your pet into a frenzy, increasing the attack speed by 10% for 8 sec, stacking up to 3 times.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -10644,7 +10644,7 @@
       "SURVIVAL"
     ],
     "icon": "ability_warrior_bloodbath",
-    "description": "Dealing damage with Mongoose Bite or Counterattack applies Deadly Bite. \\n Deadly Bite \\n Bleeding for (20*$ +AP*0.02)*6 damage over 12 sec and increases the damage taken of Raptor Strike by 10% per stack. Stacks up to 5 times.",
+    "description": "Dealing damage with Mongoose Bite or Counterattack applies Deadly Bite.\nDeadly Bite\nBleeding for (20*$ +AP*0.02)*6 damage over 12 sec and increases the damage taken of Raptor Strike by 10% per stack. Stacks up to 5 times.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -10764,7 +10764,7 @@
       "MARKSMANSHIP"
     ],
     "icon": "ability_rogue_deviouspoisons",
-    "description": "Reduces the cooldown of Chimera Shot by 2 sec. Your Chimera Shot applies Cobra Venom. When Expunge deals damage, the cooldown of Chimera Shot is reset and 20% base mana is restored. \\n Cobra Venom \\n Deals (56*$ +RAP*0.03)*5 Nature damage over 15 sec, stacking up to 3 times. When reaching 3 stacks or the target dies, the Cobra Venom is expunged, dealing 300*$ +RAP*0.2 Nature damage to enemies within 10 yards.",
+    "description": "Reduces the cooldown of Chimera Shot by 2 sec. Your Chimera Shot applies Cobra Venom. When Expunge deals damage, the cooldown of Chimera Shot is reset and 20% base mana is restored.\nCobra Venom\nDeals (56*$ +RAP*0.03)*5 Nature damage over 15 sec, stacking up to 3 times. When reaching 3 stacks or the target dies, the Cobra Venom is expunged, dealing 300*$ +RAP*0.2 Nature damage to enemies within 10 yards.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1153209"
@@ -10798,7 +10798,7 @@
       "SURVIVAL"
     ],
     "icon": "_diablo3_arrowrain_rogue",
-    "description": "Teaches you: Flare Strike. \\n Flare Strike \\n 35 yd range. 40 sec cooldown. Fire a flare that exposes any hidden and invisible enemies within 10 yards for 2 sec. When it expires, a rain of arrows is called down, dealing 122 Fire damage. Enemies hit are slowed by 30% and take 10% more damage from you for 15 sec. The damage is increased by 25% on the target of your Hunter's Mark.",
+    "description": "Teaches you: Flare Strike.\nFlare Strike\n35 yd range. 40 sec cooldown. Fire a flare that exposes any hidden and invisible enemies within 10 yards for 2 sec. When it expires, a rain of arrows is called down, dealing 122 Fire damage. Enemies hit are slowed by 30% and take 10% more damage from you for 15 sec. The damage is increased by 25% on the target of your Hunter's Mark.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -10916,7 +10916,7 @@
       "MARKSMANSHIP"
     ],
     "icon": "ability_hunter_resistanceisfutile",
-    "description": "Teaches you: Powershot. \\n Powershot \\n 35 yd range. 30 sec cooldown. You wind up a powerful shot, which deals 250% weapon damage to the target and all enemies between you and the target. Your attacks bypass 25% armor for 10 sec on enemies and they are also knocked back.",
+    "description": "Teaches you: Powershot.\nPowershot\n35 yd range. 30 sec cooldown. You wind up a powerful shot, which deals 250% weapon damage to the target and all enemies between you and the target. Your attacks bypass 25% armor for 10 sec on enemies and they are also knocked back.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -11020,7 +11020,7 @@
       "BEASTMASTERY"
     ],
     "icon": "ability_hunter_bestialdiscipline",
-    "description": "Teaches you: Stampede. \\n Stampede \\n 2 min cooldown. Summon a herd of stampeding animals from the wilds that deals 1347 Physical damage to your enemies over 6 sec. The animals run up to 30 yards in front of you. Enemies struck by the stampede take increased damage from you and your pet by 5% for 20 sec, stacking to 4. Enemies' movement speed are also reduced by 50% for 3 sec.",
+    "description": "Teaches you: Stampede.\nStampede\n2 min cooldown. Summon a herd of stampeding animals from the wilds that deals 1347 Physical damage to your enemies over 6 sec. The animals run up to 30 yards in front of you. Enemies struck by the stampede take increased damage from you and your pet by 5% for 20 sec, stacking to 4. Enemies' movement speed are also reduced by 50% for 3 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -11229,7 +11229,7 @@
       "SURVIVAL"
     ],
     "icon": "epic_rpg_icon_pack_poison_icon_0001s_0000_spider_border",
-    "description": "Transforms your Black Arrow into Black Widow Strike. This ability scales from your Black Arrow modifiers. \\ Black Widow Strike \\n 30 sec cooldown. A poisonous strike, increasing all damage done by you to the target by 8% and dealing 322 Physical damage and an additional 154 Nature damage every 3 seconds for 15 sec.",
+    "description": "Transforms your Black Arrow into Black Widow Strike. This ability scales from your Black Arrow modifiers. \\ Black Widow Strike\n30 sec cooldown. A poisonous strike, increasing all damage done by you to the target by 8% and dealing 322 Physical damage and an additional 154 Nature damage every 3 seconds for 15 sec.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1103674"
@@ -11306,7 +11306,7 @@
       "MARKSMANSHIP"
     ],
     "icon": "ability_glaivetoss",
-    "description": "Teaches you: Glaive Toss. \\n Glaive Toss \\n 35 yd range. 12 sec cooldown. You hurl two glaives toward the target, each dealing 60% weapon damage.",
+    "description": "Teaches you: Glaive Toss.\nGlaive Toss\n35 yd range. 12 sec cooldown. You hurl two glaives toward the target, each dealing 60% weapon damage.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -11356,7 +11356,7 @@
       "SURVIVAL"
     ],
     "icon": "ability_hunter_burstingshot",
-    "description": "Transforms Explosive Shot into Explosive Shot (Charged Up). This ability scales from your Explosive Shot modifiers. \\n Explosive Shot (Charged Up) \\n You fire an explosive charge into the enemy target, dealing RAP*0.12+144-RAP*0.12+172 Fire damage. The charge will blast the target every second for an additional 2 sec when active on a target it makes your attacks bypass 10% armor. Useable whilst in melee range.",
+    "description": "Transforms Explosive Shot into Explosive Shot (Charged Up). This ability scales from your Explosive Shot modifiers.\nExplosive Shot (Charged Up)\nYou fire an explosive charge into the enemy target, dealing RAP*0.12+144-RAP*0.12+172 Fire damage. The charge will blast the target every second for an additional 2 sec when active on a target it makes your attacks bypass 10% armor. Useable whilst in melee range.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1153301"
@@ -11934,7 +11934,7 @@
       "BEASTMASTERY"
     ],
     "icon": "ability_hunter_sickem",
-    "description": "Your Multi-Shot grants your pet Frenzied Cleave and your Aimed Shot grants your pet Frenzied Bite. \\n Frenzied Cleave \\n Auto attacks also strike 5 other nearby enemy targets for 20% of the damage for 5 sec. \\n Frenzied Bite \\n Auto attacks deals additional damage for 40% of the damage for 5 sec.",
+    "description": "Your Multi-Shot grants your pet Frenzied Cleave and your Aimed Shot grants your pet Frenzied Bite.\nFrenzied Cleave\nAuto attacks also strike 5 other nearby enemy targets for 20% of the damage for 5 sec.\nFrenzied Bite\nAuto attacks deals additional damage for 40% of the damage for 5 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -12503,7 +12503,7 @@
       "MARKSMANSHIP"
     ],
     "icon": "ability_marksmanship",
-    "description": "Teaches you: Rain of Arrows. \\n Rain of Arrows \\n 35 yd range. 20 sec cooldown. Continously fires a volley of ammo at the target area, causing 57 Arcane damage to the enemy targets within 8 yards every second for 6 sec.",
+    "description": "Teaches you: Rain of Arrows.\nRain of Arrows\n35 yd range. 20 sec cooldown. Continously fires a volley of ammo at the target area, causing 57 Arcane damage to the enemy targets within 8 yards every second for 6 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -12653,7 +12653,7 @@
       "MARKSMANSHIP"
     ],
     "icon": "5_archerskill47_border",
-    "description": "Your ranged attacks have a 25% chance on targets above 20% health to grant you Spot Weakness. This effect can only trigger once every 15 seconds. \\n Spot Weakness \\n Allows the usage of your next Kill Shot regardless of the target's health state but deals 30% reduced damage if used on target's above 20% health.",
+    "description": "Your ranged attacks have a 25% chance on targets above 20% health to grant you Spot Weakness. This effect can only trigger once every 15 seconds.\nSpot Weakness\nAllows the usage of your next Kill Shot regardless of the target's health state but deals 30% reduced damage if used on target's above 20% health.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -16135,7 +16135,7 @@
       "ARCANE"
     ],
     "icon": "spell_mage_altertime",
-    "description": "Teaches you: Alter Time. \\n Alter Time \\n 2 min cooldown. Alter the fabric of time, causing the caster to return to their current location, their health, mana and buffs when cast a second time, or after 4 sec. Effects negated if the caster dies within before the effect occurs, or moves too far away. Does not work with absorb effects.",
+    "description": "Teaches you: Alter Time.\nAlter Time\n2 min cooldown. Alter the fabric of time, causing the caster to return to their current location, their health, mana and buffs when cast a second time, or after 4 sec. Effects negated if the caster dies within before the effect occurs, or moves too far away. Does not work with absorb effects.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -16243,7 +16243,7 @@
       "ARCANE"
     ],
     "icon": "ability_mage_massinvisibility",
-    "description": "Teaches you: Mass Invisibility. \\n Mass Invisibility \\n 2 min cooldown. You and your allies within 40 yards instantly become invisible for 5 sec. The effect is cancelled if you perform any actions. While invisibile, you can only see other invisible targets and those who can see invisible.",
+    "description": "Teaches you: Mass Invisibility.\nMass Invisibility\n2 min cooldown. You and your allies within 40 yards instantly become invisible for 5 sec. The effect is cancelled if you perform any actions. While invisibile, you can only see other invisible targets and those who can see invisible.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -16298,7 +16298,7 @@
       "FROST"
     ],
     "icon": "spell_frost_ring_of_frost",
-    "description": "Teaches you: Ring of Frost. \\n Ring of Frost \\n 30 yd range. 40 sec cooldown. 1.5 sec cast. Summons a Ring of Frost at the target location. Enemies entering the ring will become frozen for 6 sec. Lasts 8 sec and has an 8 yard radius.",
+    "description": "Teaches you: Ring of Frost.\nRing of Frost\n30 yd range. 40 sec cooldown. 1.5 sec cast. Summons a Ring of Frost at the target location. Enemies entering the ring will become frozen for 6 sec. Lasts 8 sec and has an 8 yard radius.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [],
@@ -16363,7 +16363,7 @@
       "ARCANE"
     ],
     "icon": "spell_arcane_massdispel",
-    "description": "Teaches you: Shimmer. \\n Shimmer \\n 15 sec cooldown. Teleports the caster 20 yards forward, unless something is in the way. This ability can be used while casting, but not channeling, and does not trigger a global cooldown. Shares a cooldown with Blink.",
+    "description": "Teaches you: Shimmer.\nShimmer\n15 sec cooldown. Teleports the caster 20 yards forward, unless something is in the way. This ability can be used while casting, but not channeling, and does not trigger a global cooldown. Shares a cooldown with Blink.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -16465,7 +16465,7 @@
       "ARCANE"
     ],
     "icon": "spell_mage_arcaneorb",
-    "description": "Teaches you: Arcane Orb. \\n Arcane Orb \\n 30 sec cooldown. Launches an Arcane Orb forward from your position, traveling up to 35 yards, dealing Arcane damage to enemies it passes through and increasing their Arcane damage taken from you by 10%. Subsequent hits on the same target deals 50% less damage.",
+    "description": "Teaches you: Arcane Orb.\nArcane Orb\n30 sec cooldown. Launches an Arcane Orb forward from your position, traveling up to 35 yards, dealing Arcane damage to enemies it passes through and increasing their Arcane damage taken from you by 10%. Subsequent hits on the same target deals 50% less damage.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -16538,7 +16538,7 @@
       "ARCANE"
     ],
     "icon": "custom_t_nhance_rpg_icons_arcaneshardsfall_border",
-    "description": "Each stack of Arcane Blast empowers your Arcane Barrage to unleash bursts of pure arcane energy over a short duration, dealing 190*$ + SP *0.18 Arcane damage. Each Arcane Blast stack consumed by Arcane Barrage grants you a charge of Barrage Overload. \\n Barrage Overload \\n Your Arcane Blast casts 20% faster but costs 30% more mana. Your Arcane Missile hits restore 2% mana.",
+    "description": "Each stack of Arcane Blast empowers your Arcane Barrage to unleash bursts of pure arcane energy over a short duration, dealing 190*$ + SP *0.18 Arcane damage. Each Arcane Blast stack consumed by Arcane Barrage grants you a charge of Barrage Overload.\nBarrage Overload\nYour Arcane Blast casts 20% faster but costs 30% more mana. Your Arcane Missile hits restore 2% mana.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1144425"
@@ -16620,7 +16620,7 @@
       "FIRE"
     ],
     "icon": "skill_icon_skill71_border",
-    "description": "Teaches you Cremation. \\n Cremation \\n 35 yard range. 2 min cooldown. Deals 1526 Fire damage over 10 sec, plus 2 times the total periodic damage from your Ignite, Pyroblast, and Living Bomb effects, which are consumed. This periodic damage can critically strike.",
+    "description": "Teaches you Cremation.\nCremation\n35 yard range. 2 min cooldown. Deals 1526 Fire damage over 10 sec, plus 2 times the total periodic damage from your Ignite, Pyroblast, and Living Bomb effects, which are consumed. This periodic damage can critically strike.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -16774,7 +16774,7 @@
       "FROST"
     ],
     "icon": "spell_mage_frostbomb",
-    "description": "Teaches you: Frost Bomb. \\n Frost Bomb \\n 30 yd range. 15 sec cooldown. 1.5 sec cast. The target becomes a Frost Bomb, exploding after 8 seconds (4 sec against players) dealing 329 Frost damage and slowing enemies within 10 yards by 40% for 2 sec. Frost damage dealt to the Frost Bomb activates it, dealing an additional 10% damage to the target and nearby enemies. Casting Frost Bomb on monsters also grants Fingers of Frost (if known).",
+    "description": "Teaches you: Frost Bomb.\nFrost Bomb\n30 yd range. 15 sec cooldown. 1.5 sec cast. The target becomes a Frost Bomb, exploding after 8 seconds (4 sec against players) dealing 329 Frost damage and slowing enemies within 10 yards by 40% for 2 sec. Frost damage dealt to the Frost Bomb activates it, dealing an additional 10% damage to the target and nearby enemies. Casting Frost Bomb on monsters also grants Fingers of Frost (if known).",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -16946,7 +16946,7 @@
       "FROST"
     ],
     "icon": "spell_frost_frozenorb",
-    "description": "Teaches you: Frozen Orb. \\n Frozen Orb \\n 40 sec cooldown. Launches a Frozen Orb forward from the caster's position, that deals 97 Frost damage to all nearby enemy targets for 8 sec. Targets damaged by the Frost Orb are slowed by 40% for 2 sec.",
+    "description": "Teaches you: Frozen Orb.\nFrozen Orb\n40 sec cooldown. Launches a Frozen Orb forward from the caster's position, that deals 97 Frost damage to all nearby enemy targets for 8 sec. Targets damaged by the Frost Orb are slowed by 40% for 2 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -17155,7 +17155,7 @@
       "FIRE"
     ],
     "icon": "spell_mage_meteor",
-    "description": "Teaches you: Meteor. \\n Meteor \\n 30 yd range. 45 sec cooldown. Calls down a meteor which lands at the target after 3 seconds, dealing 595 to 661 Fire damage, split evenly between all targets within 8 yards, and burns the ground, dealing Fire damage over 6 sec to all enemies in the area.",
+    "description": "Teaches you: Meteor.\nMeteor\n30 yd range. 45 sec cooldown. Calls down a meteor which lands at the target after 3 seconds, dealing 595 to 661 Fire damage, split evenly between all targets within 8 yards, and burns the ground, dealing Fire damage over 6 sec to all enemies in the area.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -17196,7 +17196,7 @@
           "width": 7.939999999999998,
           "height": 5.787106446776605
         },
-        "description": "Type: Consumable\nQuality: Legendary\n\nTalk to the elf Selene Fireweave just to the left of the ramp from Burning steppes into Blackrock Mountain. He hurls up a meteor, hit all 6 rings of fire and then loot the burning stump with the 6 stacks on you. ",
+        "description": "Type: Consumable\nQuality: Legendary\n\nTalk to the elf Selene Fireweave just to the left of the ramp from Burning steppes into Blackrock Mountain. He hurls up a meteor, hit all 6 rings of fire and then loot the burning stump with the 6 stacks on you.",
         "quality": "legendary",
         "resources": [
           {
@@ -17223,7 +17223,7 @@
       "ARCANE"
     ],
     "icon": "spell_mage_runeofpower",
-    "description": "Teaches you: Rune of Power. \\n Rune of Power \\n 15 yd range. 1.5 min cooldown. 1.5 sec cast. Places a Rune of Power on the ground on the ground which increases all magic damage you deal by 20% and reduces the mana cost of Arcane Blast by 100% while you stand within 5 yards. Lasts for 15 sec. This does not stack with Arcane Power.",
+    "description": "Teaches you: Rune of Power.\nRune of Power\n15 yd range. 1.5 min cooldown. 1.5 sec cast. Places a Rune of Power on the ground on the ground which increases all magic damage you deal by 20% and reduces the mana cost of Arcane Blast by 100% while you stand within 5 yards. Lasts for 15 sec. This does not stack with Arcane Power.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -17278,7 +17278,7 @@
       "FIRE"
     ],
     "icon": "ability_mount_drake_red",
-    "description": "Teaches you: Tame Dragonkin. \\n Tame Dragonkin \\n 30 yd range. Begins taming a dragonkin to be your companion. Your armor is reduced by 100% while you focus on taming the dragonkin for 20 sec. If you lose the dragonkin's attention for any reason, the taming process will fail. Each type of dragonkin has unique abilities that you will be able to make use of.",
+    "description": "Teaches you: Tame Dragonkin.\nTame Dragonkin\n30 yd range. Begins taming a dragonkin to be your companion. Your armor is reduced by 100% while you focus on taming the dragonkin for 20 sec. If you lose the dragonkin's attention for any reason, the taming process will fail. Each type of dragonkin has unique abilities that you will be able to make use of.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -17333,7 +17333,7 @@
       "ARCANE"
     ],
     "icon": "ability_mage_netherwindpresence",
-    "description": "Teaches you: Touch of the Magi. \\n Touch of the Magi \\n 36 yd range. 1 min cooldown. Applies Touch of the Magi to the enemy, accumulating 50% of the Arcane damage you deal to the target for 10 sec, and then explodes restoring 20% total mana and dealing the accumulated Arcane damage to the target and nearby enemies.",
+    "description": "Teaches you: Touch of the Magi.\nTouch of the Magi\n36 yd range. 1 min cooldown. Applies Touch of the Magi to the enemy, accumulating 50% of the Arcane damage you deal to the target for 10 sec, and then explodes restoring 20% total mana and dealing the accumulated Arcane damage to the target and nearby enemies.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -17361,7 +17361,7 @@
           "width": 11.070853462157821,
           "height": 13.309244203553146
         },
-        "description": "Type: Consumable\nQuality: Legendary\n\nSpeak to the mage in Azshara south of the icon. Go up to the tower and blink through the magic wall. \nPossibly lootable from the in world item Mysterious Arcane Book",
+        "description": "Type: Consumable\nQuality: Legendary\n\nSpeak to the mage in Azshara south of the icon. Go up to the tower and blink through the magic wall.\nPossibly lootable from the in world item Mysterious Arcane Book",
         "quality": "legendary",
         "resources": []
       }
@@ -18748,7 +18748,7 @@
       "FROST"
     ],
     "icon": "ability_monk_counteractmagic",
-    "description": "Your Deep Freeze applies Frozen Flesh to your target. If you're dealing damage with Deep Freeze it also triggers Brain Freeze. \\n Frozen Flesh \\n Your next 2 Fire spells shatter the target's flesh, dealing (330+21.0 Points Per Level)*$ +SP*0.4 Frostfire damage. Lasts for 15 sec.",
+    "description": "Your Deep Freeze applies Frozen Flesh to your target. If you're dealing damage with Deep Freeze it also triggers Brain Freeze.\nFrozen Flesh\nYour next 2 Fire spells shatter the target's flesh, dealing (330+21.0 Points Per Level)*$ +SP*0.4 Frostfire damage. Lasts for 15 sec.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1144572",
@@ -19019,7 +19019,7 @@
       "FROST"
     ],
     "icon": "_d3blizzard",
-    "description": "Teaches you: Hailstorm. \\n Hailstorm \\n 30 yd range. 20 sec cooldown. 2 sec cast. Ice shards pelt the target area doing 172 Frost damage over 6 sec. Scales with Blizzard modifiers",
+    "description": "Teaches you: Hailstorm.\nHailstorm\n30 yd range. 20 sec cooldown. 2 sec cast. Ice shards pelt the target area doing 172 Frost damage over 6 sec. Scales with Blizzard modifiers",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -19219,7 +19219,7 @@
           "width": 7.045400390624991,
           "height": 7.436281859070476
         },
-        "description": "Type: Consumable\nQuality: Epic\n\nInside the Kobold Cave, there is a gem on the cavern wall to loot. ",
+        "description": "Type: Consumable\nQuality: Epic\n\nInside the Kobold Cave, there is a gem on the cavern wall to loot.",
         "quality": "epic",
         "resources": [
           {
@@ -19403,7 +19403,7 @@
           "width": 12.487096371858016,
           "height": 18.191056910569095
         },
-        "description": "Type: Consumable\nQuality: Epic\n\nGo into open world Dire Maul, turn left down first tunnel and tell the night elf you'll take over. ",
+        "description": "Type: Consumable\nQuality: Epic\n\nGo into open world Dire Maul, turn left down first tunnel and tell the night elf you'll take over.",
         "quality": "epic",
         "resources": [
           {
@@ -30518,7 +30518,7 @@
       "HOLY"
     ],
     "icon": "ability_paladin_lightofthemartyr",
-    "description": "Teaches you Aegis of the Martyr. \\n Aegis of the Martyr \\n 40 yd range. 45 sec cooldown. Sacrifice 30% of your max health to place a powerful aegis on your target, absorbing up to 2297 damage for 10 sec. If you have below 30% health your will be left with 1 health.",
+    "description": "Teaches you Aegis of the Martyr.\nAegis of the Martyr\n40 yd range. 45 sec cooldown. Sacrifice 30% of your max health to place a powerful aegis on your target, absorbing up to 2297 damage for 10 sec. If you have below 30% health your will be left with 1 health.",
     "requiredTabs": [
       {
         "tab": "Holy",
@@ -30546,7 +30546,7 @@
       "HOLY"
     ],
     "icon": "ability_paladin_blindinglight",
-    "description": "Teaches you: Blinding Light. \\n Blinding Light \\n 40 sec cooldown. Emits dazzling light in all directions, blinding enemies within 10 yards, causing them to wander disoriented for 6 sec.",
+    "description": "Teaches you: Blinding Light.\nBlinding Light\n40 sec cooldown. Emits dazzling light in all directions, blinding enemies within 10 yards, causing them to wander disoriented for 6 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -30596,7 +30596,7 @@
       "RETRIBUTION"
     ],
     "icon": "ability_paladin_divinesteed",
-    "description": "Teaches you: Divine Steed. \\n Divine Steed \\n 45 sec cooldown. Leap atop your Charger for 3 sec, increasing movement speed by 70%. Usable while indoors and in combat.",
+    "description": "Teaches you: Divine Steed.\nDivine Steed\n45 sec cooldown. Leap atop your Charger for 3 sec, increasing movement speed by 70%. Usable while indoors and in combat.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -30646,7 +30646,7 @@
       "PROTECTION"
     ],
     "icon": "spell_paladin_lightshammer",
-    "description": "Teaches you: Light's Hammer. \\n Light's Hammer \\n Hurl a Light-infused hammer into the ground, where it will blast a 10 yard area with Arcing Light for 10 sec. Deals Holy damage to enemies and reduces their movement speed by 50% for 3 sec. Also heals up to 5 allies every 2.5 sec.",
+    "description": "Teaches you: Light's Hammer.\nLight's Hammer\nHurl a Light-infused hammer into the ground, where it will blast a 10 yard area with Arcing Light for 10 sec. Deals Holy damage to enemies and reduces their movement speed by 50% for 3 sec. Also heals up to 5 allies every 2.5 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -30714,7 +30714,7 @@
       "HOLY"
     ],
     "icon": "spell_holy_impholyconcentration",
-    "description": "Your Paladin heals have a 33% chance to trigger a random blessing. This can only occur once every 5 seconds. \\n Blessing of the Divines \\n Increases healing taken by 5% and reduces damage taken by 5%. \\n Blessing of Radiance \\n Heals 3 party or raid members within 30 yards of you for 291*$ )+(SP*0.12). \\n Blessing of Mending \\n Heals 3 party or raid members within 30 yards of you every 3 seconds for 143*$ )+(SP*0.036). Lasts 15 sec.",
+    "description": "Your Paladin heals have a 33% chance to trigger a random blessing. This can only occur once every 5 seconds.\nBlessing of the Divines\nIncreases healing taken by 5% and reduces damage taken by 5%.\nBlessing of Radiance\nHeals 3 party or raid members within 30 yards of you for 291*$ )+(SP*0.12).\nBlessing of Mending\nHeals 3 party or raid members within 30 yards of you every 3 seconds for 143*$ )+(SP*0.036). Lasts 15 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -30800,7 +30800,7 @@
       "PROTECTION"
     ],
     "icon": "spell_holy_blessingofprotection_red",
-    "description": "Blocking attacks grants you Crimson Defender. Increases your chance to Block by 15%. \\n Crimson Defender \\n Consume 3 stacks to empower your next ability. Stacks up to 6 times and lasts for 20 sec. - Shield of Righteousness: Deals an additional 100*$ )+(SP*0.2)+(AP*0.15) Holy damage to 5 nearby enemies. - Avenger's Shield: Increases your block value by 15% and threat by 15% for 15 sec.",
+    "description": "Blocking attacks grants you Crimson Defender. Increases your chance to Block by 15%.\nCrimson Defender\nConsume 3 stacks to empower your next ability. Stacks up to 6 times and lasts for 20 sec. - Shield of Righteousness: Deals an additional 100*$ )+(SP*0.2)+(AP*0.15) Holy damage to 5 nearby enemies. - Avenger's Shield: Increases your block value by 15% and threat by 15% for 15 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -30875,7 +30875,7 @@
       "RETRIBUTION"
     ],
     "icon": "spell_paladin_executionsentence",
-    "description": "Teaches you: Execution Sentence. \\n Execution Sentence \\n 30 yd range. 40 sec cooldown. A hammer slowly falls from the sky causing Holy damage over 10 sec. This culminates in a final burst of damage, dealing damage to enemies within 5 yards. Dispelling the effect triggers the final burst. Using Judgement on a target affected by your Execution Sentence only triggers half its cooldown.",
+    "description": "Teaches you: Execution Sentence.\nExecution Sentence\n30 yd range. 40 sec cooldown. A hammer slowly falls from the sky causing Holy damage over 10 sec. This culminates in a final burst of damage, dealing damage to enemies within 5 yards. Dispelling the effect triggers the final burst. Using Judgement on a target affected by your Execution Sentence only triggers half its cooldown.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [],
@@ -30987,7 +30987,7 @@
       "HOLY"
     ],
     "icon": "ability_paladin_toweroflight",
-    "description": "Flash of Light leaves a Glimmer of Light on any friendly target healed, lasting for 15 sec. \\n Glimmer of Light \\n Increases the critical strike chance of the Paladins Flash of Light by 25%. Healing any ally with Holy Shock also heals allies with your Glimmer of Light for 70% of the healing done.",
+    "description": "Flash of Light leaves a Glimmer of Light on any friendly target healed, lasting for 15 sec.\nGlimmer of Light\nIncreases the critical strike chance of the Paladins Flash of Light by 25%. Healing any ally with Holy Shock also heals allies with your Glimmer of Light for 70% of the healing done.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -31038,7 +31038,7 @@
       "RETRIBUTION"
     ],
     "icon": "spell_holy_heroism",
-    "description": "Teaches you: Guardian of Ancient Kings. \\n Guardian of Ancient Kings \\n 1 min cooldown. Transform into a Guardian of Ancient Kings, resetting the cooldown of Hammer of the Righteous and Divine Storm. While active their cooldowns are reduced by 50%. Also increases your damage done by 15% and reduces damage taken by 10%. Lasts 10 sec.",
+    "description": "Teaches you: Guardian of Ancient Kings.\nGuardian of Ancient Kings\n1 min cooldown. Transform into a Guardian of Ancient Kings, resetting the cooldown of Hammer of the Righteous and Divine Storm. While active their cooldowns are reduced by 50%. Also increases your damage done by 15% and reduces damage taken by 10%. Lasts 10 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -31088,7 +31088,7 @@
       "PROTECTION"
     ],
     "icon": "custom_t_hammerofjustice_border",
-    "description": "Teaches you: Hammerstorm. \\n Hammerstorm \\n 25 sec cooldown. Holy hammers surround you for 5 sec, increasing your armor by 30% and dealing 118 Holy damage every second to nearby enemies and reduces their attack speed by 20% for 20 sec.",
+    "description": "Teaches you: Hammerstorm.\nHammerstorm\n25 sec cooldown. Holy hammers surround you for 5 sec, increasing your armor by 30% and dealing 118 Holy damage every second to nearby enemies and reduces their attack speed by 20% for 20 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -31292,7 +31292,7 @@
       "HOLY"
     ],
     "icon": "spell_holy_rune",
-    "description": "Crusader Strike, Divine Storm and Holy Shock grant you Holy Power, which stacks up to 5 times. You can consume 3 Holy Power to use Templar's Verdict or Word of Glory. \\ Templar's Verdict \\n A powerful strike that deals 180% weapon damage. \\n Word of Glory \\n Heals a friendly target for 400 and another 302 for 6 sec.",
+    "description": "Crusader Strike, Divine Storm and Holy Shock grant you Holy Power, which stacks up to 5 times. You can consume 3 Holy Power to use Templar's Verdict or Word of Glory. \\ Templar's Verdict\nA powerful strike that deals 180% weapon damage.\nWord of Glory\nHeals a friendly target for 400 and another 302 for 6 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [],
@@ -31315,7 +31315,7 @@
       "PROTECTION"
     ],
     "icon": "spell_holy_pureofheart",
-    "description": "Teaches you: Light of the Guardian. \\n Light of the Guardian \\n 30 sec cooldown. Absorbs 434 damage and deals 494 high-threat Holy damage to enemies within 8 yards of the Paladin. Reduces damage taken from creatures by 20% and increases healing received by 30% for 8 sec.",
+    "description": "Teaches you: Light of the Guardian.\nLight of the Guardian\n30 sec cooldown. Absorbs 434 damage and deals 494 high-threat Holy damage to enemies within 8 yards of the Paladin. Reduces damage taken from creatures by 20% and increases healing received by 30% for 8 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -31941,7 +31941,7 @@
       "PROTECTION"
     ],
     "icon": "spell_holy_innerfire",
-    "description": "Dealing damage with Consecration grants you stack of Consecrated Zeal. \\n Consecrated Zeal \\n Increases Holy damage done by 2% and reduces physical damage taken by 1%. Stacks up to 3 times and lasts 3 sec.",
+    "description": "Dealing damage with Consecration grants you stack of Consecrated Zeal.\nConsecrated Zeal\nIncreases Holy damage done by 2% and reduces physical damage taken by 1%. Stacks up to 3 times and lasts 3 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -32358,7 +32358,7 @@
       "PROTECTION"
     ],
     "icon": "spell_holy_powerwordbarrier",
-    "description": "Teaches you: Divine Sacrifice. Can not be used if the Divine Sacrifice talent is learned. \\n Divine Sacrifice \\n 2 min cooldown. 30% of all damage taken by party members within 30 yards is redirected to the Paladin (up to a maximum of 40% of the Paladin's health times the number of party members). Damage which reduces the Paladin below 20% health will break this effect. Lasts 10 sec.",
+    "description": "Teaches you: Divine Sacrifice. Can not be used if the Divine Sacrifice talent is learned.\nDivine Sacrifice\n2 min cooldown. 30% of all damage taken by party members within 30 yards is redirected to the Paladin (up to a maximum of 40% of the Paladin's health times the number of party members). Damage which reduces the Paladin below 20% health will break this effect. Lasts 10 sec.",
     "requiredTabs": [
       {
         "tab": "Holy",
@@ -32469,7 +32469,7 @@
       "RETRIBUTION"
     ],
     "icon": "spell_holy_rebuke",
-    "description": "Your Vengeance talent can stack up an additional time. \\n Vengeance \\n Gives you a 3% bonus to Physical and Holy damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability. This effect stacks up to 3 times.",
+    "description": "Your Vengeance talent can stack up an additional time.\nVengeance\nGives you a 3% bonus to Physical and Holy damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability. This effect stacks up to 3 times.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1120057"
@@ -32521,7 +32521,7 @@
       "HOLY"
     ],
     "icon": "spell_paladin_lightofdawn",
-    "description": "Teaches you: Light of Dawn. \\n Light of Dawn \\n Consumes 3 Holy Power, releasing a cone of Holy energy, healing up to 10 injured allies within a 30 yd frontal cone for 193.",
+    "description": "Teaches you: Light of Dawn.\nLight of Dawn\nConsumes 3 Holy Power, releasing a cone of Holy energy, healing up to 10 injured allies within a 30 yd frontal cone for 193.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1554908"
@@ -37012,7 +37012,7 @@
       "HOLY"
     ],
     "icon": "ability_priest_angelicfeather",
-    "description": "Teaches you: Angelic Feather. \\n Angelic Feather \\n 40 yd range. 3 Charges. 20 sec recharge. Place a feather at the target location, lasting for 15 sec. If allies walk through it, they gain 50% increased movement speed for 4 sec.",
+    "description": "Teaches you: Angelic Feather.\nAngelic Feather\n40 yd range. 3 Charges. 20 sec recharge. Place a feather at the target location, lasting for 15 sec. If allies walk through it, they gain 50% increased movement speed for 4 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -37144,7 +37144,7 @@
       "HOLY"
     ],
     "icon": "spell_holy_chastise",
-    "description": "Teaches you: Holy Word: Chastise. \\n Holy Word: Chastise \\n 30 yd range. 30 sec cooldown. 1 sec cast. Chastise the target, incapacitating it for 3 sec. Any damage caused will revive the target.",
+    "description": "Teaches you: Holy Word: Chastise.\nHoly Word: Chastise\n30 yd range. 30 sec cooldown. 1 sec cast. Chastise the target, incapacitating it for 3 sec. Any damage caused will revive the target.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [],
@@ -37209,7 +37209,7 @@
       "HOLY"
     ],
     "icon": "priest_spell_leapoffaith_a",
-    "description": "Teaches you: Leap of Faith. \\n Leap of Faith \\n 40 yd range. 45 sec cooldown. Pulls the spirit of a party or raid member, moving them to you. The same target can only be affected by this once every 30 seconds.",
+    "description": "Teaches you: Leap of Faith.\nLeap of Faith\n40 yd range. 45 sec cooldown. Pulls the spirit of a party or raid member, moving them to you. The same target can only be affected by this once every 30 seconds.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [],
@@ -37274,7 +37274,7 @@
       "DISCIPLINE"
     ],
     "icon": "spell_holy_powerwordbarrier",
-    "description": "Teaches you: Power Word: Barrier. \\n Power Word: Barrier \\n 2 min cooldown. Summons a holy barrier to protect all allies at the target location for 8 sec, reducing all damage taken by 20% and reduces the pushback suffered from damaging attacks while casting by 100%.",
+    "description": "Teaches you: Power Word: Barrier.\nPower Word: Barrier\n2 min cooldown. Summons a holy barrier to protect all allies at the target location for 8 sec, reducing all damage taken by 20% and reduces the pushback suffered from damaging attacks while casting by 100%.",
     "requiredTabs": [
       {
         "tab": "Discipline",
@@ -37347,7 +37347,7 @@
       "SHADOW"
     ],
     "icon": "spell_priest_voidshift",
-    "description": "Teaches you: Void Shift. \\n Void Shift \\n 40 yd range. 3 min cooldown. You and the currently targeted party or raid member swap health percentages. Increases the health percentage of you and your ally to 10% if below that amount.",
+    "description": "Teaches you: Void Shift.\nVoid Shift\n40 yd range. 3 min cooldown. You and the currently targeted party or raid member swap health percentages. Increases the health percentage of you and your ally to 10% if below that amount.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -37459,7 +37459,7 @@
       "DISCIPLINE"
     ],
     "icon": "ability_paladin_beaconsoflight",
-    "description": "Dealing damage with Smite or Holy Fire heals a nearby ally for ( SP *0.3)+(285*$ ). Dealing damage with Penance heals three nearby allies for ( SP *0.13)+(143*$ ). Casting any of these spells grants Atonement. When healing yourself with Atonement it is 30% less effective. Heals from Atonement benefits from healing modifiers and can trigger procs. \\n Atonement \\n Increases the critical chance and reduces the mana cost of your next Flash Heal or Prayer of Healing by 20%. You can store up to 3 charges.",
+    "description": "Dealing damage with Smite or Holy Fire heals a nearby ally for ( SP *0.3)+(285*$ ). Dealing damage with Penance heals three nearby allies for ( SP *0.13)+(143*$ ). Casting any of these spells grants Atonement. When healing yourself with Atonement it is 30% less effective. Heals from Atonement benefits from healing modifiers and can trigger procs.\nAtonement\nIncreases the critical chance and reduces the mana cost of your next Flash Heal or Prayer of Healing by 20%. You can store up to 3 charges.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -37600,7 +37600,7 @@
       "HOLY"
     ],
     "icon": "spell_priest_divinestar",
-    "description": "Teaches you: Divine Star. \\n Divine Star \\n 30 sec cooldown. Fires a Divine Star forward, traveling 30 yards, causing Holy damage to all enemies and healing allies within 5 yards of its path. Upon reaching its destination it returns, also dealing damage and healing on its way back.",
+    "description": "Teaches you: Divine Star.\nDivine Star\n30 sec cooldown. Fires a Divine Star forward, traveling 30 yards, causing Holy damage to all enemies and healing allies within 5 yards of its path. Upon reaching its destination it returns, also dealing damage and healing on its way back.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [],
@@ -37684,7 +37684,7 @@
       "DISCIPLINE"
     ],
     "icon": "ability_priest_halo",
-    "description": "Teaches you: Halo. \\n Halo \\n 45 sec cooldown. Creates a ring of Holy energy around you that quickly expands and grows in power, healing raid and party members up to 30 yds away. Heals with greater effect the further away the ally is. Also increases the Holy healing taken from the caster by 8%.",
+    "description": "Teaches you: Halo.\nHalo\n45 sec cooldown. Creates a ring of Holy energy around you that quickly expands and grows in power, healing raid and party members up to 30 yds away. Heals with greater effect the further away the ally is. Also increases the Holy healing taken from the caster by 8%.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -37740,7 +37740,7 @@
       "DISCIPLINE"
     ],
     "icon": "spell_holy_spiritualguidence",
-    "description": "Increases the critical strike chance of your Holy Fire and Smite by 20%. Casting Holy Fire Increases the damage of your next two Smite casts by 20%. When casting Guardian Spirit on yourself you gain Holy Ascension. \\n Holy Ascension \\n Reduces the cooldown of Holy Fire by 50% and Smite triggers a holy explosion around the target. Lasts 10 sec.",
+    "description": "Increases the critical strike chance of your Holy Fire and Smite by 20%. Casting Holy Fire Increases the damage of your next two Smite casts by 20%. When casting Guardian Spirit on yourself you gain Holy Ascension.\nHoly Ascension\nReduces the cooldown of Holy Fire by 50% and Smite triggers a holy explosion around the target. Lasts 10 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -37878,7 +37878,7 @@
       "HOLY"
     ],
     "icon": "spell_holy_divineprovidence",
-    "description": "Healing an ally with Heal, Greater Heal or Flash Heal trigger Holy Radiance on all allies affected by your Renew. \\n Holy Radiance \\n Heals for 30% of the healing done by your Heal, Greater Heal or Flash Heal.",
+    "description": "Healing an ally with Heal, Greater Heal or Flash Heal trigger Holy Radiance on all allies affected by your Renew.\nHoly Radiance\nHeals for 30% of the healing done by your Heal, Greater Heal or Flash Heal.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -37988,7 +37988,7 @@
       "SHADOW"
     ],
     "icon": "spell_shadow_charm",
-    "description": "Dealing damage with Mind Flay grants you a Soul Fragment. After accumulating 6 fragments you gain Shadow Visions. \\n Shadow Visions \\n Empowers your next ability: - Devouring Plague: Duration increased by 12 seconds. - Mind Blast: Damage increased by 50%, makes your next Mind Flay have 33% increased critical strike chance. - Vampiric Touch: Marks a target to take 20% increased periodic damage from you for 30 sec.",
+    "description": "Dealing damage with Mind Flay grants you a Soul Fragment. After accumulating 6 fragments you gain Shadow Visions.\nShadow Visions\nEmpowers your next ability: - Devouring Plague: Duration increased by 12 seconds. - Mind Blast: Damage increased by 50%, makes your next Mind Flay have 33% increased critical strike chance. - Vampiric Touch: Marks a target to take 20% increased periodic damage from you for 30 sec.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1115407"
@@ -38046,7 +38046,7 @@
       "DISCIPLINE"
     ],
     "icon": "ability_priest_rayofhope",
-    "description": "Dealing direct damage with Smite and Holy Fire grants you Paragon of Light. Shadow Word: Death consumes these stacks to deal Twilight damage based on the number of stacks consumed and granting you Paragon of Darkness. \\n Paragon of Light \\n Increases the damage of your Smite by 1%. Decreases the damage taken from your Shadow Word: Death by 10%. Stacks up to 8 times and lasts 20 sec. \\n Paragon of Darkness \\n Your Mind Flay, Mind Sear and Shadow Word: Pain deal additional Twilight damage and Mind Flay and Mind Sear gain an additional damage tick over their duration. Reduces the pushback suffered from damaging attacks while chanelling Mind Flay and Mind Sear by 70%. Dealing Twilight damage increases the duration of Shadow Word: Pain by 3 sec.",
+    "description": "Dealing direct damage with Smite and Holy Fire grants you Paragon of Light. Shadow Word: Death consumes these stacks to deal Twilight damage based on the number of stacks consumed and granting you Paragon of Darkness.\nParagon of Light\nIncreases the damage of your Smite by 1%. Decreases the damage taken from your Shadow Word: Death by 10%. Stacks up to 8 times and lasts 20 sec.\nParagon of Darkness\nYour Mind Flay, Mind Sear and Shadow Word: Pain deal additional Twilight damage and Mind Flay and Mind Sear gain an additional damage tick over their duration. Reduces the pushback suffered from damaging attacks while chanelling Mind Flay and Mind Sear by 70%. Dealing Twilight damage increases the duration of Shadow Word: Pain by 3 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -38101,7 +38101,7 @@
       "SHADOW"
     ],
     "icon": "spell_priest_void_blast",
-    "description": "Teaches you: Void Eruption. \\n Void Eruption \\n 30 yd range. 45 sec cooldown. 1.5 sec cast. Releases an explosive blast of pure void energy, causing Shadow damage and slowing all enemies hit by 50% for 5 seconds. Applies Shadow Word: Pain to up to 10 enemies within 10 yards of your target. The power drawn from the Void increases your periodic Shadow damage by 25% for 10 sec.",
+    "description": "Teaches you: Void Eruption.\nVoid Eruption\n30 yd range. 45 sec cooldown. 1.5 sec cast. Releases an explosive blast of pure void energy, causing Shadow damage and slowing all enemies hit by 50% for 5 seconds. Applies Shadow Word: Pain to up to 10 enemies within 10 yards of your target. The power drawn from the Void increases your periodic Shadow damage by 25% for 10 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -38486,7 +38486,7 @@
       "DISCIPLINE"
     ],
     "icon": "spell_holy_pureofheart",
-    "description": "Casting Flash Heal, Greater Heal, Penance, Prayer of Healing, Circle of Healing and Binding Heal grants you Centered. \\n Centered \\n Your Smite, Holy Fire, and Penance deal 2% increased damage and have 3% increased chance to hit. Stacks up to 5 times and lasts 10 sec.",
+    "description": "Casting Flash Heal, Greater Heal, Penance, Prayer of Healing, Circle of Healing and Binding Heal grants you Centered.\nCentered\nYour Smite, Holy Fire, and Penance deal 2% increased damage and have 3% increased chance to hit. Stacks up to 5 times and lasts 10 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -38847,7 +38847,7 @@
       "SHADOW"
     ],
     "icon": "spell_shadow_shadesofdarkness",
-    "description": "Your Mind Blast casts extends the periodic Shadow damage increase granted from Void Eruption by 5 sec. This can exceed the original duration. \\n Void-Touched \\n Increases periodic Shadow damage by 25%.",
+    "description": "Your Mind Blast casts extends the periodic Shadow damage increase granted from Void Eruption by 5 sec. This can exceed the original duration.\nVoid-Touched\nIncreases periodic Shadow damage by 25%.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -38958,7 +38958,7 @@
       "DISCIPLINE"
     ],
     "icon": "ability_essence_reapingflames",
-    "description": "Each time your Renew heals a target they receive Faith. \\n Faith \\n All healing received increased by 1% and healing received from your Renew increased by 5%. Stacks up to 3 times. Lasts 4 sec.",
+    "description": "Each time your Renew heals a target they receive Faith.\nFaith\nAll healing received increased by 1% and healing received from your Renew increased by 5%. Stacks up to 3 times. Lasts 4 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -39038,7 +39038,7 @@
       "HOLY"
     ],
     "icon": "item_holyspark",
-    "description": "Requires \\n Serendipity\\n Casting Renew triggers Serendipity. Consuming a fully stacked Serendipity increases your Holy spell critical strike chance by 7% for 12 sec.",
+    "description": "Requires\nSerendipity\nCasting Renew triggers Serendipity. Consuming a fully stacked Serendipity increases your Holy spell critical strike chance by 7% for 12 sec.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1163737"
@@ -39478,7 +39478,7 @@
       "SHADOW"
     ],
     "icon": "spell_shadow_nightofthedead",
-    "description": "Your Mind Blast and Shadow Word: Death apply 3 charges of Impending Doom. Can store up to 9 charges. \\n Impending Doom \\n Increases the next periodic Shadow damage taken from the Priest by 20%.",
+    "description": "Your Mind Blast and Shadow Word: Death apply 3 charges of Impending Doom. Can store up to 9 charges.\nImpending Doom\nIncreases the next periodic Shadow damage taken from the Priest by 20%.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [],
@@ -40030,7 +40030,7 @@
       "DISCIPLINE"
     ],
     "icon": "spell_holy_powerinfusion",
-    "description": "Casting Power Infusion on an ally grants you Power of Generosity. Reduces cooldown of Power Infusion by 30%. \\n Power of Generosity \\n Infuses yourself with power, increasing spell casting speed by 10% and reducing the mana cost of all spells by 10%. Lasts 15 sec.",
+    "description": "Casting Power Infusion on an ally grants you Power of Generosity. Reduces cooldown of Power Infusion by 30%.\nPower of Generosity\nInfuses yourself with power, increasing spell casting speed by 10% and reducing the mana cost of all spells by 10%. Lasts 15 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -40280,7 +40280,7 @@
       "SHADOW"
     ],
     "icon": "spell_argus_psychic_scarring",
-    "description": "Requires \\n Mind Flay\\n Your Mind Flay penetrates your enemies' souls, causing them to take 20% increased damage from Shadow Word: Pain and Vampiric Touch while channeled. Your Mind Sear causes the main target to suffer an additional 15% damage for every other enemy hit by Mind Sear.",
+    "description": "Requires\nMind Flay\nYour Mind Flay penetrates your enemies' souls, causing them to take 20% increased damage from Shadow Word: Pain and Vampiric Touch while channeled. Your Mind Sear causes the main target to suffer an additional 15% damage for every other enemy hit by Mind Sear.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1115407"
@@ -41052,7 +41052,7 @@
       "SHADOW"
     ],
     "icon": "ability_demonhunter_darkness",
-    "description": "Teaches you: Grasp of Darkness. \\n Grasp of Darkness \\n 30 yd range. 30 sec cooldown. Channel dark energy, dealing 483 Shadow damage over 3 sec. Each time it deals damage, the cooldown of Shadowfiend is reduced by 10 sec. Each Tentacle of the Old Gods under your control will empower its damage dealth by 15% and its critical strike chance by 10%.",
+    "description": "Teaches you: Grasp of Darkness.\nGrasp of Darkness\n30 yd range. 30 sec cooldown. Channel dark energy, dealing 483 Shadow damage over 3 sec. Each time it deals damage, the cooldown of Shadowfiend is reduced by 10 sec. Each Tentacle of the Old Gods under your control will empower its damage dealth by 15% and its critical strike chance by 10%.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -41132,7 +41132,7 @@
       "SHADOW"
     ],
     "icon": "achievement_boss_cthun",
-    "description": "Requires \\n Void Herald: Whispers of the Old Gods\\n Using Shadowfiend summons 3 Tentacle of the Old Gods near the targeted enemy. Summoning a Tentacle of the Old Gods increases your damage by 5% for 10 sec.",
+    "description": "Requires\nVoid Herald: Whispers of the Old Gods\nUsing Shadowfiend summons 3 Tentacle of the Old Gods near the targeted enemy. Summoning a Tentacle of the Old Gods increases your damage by 5% for 10 sec.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1571327"
@@ -43122,7 +43122,7 @@
       "SHADOW"
     ],
     "icon": "spell_shadow_shadowform",
-    "description": "Requires \\n Shadowform\\n While in Shadowform, your non-periodic spell critical strikes increase your spell power by 30% of your Spirit for 10 sec.",
+    "description": "Requires\nShadowform\nWhile in Shadowform, your non-periodic spell critical strikes increase your spell power by 30% of your Spirit for 10 sec.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1115473"
@@ -47716,7 +47716,7 @@
       "COMBAT"
     ],
     "icon": "ability_rogue_combatreadiness",
-    "description": "Teaches you: Combat Readiness. \\n Combat Readiness \\n 1.5 min cooldown. Enter a state of heightened defensive awareness. Each time you're hit by a spell or ability you reduce your overall damage taken by 5% for 10 sec, stacking 5 times. Lasts 20 sec or until not attacked for 10 sec.",
+    "description": "Teaches you: Combat Readiness.\nCombat Readiness\n1.5 min cooldown. Enter a state of heightened defensive awareness. Each time you're hit by a spell or ability you reduce your overall damage taken by 5% for 10 sec, stacking 5 times. Lasts 20 sec or until not attacked for 10 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -47766,7 +47766,7 @@
       "COMBAT"
     ],
     "icon": "ability_rogue_grapplinghook",
-    "description": "Teaches you: Grappling Hook. \\n Grappling Hook \\n 30 yd range. 25 sec cooldown. Launch a grappling hook and pull yourself to the target location.",
+    "description": "Teaches you: Grappling Hook.\nGrappling Hook\n30 yd range. 25 sec cooldown. Launch a grappling hook and pull yourself to the target location.",
     "requiredTabs": [
       {
         "tab": "Combat",
@@ -47821,7 +47821,7 @@
       "COMBAT"
     ],
     "icon": "ability_rogue_honoramongstthieves",
-    "description": "Teaches you: Recuperate. Killing an opponent that yields experience or honor extends the duration of Recuperate to its 5 combo point maximum. \\n Recuperate \\n Finishing move that consumes combo points on your target to restore 3% of health every 3 sec. Lasts longer per combo point: 1 point : 6 seconds 2 points: 12 seconds 3 points: 18 seconds 4 points: 24 seconds 5 points: 30 seconds Killing an opponent that yields experience or honor extends the duration of Recuperate to its 5 combo point maximum.",
+    "description": "Teaches you: Recuperate. Killing an opponent that yields experience or honor extends the duration of Recuperate to its 5 combo point maximum.\nRecuperate\nFinishing move that consumes combo points on your target to restore 3% of health every 3 sec. Lasts longer per combo point: 1 point : 6 seconds 2 points: 12 seconds 3 points: 18 seconds 4 points: 24 seconds 5 points: 30 seconds Killing an opponent that yields experience or honor extends the duration of Recuperate to its 5 combo point maximum.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -47871,7 +47871,7 @@
       "SUBTLETY"
     ],
     "icon": "ability_rogue_smoke",
-    "description": "Teaches you: Smoke Bomb. \\n Smoke Bomb \\n 3 min cooldown. Creates a cloud of thick smoke in an 8 yard radius around you for 5 sec. Enemies are unable to target into or out of the smoke cloud.",
+    "description": "Teaches you: Smoke Bomb.\nSmoke Bomb\n3 min cooldown. Creates a cloud of thick smoke in an 8 yard radius around you for 5 sec. Enemies are unable to target into or out of the smoke cloud.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [],
@@ -48115,7 +48115,7 @@
       "ASSASSINATION"
     ],
     "icon": "ability_revendreth_rogue",
-    "description": "Crimson Tempest deals 50% increased damage to your main target. When Wound Poison strikes a bleeding enemy, it deals additional bleed damage and puts you into a Crimson Hunger. \\n Crimson Hunger \\n Increases the damage of your Rogue bleeds by 2% for 20 sec seconds, stacking up to 30 times.",
+    "description": "Crimson Tempest deals 50% increased damage to your main target. When Wound Poison strikes a bleeding enemy, it deals additional bleed damage and puts you into a Crimson Hunger.\nCrimson Hunger\nIncreases the damage of your Rogue bleeds by 2% for 20 sec seconds, stacking up to 30 times.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [],
@@ -48138,7 +48138,7 @@
       "ASSASSINATION"
     ],
     "icon": "ability_rogue_deviouspoisons",
-    "description": "Your Mutilate critical strikes apply Festering Wound. In addition, your Deadly Poison can stack up to 8 and your Envenom damage is increased by 5% for each stack above 5. \\n Festering Wound \\n Increases your Nature damage dealt to the target by 1%. Stacks up to 5 times and lasts 10 sec.",
+    "description": "Your Mutilate critical strikes apply Festering Wound. In addition, your Deadly Poison can stack up to 8 and your Envenom damage is increased by 5% for each stack above 5.\nFestering Wound\nIncreases your Nature damage dealt to the target by 1%. Stacks up to 5 times and lasts 10 sec.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1101329"
@@ -48190,7 +48190,7 @@
       "ASSASSINATION"
     ],
     "icon": "inv_knife_1h_artifactgarona_d_02",
-    "description": "Teaches you: Kingsbane. \\ Kingsbane \\n 45 sec cooldown. Release a lethal poison from your weapons and inject it into your target, dealing 258 Nature damage instantly and 1792 additional Nature damage over 12 sec. Each time you apply a Deadly, Instant or Wound Poison to a target affected by your Kingsbane, its damage increases by 10%. Awards 3 combo points.",
+    "description": "Teaches you: Kingsbane. \\ Kingsbane\n45 sec cooldown. Release a lethal poison from your weapons and inject it into your target, dealing 258 Nature damage instantly and 1792 additional Nature damage over 12 sec. Each time you apply a Deadly, Instant or Wound Poison to a target affected by your Kingsbane, its damage increases by 10%. Awards 3 combo points.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -48276,7 +48276,7 @@
       "COMBAT"
     ],
     "icon": "ability_rogue_rollthebones",
-    "description": "Teaches you: Roll the Bones. \\n Roll the Bones \\n Roll the dice of fate, providing 1, 2, 3 or when in great luck, 5 random combat enhancements. Lasts longer per combo point: 1 point : 6 seconds 2 points: 12 seconds 3 points: 18 seconds 4 points: 24 seconds 5 points: 30 seconds",
+    "description": "Teaches you: Roll the Bones.\nRoll the Bones\nRoll the dice of fate, providing 1, 2, 3 or when in great luck, 5 random combat enhancements. Lasts longer per combo point: 1 point : 6 seconds 2 points: 12 seconds 3 points: 18 seconds 4 points: 24 seconds 5 points: 30 seconds",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [],
@@ -48318,7 +48318,7 @@
       "SUBTLETY"
     ],
     "icon": "ability_xavius_crushingshadows",
-    "description": "Using Hemorrhage twice in a row grants you Rush of Blood. Reduces the energy cost of Ambush by 10 and you no longer have to be behind monsters to use Ambush. \\n Rush of Blood \\n Your next Ambush can be cast outside of Stealth. Lasts for 12 sec.",
+    "description": "Using Hemorrhage twice in a row grants you Rush of Blood. Reduces the energy cost of Ambush by 10 and you no longer have to be behind monsters to use Ambush.\nRush of Blood\nYour next Ambush can be cast outside of Stealth. Lasts for 12 sec.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1116511"
@@ -48370,7 +48370,7 @@
       "SUBTLETY"
     ],
     "icon": "inv_knife_1h_grimbatolraid_d_03",
-    "description": "Teaches you: Shadow Blades. \\n Shadow Blades \\n 1.5 min cooldown. Draws upon surrounding shadows to empower your weapons, causing your direct damaging melee combo point generating abilities to generate an additional combo point and deal 15% additional damage as Shadow for 15 sec. Does not break stealth.",
+    "description": "Teaches you: Shadow Blades.\nShadow Blades\n1.5 min cooldown. Draws upon surrounding shadows to empower your weapons, causing your direct damaging melee combo point generating abilities to generate an additional combo point and deal 15% additional damage as Shadow for 15 sec. Does not break stealth.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -48732,7 +48732,7 @@
       "COMBAT"
     ],
     "icon": "ability_butcher_whirl",
-    "description": "Your damaging melee finishing moves have a 20% chance per combo point to reduce the cooldown of Blade Flurry by 5 sec and while Blade Flurry is active to also create a Blade Vortex. Damaging casts of Fan of Knives grants 1 combo point while Blade Flurry is active. \\n Blade Vortex \\n Deals 90*$ Physical damage to nearby enemies every second for 3 sec. When triggered, increases the duration of Blade Flurry by 3 seconds.",
+    "description": "Your damaging melee finishing moves have a 20% chance per combo point to reduce the cooldown of Blade Flurry by 5 sec and while Blade Flurry is active to also create a Blade Vortex. Damaging casts of Fan of Knives grants 1 combo point while Blade Flurry is active.\nBlade Vortex\nDeals 90*$ Physical damage to nearby enemies every second for 3 sec. When triggered, increases the duration of Blade Flurry by 3 seconds.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1113877"
@@ -49098,7 +49098,7 @@
       "ASSASSINATION"
     ],
     "icon": "ability_rogue_waylay",
-    "description": "Teaches you: Dispatch. \\n Dispatch \\n 6 sec cooldown. Finishing move that cuases damage per combo point: 1 point : 83 - 115 damage. 2 points: 153 - 192 damage. 3 points: 224 - 270 damage. 4 points: 294 - 347 damage. 5 points: 364 - 425 damage. If used on a target below 35% health, your next Eviscerate or Envenom deals 20% increased damage. Dispatch does not consume combo points.",
+    "description": "Teaches you: Dispatch.\nDispatch\n6 sec cooldown. Finishing move that cuases damage per combo point: 1 point : 83 - 115 damage. 2 points: 153 - 192 damage. 3 points: 224 - 270 damage. 4 points: 294 - 347 damage. 5 points: 364 - 425 damage. If used on a target below 35% health, your next Eviscerate or Envenom deals 20% increased damage. Dispatch does not consume combo points.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -49569,7 +49569,7 @@
       "COMBAT"
     ],
     "icon": "ability_rogue_dirtydeeds",
-    "description": "Killing Spree also deals 100% weapon damage to nearby enemies and applies Massacre to all targets hit. Dealing damage with Sinister Strike reduces the cooldown of Killing Spree by 2 sec. \\n Massacre \\n Damage done to the target from the Rogue is increased by 2%. Stacks up to 5 times and lasts for 30 sec.",
+    "description": "Killing Spree also deals 100% weapon damage to nearby enemies and applies Massacre to all targets hit. Dealing damage with Sinister Strike reduces the cooldown of Killing Spree by 2 sec.\nMassacre\nDamage done to the target from the Rogue is increased by 2%. Stacks up to 5 times and lasts for 30 sec.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1151690"
@@ -50021,7 +50021,7 @@
       "ASSASSINATION"
     ],
     "icon": "inv_eng_bombpoison",
-    "description": "Teaches you: Poison Bomb. \\n Poison Bomb \\n 15 yd range. 15 sec cooldown. Throw a Poison Bomb that unleashes deadly fumes, immediately applying a stack of Deadly Poison and an additional stack to nearby enemies every 2 seconds for 10 sec.",
+    "description": "Teaches you: Poison Bomb.\nPoison Bomb\n15 yd range. 15 sec cooldown. Throw a Poison Bomb that unleashes deadly fumes, immediately applying a stack of Deadly Poison and an additional stack to nearby enemies every 2 seconds for 10 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [],
@@ -50063,7 +50063,7 @@
       "COMBAT"
     ],
     "icon": "ability_skeer_bloodletting",
-    "description": "Your Shiv has an 8 second cooldown and dealing damage with Shiv extends the duration of your Adrenaline Rush by 6 seconds and grants you Prison Tactics. \\n Prison Tactics \\n Increases your attack speed by 20% for 4 sec.",
+    "description": "Your Shiv has an 8 second cooldown and dealing damage with Shiv extends the duration of your Adrenaline Rush by 6 seconds and grants you Prison Tactics.\nPrison Tactics\nIncreases your attack speed by 20% for 4 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -50299,7 +50299,7 @@
       "COMBAT"
     ],
     "icon": "ability_rogue_surpriseattack2",
-    "description": "Using Sinister Strike grants Sinister Finisher. \\n Sinister Finisher \\n Reduces the cost of your next Eviscerate by 10 and causes it to hit an additional nearby target for 15% of the damage dealt. Stacks up to 3 and lasts 12 sec.",
+    "description": "Using Sinister Strike grants Sinister Finisher.\nSinister Finisher\nReduces the cost of your next Eviscerate by 10 and causes it to hit an additional nearby target for 15% of the damage dealt. Stacks up to 3 and lasts 12 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -53503,7 +53503,7 @@
       "ASSASSINATION"
     ],
     "icon": "spell_nature_earthbindtotem",
-    "description": "Requires \\n Vigor\\n Vigor grants an additional 10 maximum energy.",
+    "description": "Requires\nVigor\nVigor grants an additional 10 maximum energy.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1114983"
@@ -55910,7 +55910,7 @@
       "ENHANCEMENT"
     ],
     "icon": "_enslavespell_astral",
-    "description": "Teaches you: Astral Plane. \\n Astral Plane \\n 2 min cooldown. Partially shift into the astral plane reducing damage taken by 30% for 15 sec. As time passes you slowly converge back to reality, lowering the damage reduction.",
+    "description": "Teaches you: Astral Plane.\nAstral Plane\n2 min cooldown. Partially shift into the astral plane reducing damage taken by 30% for 15 sec. As time passes you slowly converge back to reality, lowering the damage reduction.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -55960,7 +55960,7 @@
       "ELEMENTAL"
     ],
     "icon": "inv_staff_07",
-    "description": "Teaches you: Capacitor Totem. \\n Capacitor Totem \\n 25 yd range. 40 sec cooldown. Summons an Air totem with 5 health within 20 yards that gathers electrical energy from the surrounding air and then explodes after 2 sec to deal Nature damage and stun all enemies within 8 yards for 4 sec.",
+    "description": "Teaches you: Capacitor Totem.\nCapacitor Totem\n25 yd range. 40 sec cooldown. Summons an Air totem with 5 health within 20 yards that gathers electrical energy from the surrounding air and then explodes after 2 sec to deal Nature damage and stun all enemies within 8 yards for 4 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [],
@@ -56020,7 +56020,7 @@
       "ELEMENTAL"
     ],
     "icon": "spell_shaman_earthquake",
-    "description": "Teaches you: Earthquake. \\n Earthquake \\n 30 yd range. 30 sec cooldown. 1.5 sec cast. You cause the earth at the target location to tremble and break, dealing Nature damage every 1 sec to enemies and reducing their movement speed by 25% in an 8 yard radius. Lasts 8 sec. Enemies taking damage from it are affected with Trembling and on 3 stacks they get stunned for 3 seconds. This can only occur every 10 sec from any Earthquake effect.",
+    "description": "Teaches you: Earthquake.\nEarthquake\n30 yd range. 30 sec cooldown. 1.5 sec cast. You cause the earth at the target location to tremble and break, dealing Nature damage every 1 sec to enemies and reducing their movement speed by 25% in an 8 yard radius. Lasts 8 sec. Enemies taking damage from it are affected with Trembling and on 3 stacks they get stunned for 3 seconds. This can only occur every 10 sec from any Earthquake effect.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [],
@@ -56080,7 +56080,7 @@
       "RESTORATION"
     ],
     "icon": "spell_shaman_spiritlink",
-    "description": "Teaches you: Spirit Link Totem \\n Spirit Link Totem \\n 3 min cooldown. 35 Mana. Summons an Air Totem with 5 health at the feet of the caster. The totem redistributes the health of all party and raid members within 10 yards every 1 sec, such that each player ends up with the same percentage of their maximum health. Lasts 8 sec.",
+    "description": "Teaches you: Spirit Link Totem\nSpirit Link Totem\n3 min cooldown. 35 Mana. Summons an Air Totem with 5 health at the feet of the caster. The totem redistributes the health of all party and raid members within 10 yards every 1 sec, such that each player ends up with the same percentage of their maximum health. Lasts 8 sec.",
     "requiredTabs": [
       {
         "tab": "Restoration",
@@ -56109,7 +56109,7 @@
       "ELEMENTAL"
     ],
     "icon": "spell_shaman_spiritwalkersgrace",
-    "description": "Teaches you: Spiritwalker's Grace. \\n Spiritwalker's Grace \\n 1.5 min cooldown. Calls upon the guidance of the spirits for 12 sec, allowing movement while casting Shaman spells and granting Spiritwalker's Determination. Castable while casting other spells. \\n Spiritwalker's Determination \\n Immune to Interrupt and Silence mechanics. Last 5 sec or until next spell with a cast time is used.",
+    "description": "Teaches you: Spiritwalker's Grace.\nSpiritwalker's Grace\n1.5 min cooldown. Calls upon the guidance of the spirits for 12 sec, allowing movement while casting Shaman spells and granting Spiritwalker's Determination. Castable while casting other spells.\nSpiritwalker's Determination\nImmune to Interrupt and Silence mechanics. Last 5 sec or until next spell with a cast time is used.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -56159,7 +56159,7 @@
       "ENHANCEMENT"
     ],
     "icon": "ability_rhyolith_lavapool",
-    "description": "Teaches you: Sundering. \\n Sundering \\n 30 sec cooldown. Shatters a line of earth in front of you, causing 254 Fire damage and Incapacitating any enemy hit for 4 sec. This effect does not break from Flame Shock periodic damage.",
+    "description": "Teaches you: Sundering.\nSundering\n30 sec cooldown. Shatters a line of earth in front of you, causing 254 Fire damage and Incapacitating any enemy hit for 4 sec. This effect does not break from Flame Shock periodic damage.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -56209,7 +56209,7 @@
       "ENHANCEMENT"
     ],
     "icon": "ability_shaman_windwalktotem",
-    "description": "Teaches you: Windwalk Totem. \\n Windwalk Totem \\n 30 sec cooldown. Summons an Air Totem with 5 health at the feet of the caster for 5 sec, increasing the movement speed of party members within 40 yards by 40%.",
+    "description": "Teaches you: Windwalk Totem.\nWindwalk Totem\n30 sec cooldown. Summons an Air Totem with 5 health at the feet of the caster for 5 sec, increasing the movement speed of party members within 40 yards by 40%.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -56295,7 +56295,7 @@
       "ENHANCEMENT"
     ],
     "icon": "spell_fire_elementaldevastation",
-    "description": "Teaches you: Air Ascendance. \\n Air Ascendance \\n 1 min cooldown. You surrender your physical form to the power of the elements, transforming into a being of raw elemental energy for 12 seconds. Your Stormstrike has a 20 yard range and deals extra Nature damage. The cooldown of Stormstrike is reset when using any Shaman Shock, Lightning Bolt or Chain Lightning.",
+    "description": "Teaches you: Air Ascendance.\nAir Ascendance\n1 min cooldown. You surrender your physical form to the power of the elements, transforming into a being of raw elemental energy for 12 seconds. Your Stormstrike has a 20 yard range and deals extra Nature damage. The cooldown of Stormstrike is reset when using any Shaman Shock, Lightning Bolt or Chain Lightning.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [],
@@ -56679,7 +56679,7 @@
       "ELEMENTAL"
     ],
     "icon": "spell_fire_elementaldevastation",
-    "description": "Whenever the critical chance of your Lava Burst is above 100%, the excess critical chance is added as critical strike damage bonus. Teaches you: Flame Ascendance. \\n Flame Ascendance \\n 1.5 min cooldown. Transform into a being of raw elemental energy for 20 sec. Chain Lightning becomes Lava Beam. Lava Burst's cooldown is reduced by 50%. \\n Lava Beam \\n Unleash a blast of superheated flame at the enemy, dealing 150 Firestorm damage and then jumping to additional nearby enemies. Affects 3 total targets.",
+    "description": "Whenever the critical chance of your Lava Burst is above 100%, the excess critical chance is added as critical strike damage bonus. Teaches you: Flame Ascendance.\nFlame Ascendance\n1.5 min cooldown. Transform into a being of raw elemental energy for 20 sec. Chain Lightning becomes Lava Beam. Lava Burst's cooldown is reduced by 50%.\nLava Beam\nUnleash a blast of superheated flame at the enemy, dealing 150 Firestorm damage and then jumping to additional nearby enemies. Affects 3 total targets.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -56729,7 +56729,7 @@
       "RESTORATION"
     ],
     "icon": "spell_nature_giftofthewaterspirit",
-    "description": "Teaches you: Healing Rain. \\n Healing Rain \\n 40 yd range. 20 sec cooldown. 2 sec cast. Call forth healing rains to blanket the area, restoring 118 health over time to 5 party or raid members and restoring 6% base mana to the caster in a 10 yard area every 2 sec for 8 sec. This periodic effect can critically strike.",
+    "description": "Teaches you: Healing Rain.\nHealing Rain\n40 yd range. 20 sec cooldown. 2 sec cast. Call forth healing rains to blanket the area, restoring 118 health over time to 5 party or raid members and restoring 6% base mana to the caster in a 10 yard area every 2 sec for 8 sec. This periodic effect can critically strike.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -56797,7 +56797,7 @@
       "ELEMENTAL"
     ],
     "icon": "spell_frost_frostbolt",
-    "description": "Teaches you: Water Bolt. \\n Water Bolt \\n 36 yd range. 10 sec cooldown. 2 sec cast. Hurls a watery bolt at an enemy, inflicting 335 Frost damage and appling Doused. \\n Doused \\n Wet. Taking 10% increased damage from the Shaman's Lightning Bolt and Chain Lightning. Lasts 12 sec.",
+    "description": "Teaches you: Water Bolt.\nWater Bolt\n36 yd range. 10 sec cooldown. 2 sec cast. Hurls a watery bolt at an enemy, inflicting 335 Frost damage and appling Doused.\nDoused\nWet. Taking 10% increased damage from the Shaman's Lightning Bolt and Chain Lightning. Lasts 12 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -56847,7 +56847,7 @@
       "ENHANCEMENT"
     ],
     "icon": "spell_shaman_lavasurge",
-    "description": "Transforms Lava Lash into Lava Sweep. This ability scales from your Lava Lash modifiers. \\n Lava Sweep \\n Unleash a fiery sweep of lava in front of you, dealing 100% main-hand weapon damage as Fire damage to your main target and 80% to other targets. If your weapon is enchanted with Flametongue the damage is increased by 50%. If you're using a one-handed weapon the damage is increased by 25%.",
+    "description": "Transforms Lava Lash into Lava Sweep. This ability scales from your Lava Lash modifiers.\nLava Sweep\nUnleash a fiery sweep of lava in front of you, dealing 100% main-hand weapon damage as Fire damage to your main target and 80% to other targets. If your weapon is enchanted with Flametongue the damage is increased by 50%. If you're using a one-handed weapon the damage is increased by 25%.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1160103"
@@ -56948,7 +56948,7 @@
       "RESTORATION"
     ],
     "icon": "spell_shaman_tidalwaves",
-    "description": "When you heal an ally with Riptide you apply Mending Tide. Can only be active on one ally at a time. \\n Mending Tide \\n Heals the target and 2 nearby allies within 8 yards for 164*$ +SP*0.05 every 2 seconds for 6 sec.",
+    "description": "When you heal an ally with Riptide you apply Mending Tide. Can only be active on one ally at a time.\nMending Tide\nHeals the target and 2 nearby allies within 8 yards for 164*$ +SP*0.05 every 2 seconds for 6 sec.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1161295"
@@ -57170,7 +57170,7 @@
       "ELEMENTAL"
     ],
     "icon": "spell_nature_elementalprecision_1",
-    "description": "Teaches you: Tether Elemental. \\n Tether Elemental \\n 30 yd range. Begins tethering an elemental to be your companion. Your armor is reduced by 100% while you focus on dominating the elemental for 20 sec. If you lose the elemental's attention for any reason, the domination process will fail. Each type of elemental has unique abilities that you will be able to make use of.",
+    "description": "Teaches you: Tether Elemental.\nTether Elemental\n30 yd range. Begins tethering an elemental to be your companion. Your armor is reduced by 100% while you focus on dominating the elemental for 20 sec. If you lose the elemental's attention for any reason, the domination process will fail. Each type of elemental has unique abilities that you will be able to make use of.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -57270,7 +57270,7 @@
       "ENHANCEMENT"
     ],
     "icon": "spell_shaman_unleashweapon_frost",
-    "description": "Teaches you Wind Lash. \\n Wind Lash \\n Strike your target twice, hitting each for 100% weapon damage plus 24. Damage is increased by 25% if your weapon is enchanted with Windfury Weapon.",
+    "description": "Teaches you Wind Lash.\nWind Lash\nStrike your target twice, hitting each for 100% weapon damage plus 24. Damage is increased by 25% if your weapon is enchanted with Windfury Weapon.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -57544,7 +57544,7 @@
       "RESTORATION"
     ],
     "icon": "ability_shaman_condensationtotem",
-    "description": "Teaches you: Cloudburst Totem. \\n Cloudburst Totem \\n 1 min cooldown. Summons a Water totem at your feet with 5 health for 15 sec that collects power from all your healing spells. When the totem expires or dies, the stored power is released, healing injured allies within 40 yards for 30% of all Nature healing done while it was active, divided evenly among targets.",
+    "description": "Teaches you: Cloudburst Totem.\nCloudburst Totem\n1 min cooldown. Summons a Water totem at your feet with 5 health for 15 sec that collects power from all your healing spells. When the totem expires or dies, the stored power is released, healing injured allies within 40 yards for 30% of all Nature healing done while it was active, divided evenly among targets.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -57748,7 +57748,7 @@
       "ENHANCEMENT"
     ],
     "icon": "custom_t_nhance_rpg_icons_magicblock_border",
-    "description": "Dealing damage with Windfury grants you Defense of Thundarian. \\n Defense of Thundarian \\n Reduces your magic damage taken by 3% and increases your armor by 10%. Lasts 6 sec.",
+    "description": "Dealing damage with Windfury grants you Defense of Thundarian.\nDefense of Thundarian\nReduces your magic damage taken by 3% and increases your armor by 10%. Lasts 6 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -58092,7 +58092,7 @@
       "ELEMENTAL"
     ],
     "icon": "shaman_talent_elementalblast",
-    "description": "Teaches you: Elemental Blast. \\n Elemental Blast \\n 30 yd range. 12 sec cooldown. 2 sec cast. Harness and direct the raw power of the elements towards an enemy target, dealing Elemental damage and increasing the caster's critical strike chance or spell casting speed for 8 seconds.",
+    "description": "Teaches you: Elemental Blast.\nElemental Blast\n30 yd range. 12 sec cooldown. 2 sec cast. Harness and direct the raw power of the elements towards an enemy target, dealing Elemental damage and increasing the caster's critical strike chance or spell casting speed for 8 seconds.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -58899,7 +58899,7 @@
       "ELEMENTAL"
     ],
     "icon": "ability_shaman_totemrelocation",
-    "description": "Casting Stormstrike, Lava Lash and Wind Lash reduces the cooldown of your Greater Elemental Totems by 10 seconds. Casting Shaman Shocks grants Leader of the Elements. Can only occur once every 15 seconds from the same spell. \\n Leader of the Elements \\n Increases the damage your Greater Elementals deal by 15%. Stacks up to 4 times. Lasts 10 sec.",
+    "description": "Casting Stormstrike, Lava Lash and Wind Lash reduces the cooldown of your Greater Elemental Totems by 10 seconds. Casting Shaman Shocks grants Leader of the Elements. Can only occur once every 15 seconds from the same spell.\nLeader of the Elements\nIncreases the damage your Greater Elementals deal by 15%. Stacks up to 4 times. Lasts 10 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -59418,7 +59418,7 @@
       "RESTORATION"
     ],
     "icon": "shaman_pvp_ripplingwaters",
-    "description": "Every third cast of Riptide grants you Primal Tide. \\n Primal Tide \\n Your next Riptide will apply to 2 additional nearby allies and last for an extra 6 seconds.",
+    "description": "Every third cast of Riptide grants you Primal Tide.\nPrimal Tide\nYour next Riptide will apply to 2 additional nearby allies and last for an extra 6 seconds.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1161295"
@@ -59750,7 +59750,7 @@
       "ELEMENTAL"
     ],
     "icon": "inv_elemental_crystal_air",
-    "description": "Your Tethered Elemental's critical strikes grant you Elemental Air. Casting Elemental Blast grants Elemental Synergy. \\n Elemental Air \\n Reduces the cooldown of Elemental Blast by 1 sec, this can only occur once every 2 seconds. Damage and critical strike chance of your next Elemental Blast is increased by 30%. \\n Elemental Synergy \\n Increases the damage your Elemental deals by 4%. Stacks up to 10. Lasts 15 sec.",
+    "description": "Your Tethered Elemental's critical strikes grant you Elemental Air. Casting Elemental Blast grants Elemental Synergy.\nElemental Air\nReduces the cooldown of Elemental Blast by 1 sec, this can only occur once every 2 seconds. Damage and critical strike chance of your next Elemental Blast is increased by 30%.\nElemental Synergy\nIncreases the damage your Elemental deals by 4%. Stacks up to 10. Lasts 15 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -68923,7 +68923,7 @@
       "AFFLICTION"
     ],
     "icon": "ability_deathwing_bloodcorruption_earth",
-    "description": "Teaches you: Blood Horror. \\n Blood Horror \\n 40 sec cooldown. While channeling, encases yourself in a barrier of blood, making you immune to silence, stun and interrupt effects. Any time an enemy within 25 yards deals non-periodic damage to you, you drain their health and cause them to run in horror for 4 sec.",
+    "description": "Teaches you: Blood Horror.\nBlood Horror\n40 sec cooldown. While channeling, encases yourself in a barrier of blood, making you immune to silence, stun and interrupt effects. Any time an enemy within 25 yards deals non-periodic damage to you, you drain their health and cause them to run in horror for 4 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -68973,7 +68973,7 @@
       "DESTRUCTION"
     ],
     "icon": "ability_deathwing_sealarmorbreachtga",
-    "description": "Teaches you: Burning Rush. \\n Burning Rush \\n Drains 3% of your maximum health per second to increase your movement speed by 50%. Movement-impairing effects may not reduce you below 100% of normal movement speed. Lasts until cancelled.",
+    "description": "Teaches you: Burning Rush.\nBurning Rush\nDrains 3% of your maximum health per second to increase your movement speed by 50%. Movement-impairing effects may not reduce you below 100% of normal movement speed. Lasts until cancelled.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -69059,7 +69059,7 @@
       "DEMONOLOGY"
     ],
     "icon": "ability_demonhunter_glide",
-    "description": "Teaches you: Demonic Leap. \\n Demonic Leap \\n 40 sec cooldown. Leap into the air upon demonic wings, moving a short distance. If you reactivate it within 1 sec you will leap again.",
+    "description": "Teaches you: Demonic Leap.\nDemonic Leap\n40 sec cooldown. Leap into the air upon demonic wings, moving a short distance. If you reactivate it within 1 sec you will leap again.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -69109,7 +69109,7 @@
       "AFFLICTION"
     ],
     "icon": "ability_warlock_soulswap",
-    "description": "Teaches you: Soul Swap. \\n Soul Swap \\n 30 yd range. 25 sec cooldown. You copy your Corruption, Curse of Agony and Unstable Affliction effects from the target. For 5 sec afterwards, the next time you cast Soul Swap: Exhale on will be afflicted by the copied damage-over-time effects. You cannot Soul Swap to the same target.",
+    "description": "Teaches you: Soul Swap.\nSoul Swap\n30 yd range. 25 sec cooldown. You copy your Corruption, Curse of Agony and Unstable Affliction effects from the target. For 5 sec afterwards, the next time you cast Soul Swap: Exhale on will be afflicted by the copied damage-over-time effects. You cannot Soul Swap to the same target.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -69159,7 +69159,7 @@
       "DEMONOLOGY"
     ],
     "icon": "spell_shadow_demonictactics",
-    "description": "Teaches you: Unending Resolve. \\n Unending Resolve \\n 2 min cooldown. Hardens your skin, reducing all damage taken by 30% and granting immunity to interrupt, silence, and pushback effects for 8 sec.",
+    "description": "Teaches you: Unending Resolve.\nUnending Resolve\n2 min cooldown. Hardens your skin, reducing all damage taken by 30% and granting immunity to interrupt, silence, and pushback effects for 8 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -69277,7 +69277,7 @@
       "DESTRUCTION"
     ],
     "icon": "ability_warlock_baneofhavoc",
-    "description": "Teaches you: Bane of Havoc. \\n Bane of Havoc \\n 30 yd range. 35 sec cooldown. Curses the ground with a demonic bane, causing your Shadow Bolt, Incinerate, Soul Fire and Chaos Bolt spells to also strike targets marked with the bane for 50% of the damage dealt and have 15% increased critical strike chance. Lasts 15 sec.",
+    "description": "Teaches you: Bane of Havoc.\nBane of Havoc\n30 yd range. 35 sec cooldown. Curses the ground with a demonic bane, causing your Shadow Bolt, Incinerate, Soul Fire and Chaos Bolt spells to also strike targets marked with the bane for 50% of the damage dealt and have 15% increased critical strike chance. Lasts 15 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -69597,7 +69597,7 @@
       "AFFLICTION"
     ],
     "icon": "ability_warlock_improvedsoulleech",
-    "description": "Dealing damage with Curse of Agony applies Endless Agony. Dealing damage with Drain Life reduces the active duration and cooldown of your Curse of Doom by 3 sec. After a target of your Curse of Agony dies, any stacks of Endless Agony will be spread to nearby enemies within 10 yards. \\n Endless Agony \\n Increases your damage dealt to the target with Curse of Agony by 3% and Curse of Doom by 6%. Stacks up to 20 times and lasts for 12 sec.",
+    "description": "Dealing damage with Curse of Agony applies Endless Agony. Dealing damage with Drain Life reduces the active duration and cooldown of your Curse of Doom by 3 sec. After a target of your Curse of Agony dies, any stacks of Endless Agony will be spread to nearby enemies within 10 yards.\nEndless Agony\nIncreases your damage dealt to the target with Curse of Agony by 3% and Curse of Doom by 6%. Stacks up to 20 times and lasts for 12 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -69710,7 +69710,7 @@
       "AFFLICTION"
     ],
     "icon": "spell_warlock_demonbolt",
-    "description": "Teaches you how to permanently Enslave Demons. \\n Enslave Demon \\n 30 yd range. Begins enslaving a demon to be your companion. Your armor is reduced by 100% while you focus on taming the demon for 20 sec. If you lose the demon's attention for any reason, then enslaving process will fail. Each type of demon has unique abilities that you will be able to make use of.",
+    "description": "Teaches you how to permanently Enslave Demons.\nEnslave Demon\n30 yd range. Begins enslaving a demon to be your companion. Your armor is reduced by 100% while you focus on taming the demon for 20 sec. If you lose the demon's attention for any reason, then enslaving process will fail. Each type of demon has unique abilities that you will be able to make use of.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -69778,7 +69778,7 @@
       "DEMONOLOGY"
     ],
     "icon": "ability_warlock_handofguldan",
-    "description": "Teaches you: Hand of Gul'dan. \\n Hand of Gul'dan \\n 30 yd range. 30 sec cooldown. 2 sec cast. Calls down a demonic meteor dealing 295 Shadowflame damage to enemies within 5 yards and summons 4 Wild Imps which burst forth and attack the target for 12 sec.",
+    "description": "Teaches you: Hand of Gul'dan.\nHand of Gul'dan\n30 yd range. 30 sec cooldown. 2 sec cast. Calls down a demonic meteor dealing 295 Shadowflame damage to enemies within 5 yards and summons 4 Wild Imps which burst forth and attack the target for 12 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -69864,7 +69864,7 @@
       "DEMONOLOGY"
     ],
     "icon": "inv_netherportal",
-    "description": "Teaches you: Nether Portal. \\n Nether Portal \\n 2 min cooldown. Tear open a portal to the Twisting Nether for 30 sec. Casting Shadow Bolt, Soul Fire or Incinerate summons a demon to fight for you. During Decimation your Soul Fire summons an additional demon.",
+    "description": "Teaches you: Nether Portal.\nNether Portal\n2 min cooldown. Tear open a portal to the Twisting Nether for 30 sec. Casting Shadow Bolt, Soul Fire or Incinerate summons a demon to fight for you. During Decimation your Soul Fire summons an additional demon.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -69921,7 +69921,7 @@
       "DESTRUCTION"
     ],
     "icon": "_seed_shadow",
-    "description": "Teaches you: Shadow Crash. \\n Shadow Crash \\n 30 yd range. 30 sec cooldown. Hurl a bolt of slow-moving Shadow energy at the destination, dealing Shadow damage to enemies within 8 yards, pulling them towards the center of the explosion and slowing them by 70% for 3 sec.",
+    "description": "Teaches you: Shadow Crash.\nShadow Crash\n30 yd range. 30 sec cooldown. Hurl a bolt of slow-moving Shadow energy at the destination, dealing Shadow damage to enemies within 8 yards, pulling them towards the center of the explosion and slowing them by 70% for 3 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -70021,7 +70021,7 @@
       "DEMONOLOGY"
     ],
     "icon": "spell_warlock_demonsoul",
-    "description": "Teaches you: Soul Harvest. \\n Soul Harvest \\n 2 min cooldown. Increases your magic damage and your pets' damage by 15%. Lasts 6 sec, increased by 3 sec for each target afflicted by your Corruption, Curse of Agony and Immolate up to a maximum of 24 sec. Does not stack with other similar effects.",
+    "description": "Teaches you: Soul Harvest.\nSoul Harvest\n2 min cooldown. Increases your magic damage and your pets' damage by 15%. Lasts 6 sec, increased by 3 sec for each target afflicted by your Corruption, Curse of Agony and Immolate up to a maximum of 24 sec. Does not stack with other similar effects.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -71173,7 +71173,7 @@
       "DESTRUCTION"
     ],
     "icon": "5_warlock27_border",
-    "description": "Casting Shadow Bolt, Incinerate, Soul Fire, Searing Pain or Chaos Bolt grants you Dusk Till Dawn. \\n Dusk Till Dawn \\n Increases the damage of your next Shadowburn by 10%. Stacks up to 5 times and lasts 15 sec. When used with at least 3 stacks, Shadowburn hits 2 additional targets, applies Corruption to the targets and doesn't cost a Soul Shard.",
+    "description": "Casting Shadow Bolt, Incinerate, Soul Fire, Searing Pain or Chaos Bolt grants you Dusk Till Dawn.\nDusk Till Dawn\nIncreases the damage of your next Shadowburn by 10%. Stacks up to 5 times and lasts 15 sec. When used with at least 3 stacks, Shadowburn hits 2 additional targets, applies Corruption to the targets and doesn't cost a Soul Shard.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -71393,7 +71393,7 @@
       "DEMONOLOGY"
     ],
     "icon": "ability_warlock_fireandbrimstone",
-    "description": "Dealing damage with Immolate grants you Fire Attunement. \\n Fire Attunement \\n Increases the chance to trigger your next Molten Core talent by 1%. Stacks up to 15 and lasts 15 sec.",
+    "description": "Dealing damage with Immolate grants you Fire Attunement.\nFire Attunement\nIncreases the chance to trigger your next Molten Core talent by 1%. Stacks up to 15 and lasts 15 sec.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1147245"
@@ -71445,7 +71445,7 @@
       "DESTRUCTION"
     ],
     "icon": "ability_ironmaidens_rapidfire",
-    "description": "Teaches you: Fire Storm. \\n Fire Storm \\n 30 yd range. 20 sec cooldown. Calls down a fiery rain to burn enemies in the area of effect for 276 Fire damage over 6 sec.",
+    "description": "Teaches you: Fire Storm.\nFire Storm\n30 yd range. 20 sec cooldown. Calls down a fiery rain to burn enemies in the area of effect for 276 Fire damage over 6 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -71565,7 +71565,7 @@
       "DESTRUCTION"
     ],
     "icon": "achievement_firelands_raid_ragnaros",
-    "description": "Dealing direct damage with Conflagrate applies Heating Up!. Increases the critical chance of your Conflagrate by 15%. \\n Heating Up! \\n You deal 2% increased Fire damage to the target. Stacks up to 5 times and lasts for 15 sec.",
+    "description": "Dealing direct damage with Conflagrate applies Heating Up!. Increases the critical chance of your Conflagrate by 15%.\nHeating Up!\nYou deal 2% increased Fire damage to the target. Stacks up to 5 times and lasts for 15 sec.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1117962"
@@ -72183,7 +72183,7 @@
       "DEMONOLOGY"
     ],
     "icon": "spell_shadow_gathershadows",
-    "description": "Teaches you: Soul Link. Can not be used if the Soul Link talent is learned. \\n Soul Link \\n When active, 20% of all damage taken by the caster is taken by your Imp, Voidwalker, Succubus, Felhunter, Felguard or enslaved demon instead. That damage cannot be prevented. Lasts as long as the demon is active.",
+    "description": "Teaches you: Soul Link. Can not be used if the Soul Link talent is learned.\nSoul Link\nWhen active, 20% of all damage taken by the caster is taken by your Imp, Voidwalker, Succubus, Felhunter, Felguard or enslaved demon instead. That damage cannot be prevented. Lasts as long as the demon is active.",
     "requiredTabs": [
       {
         "tab": "Affliction",
@@ -72418,7 +72418,7 @@
       "DESTRUCTION"
     ],
     "icon": "ability_warlock_backdraftgreen",
-    "description": "Your Shadowfury and Shadow Crash trigger your Backdraft talent. If these deal damage to a monster Backlash talent also triggers. \\n Backdraft \\n Cast time and global cooldown of your next three Destruction spell reduced by 30%.",
+    "description": "Your Shadowfury and Shadow Crash trigger your Backdraft talent. If these deal damage to a monster Backlash talent also triggers.\nBackdraft\nCast time and global cooldown of your next three Destruction spell reduced by 30%.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1147260",
@@ -79555,7 +79555,7 @@
       "ARMS"
     ],
     "icon": "warrior_talent_icon_avatar",
-    "description": "Teaches you: Avatar. \\n Avatar \\n 2 min cooldown. Transform into a colossus for 10 sec, causing you to take 20% less damage and become immune to immobilizing effects.",
+    "description": "Teaches you: Avatar.\nAvatar\n2 min cooldown. Transform into a colossus for 10 sec, causing you to take 20% less damage and become immune to immobilizing effects.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -79605,7 +79605,7 @@
       "FURY"
     ],
     "icon": "ability_heroicleap",
-    "description": "Teaches you: Heroic Leap. \\n Heroic Leap \\n 30 yd range. 45 sec cooldown. Leap through the air toward a target location, slamming down with a destructive force to deal 261 Physical damage to all enemies within 8 yards.",
+    "description": "Teaches you: Heroic Leap.\nHeroic Leap\n30 yd range. 45 sec cooldown. Leap through the air toward a target location, slamming down with a destructive force to deal 261 Physical damage to all enemies within 8 yards.",
     "requiredTabs": [
       {
         "tab": "Fury",
@@ -79660,7 +79660,7 @@
       "FURY"
     ],
     "icon": "inv_mace_2h_draenorguard_b_01_horde",
-    "description": "Teaches you: Siegebreaker. \\n Siegebreaker \\n 8 yd range. 30 sec cooldown. Use your full strength to slam the target with your weapon, dealing 100% weapon damage and knocking it back. Enemies the target collides with are knocked back slightly and take 75% weapon damage.",
+    "description": "Teaches you: Siegebreaker.\nSiegebreaker\n8 yd range. 30 sec cooldown. Use your full strength to slam the target with your weapon, dealing 100% weapon damage and knocking it back. Enemies the target collides with are knocked back slightly and take 75% weapon damage.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -79728,7 +79728,7 @@
       "ARMS"
     ],
     "icon": "warrior_skullbanner",
-    "description": "Teaches you: War Banner. \\n War Banner \\n 1.5 min cooldown. Throw down a war banner at your feet, rallying your allies. Increases movement speed by 30% and reduces the duration of all incoming crowd control effects by 50% to all allies within 20 yards of the war banner. Lasts 10 sec.",
+    "description": "Teaches you: War Banner.\nWar Banner\n1.5 min cooldown. Throw down a war banner at your feet, rallying your allies. Increases movement speed by 30% and reduces the duration of all incoming crowd control effects by 50% to all allies within 20 yards of the war banner. Lasts 10 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -79970,7 +79970,7 @@
       "FURY"
     ],
     "icon": "ability_warrior_bloodbath",
-    "description": "Teaches you: Bloodbath. \\n Bloodbath \\n 1 min cooldown. For the next 6 sec your melee abilities deal 35 bleed damage over 5 sec and reduces the movement speed of the target by 30% for 5 sec.",
+    "description": "Teaches you: Bloodbath.\nBloodbath\n1 min cooldown. For the next 6 sec your melee abilities deal 35 bleed damage over 5 sec and reduces the movement speed of the target by 30% for 5 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -80020,7 +80020,7 @@
       "PROTECTION"
     ],
     "icon": "ability_warrior_shieldguard",
-    "description": "Teaches you: Bulwark. \\n Bulwark \\n 45 sec cooldown. Raise a mighty bulwark that grants you 40% block chance and causes you to deal Physical damage to nearby enemies every second, modified by your shield block value, but reduces your movement speed by 30%. Lasts for 6 sec.",
+    "description": "Teaches you: Bulwark.\nBulwark\n45 sec cooldown. Raise a mighty bulwark that grants you 40% block chance and causes you to deal Physical damage to nearby enemies every second, modified by your shield block value, but reduces your movement speed by 30%. Lasts for 6 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -80150,7 +80150,7 @@
       "FURY"
     ],
     "icon": "ability_warrior_colossussmash",
-    "description": "Teaches you: Colossus Smash \\n Colossus Smash \\n 18 sec cooldown. Smashes a target for 270% weapon damage, this damage cannot be dodged, blocked or parried. This attack weakens the defenses of your target, increasing the damage you deal to the target by 15% for 7 sec and applies 2 stacks of Sunder Armor.",
+    "description": "Teaches you: Colossus Smash\nColossus Smash\n18 sec cooldown. Smashes a target for 270% weapon damage, this damage cannot be dodged, blocked or parried. This attack weakens the defenses of your target, increasing the damage you deal to the target by 15% for 7 sec and applies 2 stacks of Sunder Armor.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -80286,7 +80286,7 @@
       "FURY"
     ],
     "icon": "ability_warrior_dragonroar",
-    "description": "Reduces the cooldown of your Whirlwind by 2 sec. Teaches you: Dragon Roar. \\n Dragon Roar \\n 30 sec cooldown. Roar explosively, dealing 1130 Physical damage to nearby enemies and reducing their movement speed by 60% for 2 sec. Using Dragon Roar resets the cooldown of Whirlwind.",
+    "description": "Reduces the cooldown of your Whirlwind by 2 sec. Teaches you: Dragon Roar.\nDragon Roar\n30 sec cooldown. Roar explosively, dealing 1130 Physical damage to nearby enemies and reducing their movement speed by 60% for 2 sec. Using Dragon Roar resets the cooldown of Whirlwind.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -80472,7 +80472,7 @@
       "PROTECTION"
     ],
     "icon": "achievement_featsofstrength_gladiator_08",
-    "description": "Teaches you: Gladiator Stance. \\n Gladiator Stance \\n An aggressive combat stance. While wearing a shield in Gladiator Stance, you can use any other stance abilities and use Revenge after critically striking. Additionally, Shield Slam no longer generates bonus threat. Your Shield Block now increases the critical chance of Shield Slam by 30% and makes your Shield Slam hit an additional nearby target, but no longer increases your chance to block. Effects that require Defensive Stance also works in Gladiator Stance.",
+    "description": "Teaches you: Gladiator Stance.\nGladiator Stance\nAn aggressive combat stance. While wearing a shield in Gladiator Stance, you can use any other stance abilities and use Revenge after critically striking. Additionally, Shield Slam no longer generates bonus threat. Your Shield Block now increases the critical chance of Shield Slam by 30% and makes your Shield Slam hit an additional nearby target, but no longer increases your chance to block. Effects that require Defensive Stance also works in Gladiator Stance.",
     "requiredTabs": [
       {
         "tab": "Protection",
@@ -80527,7 +80527,7 @@
       "ARMS"
     ],
     "icon": "ability_kilruk_reave",
-    "description": "Using Overpower or Execute grants 2 stacks, and Slam grants 1 stack of Heavyweight, increasing your physical damage by 1%, stacking up to 6 times. After reaching max stacks you gain Ready to Crush. \\n Ready to Crush \\n Your next Mortal Strike deals 40% increased damage and has a 40% increased critical strike chance. Your next Thunder Clap sends out an aftershock, dealing 150% weapon damage to nearby enemies.",
+    "description": "Using Overpower or Execute grants 2 stacks, and Slam grants 1 stack of Heavyweight, increasing your physical damage by 1%, stacking up to 6 times. After reaching max stacks you gain Ready to Crush.\nReady to Crush\nYour next Mortal Strike deals 40% increased damage and has a 40% increased critical strike chance. Your next Thunder Clap sends out an aftershock, dealing 150% weapon damage to nearby enemies.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -80664,7 +80664,7 @@
       "ARMS"
     ],
     "icon": "warrior_wild_strike",
-    "description": "Teaches you: Raging Blow. \\n Raging Blow \\n 10 sec cooldown. A mighty blow that deals 175% weapon damage from both melee weapons. Using Bloodrage, Death Wish, Berserker Rage, Recklessness, or killing a target that yields experience or honor makes your next Raging Blow have no rage cost and trigger no cooldown. This can be stored 3 times.",
+    "description": "Teaches you: Raging Blow.\nRaging Blow\n10 sec cooldown. A mighty blow that deals 175% weapon damage from both melee weapons. Using Bloodrage, Death Wish, Berserker Rage, Recklessness, or killing a target that yields experience or honor makes your next Raging Blow have no rage cost and trigger no cooldown. This can be stored 3 times.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -80739,7 +80739,7 @@
       "FURY"
     ],
     "icon": "warrior_talent_icon_ravager",
-    "description": "Teaches you: Ravager. \\n Ravager \\n 30 yd range. 45 sec cooldown. Throws a whirling weapon at the target location, inflicting 40% weapon damage every second to all nearby enemies for 8 sec.",
+    "description": "Teaches you: Ravager.\nRavager\n30 yd range. 45 sec cooldown. Throws a whirling weapon at the target location, inflicting 40% weapon damage every second to all nearby enemies for 8 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -80794,7 +80794,7 @@
       "PROTECTION"
     ],
     "icon": "warrior_talent_icon_stormbolt",
-    "description": "Teaches you: Storm Bolt. \\n Storm Bolt \\n 30 yd range. 40 sec cooldown. Hurl your weapon at an enemy, causing 150% weapon damage, stunning the target for 3 sec and electrifying the ground, dealing 103 Nature damage to nearby enemies. If the target is a monster you also take 8% reduced damage and your Thunder Clap gains 50% increased critical strike chance for 20 sec.",
+    "description": "Teaches you: Storm Bolt.\nStorm Bolt\n30 yd range. 40 sec cooldown. Hurl your weapon at an enemy, causing 150% weapon damage, stunning the target for 3 sec and electrifying the ground, dealing 103 Nature damage to nearby enemies. If the target is a monster you also take 8% reduced damage and your Thunder Clap gains 50% increased critical strike chance for 20 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [],
@@ -81610,7 +81610,7 @@
       "ARMS"
     ],
     "icon": "inv_misc_head_dragon_bronze",
-    "description": "Requires \\n Dragon Roar\\n Dealing damage with Whirlwind reduces the cooldown of Dragon Roar by 5 sec. Using Dragon Roar grants you Deathwish for 5 sec (if known).",
+    "description": "Requires\nDragon Roar\nDealing damage with Whirlwind reduces the cooldown of Dragon Roar by 5 sec. Using Dragon Roar grants you Deathwish for 5 sec (if known).",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1569444"
@@ -82160,7 +82160,7 @@
       "FURY"
     ],
     "icon": "spell_winston_rage",
-    "description": "Requires \\n Enrage\\n Your Enrage talent increases your physical damage by an additional 5%.",
+    "description": "Requires\nEnrage\nYour Enrage talent increases your physical damage by an additional 5%.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1113048"
@@ -82975,7 +82975,7 @@
       "ARMS"
     ],
     "icon": "inv_axe_66",
-    "description": "Using Storm Bolt empowers your next 2 Heroic Throw abilities, allowing it to be used without a triggering a cooldown and increases the duration of Storm Shield, granted from Storm Bolt by 10 sec. In addition, Storm Bolt and Heroic Throw applies 2 stacks of Sunder Armor. \\n Storm Shield \\n Damage taken is reduced by 8%. Critical strike chance of Thunder Clap increased by 50%.",
+    "description": "Using Storm Bolt empowers your next 2 Heroic Throw abilities, allowing it to be used without a triggering a cooldown and increases the duration of Storm Shield, granted from Storm Bolt by 10 sec. In addition, Storm Bolt and Heroic Throw applies 2 stacks of Sunder Armor.\nStorm Shield\nDamage taken is reduced by 8%. Critical strike chance of Thunder Clap increased by 50%.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -83077,7 +83077,7 @@
       "FURY"
     ],
     "icon": "achievement_dungeon_ulduarraid_ironsentinel_01",
-    "description": "Using Whirlwind while above 50 rage grants you Titan's Fury. Using it while below 50 rage grants you Titan's Heroism. \\n Titan's Fury \\n Increases damage dealt by 5% for 10 sec. \\n Titan's Heroism \\n Removes the rage cost of Heroic Strike and Cleave. Lasts 3 charges or 10 sec.",
+    "description": "Using Whirlwind while above 50 rage grants you Titan's Fury. Using it while below 50 rage grants you Titan's Heroism.\nTitan's Fury\nIncreases damage dealt by 5% for 10 sec.\nTitan's Heroism\nRemoves the rage cost of Heroic Strike and Cleave. Lasts 3 charges or 10 sec.",
     "requiredTabs": null,
     "requiredSpellIds": null,
     "videos": [
@@ -83279,7 +83279,7 @@
       "PROTECTION"
     ],
     "icon": "ability_warrior_swordandboard",
-    "description": "Replaces your Intervene with Vanguard. \\n Vanguard \\n Charge toward the target of your Vigilance, forming a Vanguard. While you remain close you follow up their auto attacks with your own. Lasts for 15 sec.",
+    "description": "Replaces your Intervene with Vanguard.\nVanguard\nCharge toward the target of your Vigilance, forming a Vanguard. While you remain close you follow up their auto attacks with your own. Lasts for 15 sec.",
     "requiredTabs": null,
     "requiredSpellIds": [
       "1150720"
