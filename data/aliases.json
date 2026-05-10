@@ -1,0 +1,21 @@
+{
+  "_doc": "Hand-curated map from a video's normalized name to one or more catalog ME normalized names. Key format: '<class>:<normalized video name>'. Value: a string (single-target) or an array of strings (compound video covering multiple MEs). Used by scripts/match.mjs when a video doesn't match an ME directly.",
+
+  "mage:wacky wizadry": "wacky wizardry",
+  "rogue:assassinaton mastery": "assassination mastery",
+  "druid:bash and trash": "bash and thrash",
+
+  "mage:critical times": "critical time",
+  "priest:light burst": "lightburst",
+  "shaman:defense of thunderian": "defense of thundarian",
+  "mage:fire alignment": "flame alignment",
+  "hunter:beastmastery mastery": "beast mastery",
+  "druid:flourishing nourish": "flourishing nature",
+
+  "warrior:dragon roar dragon warrior": ["dragon roar", "dragon warrior"],
+  "hunter:blood tracker deadly bite glaive toss": ["blood tracker deadly bite", "blood tracker glaive toss"],
+  "paladin:holy templar light of dawn": ["holy templar", "light of dawn"],
+  "paladin:holy templar holy power": ["holy templar"],
+
+  "_residual_orphans": "These remain unmatched because the ME doesn't exist in bisbeard's catalog under any close name — likely stale Whiter videos for MEs that were renamed or removed: warrior:Stormhammer, mage:Temporal Haste, priest:Wanding, rogue:Crimson Tempest. They stay as orphans until/unless verified."
+}
