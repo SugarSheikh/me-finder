@@ -384,9 +384,11 @@ function ContinentOverview({ locations, activeIdx, onSelect }:
   const byContinent = new Map<string, number[]>();
   for (let i = 0; i < locations.length; i++) {
     const c = locations[i].continent;
+    if (!c) continue; // sub-zone marker — pin only on the zone-level map
     if (!byContinent.has(c)) byContinent.set(c, []);
     byContinent.get(c)!.push(i);
   }
+  if (byContinent.size === 0) return null;
   const base = import.meta.env.BASE_URL;
   return (
     <div className="continent-overview">

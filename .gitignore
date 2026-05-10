@@ -53,4 +53,19 @@ scripts/probe-zone-images.mjs
 scripts/fetch-zone-maps.mjs
 scripts/analyze-marker-counts.mjs
 scripts/add-community-mes.mjs
+scripts/recon-worldmaps.mjs
+scripts/extract-bb-zones.mjs
+scripts/build-zone-maps-manifest.mjs
+scripts/probe-stormjs.mjs
+scripts/probe-tiles.mjs
+scripts/probe-base-mpqs.mjs
+scripts/probe-known-file.mjs
+scripts/probe-openfile.mjs
+scripts/check-elwynn.mjs
+scripts/check-stock-zones.mjs
+scripts/check-patch-a-zones.mjs
+scripts/debug-bounds-gap.mjs
+scripts/test-blp.mjs
+scripts/test-blp2.mjs
+scripts/inspect-azerothhub-zones.mjs
 

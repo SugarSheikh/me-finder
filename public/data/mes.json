@@ -6203,6 +6203,19 @@
         "resources": []
       },
       {
+        "zoneId": "ban-ethil-barrow-den-lower",
+        "zoneName": "Ban Ethil Barrow Den Lower",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 87.99,
+        "rawLeft": 49.96,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
         "zoneId": "elwynn-forest",
         "zoneName": "Elwynn Forest",
         "continent": "eastern-kingdoms",
@@ -6288,6 +6301,19 @@
           "width": 8.69565217391304,
           "height": 17.765733212887685
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "fel-rock",
+        "zoneName": "Fel Rock",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 52.51,
+        "rawLeft": 15.160000000000002,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -7432,6 +7458,19 @@
           "width": 11.312399355877616,
           "height": 14.814814814814817
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "twilight-s-run",
+        "zoneName": "Twilight S Run",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 37.68,
+        "rawLeft": 41.56,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -12190,6 +12229,19 @@
         "resources": []
       },
       {
+        "zoneId": "arathi-basin",
+        "zoneName": "Arathi Basin",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 17.66,
+        "rawLeft": 31.900000000000002,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Epic",
+        "quality": "epic",
+        "resources": []
+      },
+      {
         "zoneId": "elwynn-forest",
         "zoneName": "Elwynn Forest",
         "continent": "eastern-kingdoms",
@@ -13256,6 +13308,32 @@
         "resources": []
       },
       {
+        "zoneId": "maraudon-orange",
+        "zoneName": "Maraudon Orange",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 45.46,
+        "rawLeft": 20.8,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "upper-blackrock-mountain",
+        "zoneName": "Upper Blackrock Mountain",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 75.44999999999999,
+        "rawLeft": 51.160000000000004,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
         "zoneId": "stranglethorn-vale",
         "zoneName": "Stranglethorn Vale",
         "continent": "eastern-kingdoms",
@@ -13305,6 +13383,19 @@
           "width": 9.780000000000001,
           "height": 9.89505247376312
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "blackrock-mountain",
+        "zoneName": "Blackrock Mountain",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 53.68000000000001,
+        "rawLeft": 68.72,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -13474,7 +13565,21 @@
     "requiredSpellIds": null,
     "videos": [],
     "normalizedName": "focused aim",
-    "locations": []
+    "locations": [
+      {
+        "zoneId": "palemane-rock",
+        "zoneName": "Palemane Rock",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 18.55,
+        "rawLeft": 66.14,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      }
+    ]
   },
   {
     "id": "1335030",
@@ -14060,6 +14165,19 @@
         "resources": []
       },
       {
+        "zoneId": "blackrock-mountain",
+        "zoneName": "Blackrock Mountain",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 52.73,
+        "rawLeft": 73.04,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
         "zoneId": "stranglethorn-vale",
         "zoneName": "Stranglethorn Vale",
         "continent": "eastern-kingdoms",
@@ -14091,6 +14209,19 @@
           "width": 9.780000000000001,
           "height": 9.89505247376312
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "upper-blackrock-mountain",
+        "zoneName": "Upper Blackrock Mountain",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 65.84,
+        "rawLeft": 54.169999999999995,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -14361,7 +14492,21 @@
     "requiredSpellIds": null,
     "videos": [],
     "normalizedName": "glyph of steady shot",
-    "locations": []
+    "locations": [
+      {
+        "zoneId": "palemane-rock",
+        "zoneName": "Palemane Rock",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 73.42,
+        "rawLeft": 53.39,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      }
+    ]
   },
   {
     "id": "56857",
@@ -14596,6 +14741,32 @@
         "resources": []
       },
       {
+        "zoneId": "maraudon-orange",
+        "zoneName": "Maraudon Orange",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 49.29,
+        "rawLeft": 12.85,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "upper-blackrock-mountain",
+        "zoneName": "Upper Blackrock Mountain",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 53.26,
+        "rawLeft": 69.69999999999999,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
         "zoneId": "stranglethorn-vale",
         "zoneName": "Stranglethorn Vale",
         "continent": "eastern-kingdoms",
@@ -14645,6 +14816,19 @@
           "width": 9.780000000000001,
           "height": 9.89505247376312
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "blackrock-mountain",
+        "zoneName": "Blackrock Mountain",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 53.86,
+        "rawLeft": 67.53,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -15376,6 +15560,45 @@
           "width": 10.063830832761681,
           "height": 8.357523626324415
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "blackrock-mountain",
+        "zoneName": "Blackrock Mountain",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 48.53,
+        "rawLeft": 66.67,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "maraudon-orange",
+        "zoneName": "Maraudon Orange",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 43.91,
+        "rawLeft": 20.21,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "upper-blackrock-mountain",
+        "zoneName": "Upper Blackrock Mountain",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 53.959999999999994,
+        "rawLeft": 66.43,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -16430,6 +16653,19 @@
         "resources": []
       },
       {
+        "zoneId": "dustwind-cave",
+        "zoneName": "Dustwind Cave",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 66.47,
+        "rawLeft": 39.23,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Legendary",
+        "quality": "legendary",
+        "resources": []
+      },
+      {
         "zoneId": "searing-gorge",
         "zoneName": "Searing Gorge",
         "continent": "eastern-kingdoms",
@@ -16484,6 +16720,19 @@
     ],
     "normalizedName": "fire mastery",
     "locations": [
+      {
+        "zoneId": "dustwind-cave",
+        "zoneName": "Dustwind Cave",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 27.08,
+        "rawLeft": 64.67,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Legendary\n\nPossibly lootable from: Everdark Shard",
+        "quality": "legendary",
+        "resources": []
+      },
       {
         "zoneId": "dustwallow-marsh",
         "zoneName": "Dustwallow Marsh",
@@ -16561,6 +16810,19 @@
             "label": "YouTube"
           }
         ]
+      },
+      {
+        "zoneId": "dustwind-cave",
+        "zoneName": "Dustwind Cave",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 56.989999999999995,
+        "rawLeft": 53.52,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Legendary",
+        "quality": "legendary",
+        "resources": []
       },
       {
         "zoneId": "dustwallow-marsh",
@@ -16650,6 +16912,19 @@
           "height": 8.155922038980506
         },
         "description": "Found in: Scarlet Monastery\nCoords: (0.30, 0.55)\nType: Consumable\nQuality: Legendary",
+        "quality": "legendary",
+        "resources": []
+      },
+      {
+        "zoneId": "dustwind-cave",
+        "zoneName": "Dustwind Cave",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 26.450000000000003,
+        "rawLeft": 53.49,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Legendary",
         "quality": "legendary",
         "resources": []
       }
@@ -16894,6 +17169,19 @@
     ],
     "normalizedName": "meteor",
     "locations": [
+      {
+        "zoneId": "twin-peaks",
+        "zoneName": "Twin Peaks",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 88.05,
+        "rawLeft": 48.41,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Legendary",
+        "quality": "legendary",
+        "resources": []
+      },
       {
         "zoneId": "burning-steppes",
         "zoneName": "Burning Steppes",
@@ -17616,6 +17904,19 @@
     ],
     "normalizedName": "brand of the pyromaniac",
     "locations": [
+      {
+        "zoneId": "dustwind-cave",
+        "zoneName": "Dustwind Cave",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 78.79,
+        "rawLeft": 51.11,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Epic",
+        "quality": "epic",
+        "resources": []
+      },
       {
         "zoneId": "dustwallow-marsh",
         "zoneName": "Dustwallow Marsh",
@@ -22108,6 +22409,19 @@
         "resources": []
       },
       {
+        "zoneId": "blackrock-mountain",
+        "zoneName": "Blackrock Mountain",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 41.839999999999996,
+        "rawLeft": 65.39,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
         "zoneId": "the-barrens",
         "zoneName": "The Barrens",
         "continent": "kalimdor",
@@ -23184,6 +23498,19 @@
         "resources": []
       },
       {
+        "zoneId": "gold-coast-quarry",
+        "zoneName": "Gold Coast Quarry",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 33.85,
+        "rawLeft": 47.199999999999996,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
         "zoneId": "the-barrens",
         "zoneName": "The Barrens",
         "continent": "kalimdor",
@@ -23503,6 +23830,19 @@
           "width": 5.799789706593849,
           "height": 9.984370605960855
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "jasperlode-mine",
+        "zoneName": "Jasperlode Mine",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 59.940000000000005,
+        "rawLeft": 37.980000000000004,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -24659,6 +24999,19 @@
           "width": 8.69565217391304,
           "height": 17.765733212887685
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "jasperlode-mine",
+        "zoneName": "Jasperlode Mine",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 67.28,
+        "rawLeft": 43.54,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -26411,6 +26764,19 @@
           "width": 10.714287068215711,
           "height": 20.28649049661496
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "jasperlode-mine",
+        "zoneName": "Jasperlode Mine",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 86.63,
+        "rawLeft": 45.660000000000004,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -28355,6 +28721,19 @@
         "resources": []
       },
       {
+        "zoneId": "twilight-s-run",
+        "zoneName": "Twilight S Run",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 45.989999999999995,
+        "rawLeft": 37.72,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
         "zoneId": "stranglethorn-vale",
         "zoneName": "Stranglethorn Vale",
         "continent": "eastern-kingdoms",
@@ -29412,6 +29791,19 @@
           "width": 10.714287068215711,
           "height": 20.28649049661496
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "twilight-s-run",
+        "zoneName": "Twilight S Run",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 45.989999999999995,
+        "rawLeft": 37.72,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -30832,6 +31224,19 @@
     ],
     "normalizedName": "holy mastery",
     "locations": [
+      {
+        "zoneId": "dustwind-cave",
+        "zoneName": "Dustwind Cave",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 42.68,
+        "rawLeft": 63.68000000000001,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Legendary",
+        "quality": "legendary",
+        "resources": []
+      },
       {
         "zoneId": "western-plaguelands",
         "zoneName": "Western Plaguelands",
@@ -33000,6 +33405,19 @@
         "resources": []
       },
       {
+        "zoneId": "dustwind-cave",
+        "zoneName": "Dustwind Cave",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 48.67,
+        "rawLeft": 68.08,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Epic",
+        "quality": "epic",
+        "resources": []
+      },
+      {
         "zoneId": "tirisfal-glades",
         "zoneName": "Tirisfal Glades",
         "continent": "eastern-kingdoms",
@@ -34133,6 +34551,32 @@
           "width": 7.521739130434781,
           "height": 7.659213993215914
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "shadewell-spring",
+        "zoneName": "Shadewell Spring",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 85.57000000000001,
+        "rawLeft": 61.25000000000001,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "ban-ethil-barrow-den-upper",
+        "zoneName": "Ban Ethil Barrow Den Upper",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 88.28,
+        "rawLeft": 24.099999999999998,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -36266,6 +36710,19 @@
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
+      },
+      {
+        "zoneId": "sinister-lair",
+        "zoneName": "Sinister Lair",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 44.26,
+        "rawLeft": 40.75,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare\n\nPossibly lootable from: Geo Band",
+        "quality": "rare",
+        "resources": []
       }
     ]
   },
@@ -36858,6 +37315,19 @@
             "label": "YouTube"
           }
         ]
+      },
+      {
+        "zoneId": "dustwind-cave",
+        "zoneName": "Dustwind Cave",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 69.84,
+        "rawLeft": 34.39,
+        "zoneBounds": null,
+        "description": "Type: Consumable",
+        "quality": "artifact",
+        "resources": []
       }
     ]
   },
@@ -37027,6 +37497,19 @@
         ]
       },
       {
+        "zoneId": "dustwind-cave",
+        "zoneName": "Dustwind Cave",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 31.47,
+        "rawLeft": 39.33,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Legendary",
+        "quality": "legendary",
+        "resources": []
+      },
+      {
         "zoneId": "duskwood",
         "zoneName": "Duskwood",
         "continent": "eastern-kingdoms",
@@ -37168,6 +37651,19 @@
             "label": "YouTube"
           }
         ]
+      },
+      {
+        "zoneId": "scarlet-monastery-entrance",
+        "zoneName": "Scarlet Monastery Entrance",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 93.16,
+        "rawLeft": 18.990000000000002,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Legendary",
+        "quality": "legendary",
+        "resources": []
       }
     ]
   },
@@ -38074,6 +38570,19 @@
             "label": "YouTube"
           }
         ]
+      },
+      {
+        "zoneId": "dustwind-cave",
+        "zoneName": "Dustwind Cave",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 48.449999999999996,
+        "rawLeft": 29.56,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Epic",
+        "quality": "epic",
+        "resources": []
       }
     ]
   },
@@ -39487,6 +39996,19 @@
           "height": 6.716641679160411
         },
         "description": "Type: Consumable\nQuality: Epic\n\nPossibly lootable from: Forgotten Book of Healing",
+        "quality": "epic",
+        "resources": []
+      },
+      {
+        "zoneId": "northshire-valley",
+        "zoneName": "Northshire Valley",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 59.8,
+        "rawLeft": 30.29,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Epic",
         "quality": "epic",
         "resources": []
       }
@@ -42870,6 +43392,19 @@
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
+      },
+      {
+        "zoneId": "northshire-valley",
+        "zoneName": "Northshire Valley",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 58.28,
+        "rawLeft": 33.37,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
       }
     ]
   },
@@ -42946,6 +43481,19 @@
           "height": 11.020776874435409
         },
         "description": "Type: Consumable\nQuality: Rare\n\nPossibly lootable from the in world item Submerged Crescent Blade",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "scarlet-monastery-entrance",
+        "zoneName": "Scarlet Monastery Entrance",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 44.25,
+        "rawLeft": 73.27,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
       }
@@ -43445,6 +43993,19 @@
         "description": "Found in: Scarlet Monastery\nCoords: (0.41, 0.41)\nType: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
+      },
+      {
+        "zoneId": "scarlet-monastery-entrance",
+        "zoneName": "Scarlet Monastery Entrance",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 42.22,
+        "rawLeft": 56.98,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
       }
     ]
   },
@@ -43617,6 +44178,19 @@
           "height": 5.877061469265371
         },
         "description": "Found in: Uldaman\nCoords: (0.29, 0.60)\nType: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "scarlet-monastery-entrance",
+        "zoneName": "Scarlet Monastery Entrance",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 29.28,
+        "rawLeft": 72.00999999999999,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
       },
@@ -45628,6 +46202,32 @@
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
+      },
+      {
+        "zoneId": "maraudon-purple",
+        "zoneName": "Maraudon Purple",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 63.980000000000004,
+        "rawLeft": 53.23,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "scarlet-monastery-entrance",
+        "zoneName": "Scarlet Monastery Entrance",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 49.26,
+        "rawLeft": 79.88,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
       }
     ]
   },
@@ -46581,6 +47181,19 @@
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
+      },
+      {
+        "zoneId": "scarlet-monastery-entrance",
+        "zoneName": "Scarlet Monastery Entrance",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 55.76,
+        "rawLeft": 77.29,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
       }
     ]
   },
@@ -46981,6 +47594,19 @@
           "width": 12.037825370573131,
           "height": 22.364465101488058
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "scarlet-monastery-entrance",
+        "zoneName": "Scarlet Monastery Entrance",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 44.879999999999995,
+        "rawLeft": 77.10000000000001,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -49288,6 +49914,19 @@
         "description": "Type: Consumable\nQuality: Epic",
         "quality": "epic",
         "resources": []
+      },
+      {
+        "zoneId": "northshire-valley",
+        "zoneName": "Northshire Valley",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 52.800000000000004,
+        "rawLeft": 33.06,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Epic",
+        "quality": "epic",
+        "resources": []
       }
     ]
   },
@@ -51495,6 +52134,19 @@
         "resources": []
       },
       {
+        "zoneId": "jangolode-mine",
+        "zoneName": "Jangolode Mine",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 88.41,
+        "rawLeft": 41.46,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
         "zoneId": "the-hinterlands",
         "zoneName": "The Hinterlands",
         "continent": "eastern-kingdoms",
@@ -51616,6 +52268,19 @@
           "width": 5.799789706593849,
           "height": 9.984370605960855
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "gold-coast-quarry",
+        "zoneName": "Gold Coast Quarry",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 73.74000000000001,
+        "rawLeft": 51.43,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -51811,6 +52476,19 @@
           "width": 7.521739130434781,
           "height": 7.659213993215914
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "twin-peaks",
+        "zoneName": "Twin Peaks",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 13.88,
+        "rawLeft": 58.919999999999995,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -54759,6 +55437,19 @@
         "resources": []
       },
       {
+        "zoneId": "jangolode-mine",
+        "zoneName": "Jangolode Mine",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 11.78,
+        "rawLeft": 54.059999999999995,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
         "zoneId": "the-barrens",
         "zoneName": "The Barrens",
         "continent": "kalimdor",
@@ -55731,6 +56422,19 @@
         "description": "Type: Consumable\nQuality: Legendary",
         "quality": "legendary",
         "resources": []
+      },
+      {
+        "zoneId": "sinister-lair",
+        "zoneName": "Sinister Lair",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 20.74,
+        "rawLeft": 31.8,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Legendary",
+        "quality": "legendary",
+        "resources": []
       }
     ]
   },
@@ -56191,6 +56895,19 @@
           "width": 8.804347241984011,
           "height": 28.861788617886184
         },
+        "description": "Type: Consumable\nQuality: Legendary",
+        "quality": "legendary",
+        "resources": []
+      },
+      {
+        "zoneId": "blackrock-mountain",
+        "zoneName": "Blackrock Mountain",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 54.97,
+        "rawLeft": 53.59,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Legendary",
         "quality": "legendary",
         "resources": []
@@ -56793,6 +57510,19 @@
           "height": 20.28649049661496
         },
         "description": "Type: Consumable\nQuality: Epic\n\nPossibly lootable from: Geolord's Infused Crystal",
+        "quality": "epic",
+        "resources": []
+      },
+      {
+        "zoneId": "sinister-lair",
+        "zoneName": "Sinister Lair",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 45.16,
+        "rawLeft": 37.95,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Epic",
         "quality": "epic",
         "resources": []
       }
@@ -58721,6 +59451,19 @@
         "description": "Type: Consumable\nQuality: Epic\n\nPossibly lootable from the in world item Tidal Treasure, Shipwreck Barrel",
         "quality": "epic",
         "resources": []
+      },
+      {
+        "zoneId": "dustwind-cave",
+        "zoneName": "Dustwind Cave",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 62.629999999999995,
+        "rawLeft": 55.74,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Epic",
+        "quality": "epic",
+        "resources": []
       }
     ]
   },
@@ -58768,6 +59511,19 @@
           "width": 6.874265569917746,
           "height": 16.21621621621621
         },
+        "description": "Type: Consumable\nQuality: Epic",
+        "quality": "epic",
+        "resources": []
+      },
+      {
+        "zoneId": "lower-blackrock-mountain",
+        "zoneName": "Lower Blackrock Mountain",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 36.61,
+        "rawLeft": 34.599999999999994,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Epic",
         "quality": "epic",
         "resources": []
@@ -59190,6 +59946,19 @@
           "width": 10.086956521739118,
           "height": 17.300813008130078
         },
+        "description": "Type: Consumable\nQuality: Epic",
+        "quality": "epic",
+        "resources": []
+      },
+      {
+        "zoneId": "northshire-valley",
+        "zoneName": "Northshire Valley",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 55.720000000000006,
+        "rawLeft": 34.9,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Epic",
         "quality": "epic",
         "resources": []
@@ -59824,6 +60593,19 @@
         "resources": []
       },
       {
+        "zoneId": "lower-blackrock-mountain",
+        "zoneName": "Lower Blackrock Mountain",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 32.29,
+        "rawLeft": 37.11,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
         "zoneId": "hillsbrad-foothills",
         "zoneName": "Hillsbrad Foothills",
         "continent": "eastern-kingdoms",
@@ -59838,6 +60620,19 @@
           "height": 7.3048584367492
         },
         "description": "Type: Consumable\nQuality: Rare\n\nPossibly lootable from the in world item Hidden Ring",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "dustwind-cave",
+        "zoneName": "Dustwind Cave",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 70.41,
+        "rawLeft": 43.79,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
       },
@@ -61105,6 +61900,19 @@
         "resources": []
       },
       {
+        "zoneId": "echo-ridge-mine",
+        "zoneName": "Echo Ridge Mine",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 85.06,
+        "rawLeft": 47.56,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
         "zoneId": "the-barrens",
         "zoneName": "The Barrens",
         "continent": "kalimdor",
@@ -61370,6 +62178,19 @@
           "width": 11.609622032553368,
           "height": 11.829097831688145
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "sinister-lair",
+        "zoneName": "Sinister Lair",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 42.63,
+        "rawLeft": 38.95,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -62588,6 +63409,19 @@
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
+      },
+      {
+        "zoneId": "twilight-s-run",
+        "zoneName": "Twilight S Run",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 33.64,
+        "rawLeft": 52.629999999999995,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
       }
     ]
   },
@@ -63474,6 +64308,32 @@
           "width": 5.539999999999999,
           "height": 6.716641679160411
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "ban-ethil-barrow-den-lower",
+        "zoneName": "Ban Ethil Barrow Den Lower",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 53.93,
+        "rawLeft": 52.370000000000005,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "ban-ethil-barrow-den-upper",
+        "zoneName": "Ban Ethil Barrow Den Upper",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 58.57,
+        "rawLeft": 39.39,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -64706,6 +65566,19 @@
           "width": 8.399999999999991,
           "height": 6.146926536731627
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "twilight-s-run",
+        "zoneName": "Twilight S Run",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 44.83,
+        "rawLeft": 77.53,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -67456,6 +68329,19 @@
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
+      },
+      {
+        "zoneId": "ban-ethil-barrow-den-upper",
+        "zoneName": "Ban Ethil Barrow Den Upper",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 65.69,
+        "rawLeft": 55.38999999999999,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
       }
     ]
   },
@@ -70050,6 +70936,32 @@
         "resources": []
       },
       {
+        "zoneId": "skull-rock",
+        "zoneName": "Skull Rock",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 79.29,
+        "rawLeft": 22.49,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Epic",
+        "quality": "epic",
+        "resources": []
+      },
+      {
+        "zoneId": "palemane-rock",
+        "zoneName": "Palemane Rock",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 77.10000000000001,
+        "rawLeft": 52.31,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Epic",
+        "quality": "epic",
+        "resources": []
+      },
+      {
         "zoneId": "loch-modan",
         "zoneName": "Loch Modan",
         "continent": "eastern-kingdoms",
@@ -71108,6 +72020,19 @@
           "height": 10.853269190386811
         },
         "description": "Type: Consumable\nQuality: Epic\n\nPossibly lootable from: Evil Chest",
+        "quality": "epic",
+        "resources": []
+      },
+      {
+        "zoneId": "skull-rock",
+        "zoneName": "Skull Rock",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 53.33,
+        "rawLeft": 19.470000000000002,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Epic",
         "quality": "epic",
         "resources": []
       },
@@ -74069,6 +74994,19 @@
         "resources": []
       },
       {
+        "zoneId": "skull-rock",
+        "zoneName": "Skull Rock",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 71.38,
+        "rawLeft": 56.2,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
         "zoneId": "ungoro-crater",
         "zoneName": "Un'goro Crater",
         "continent": "kalimdor",
@@ -74559,6 +75497,19 @@
         "resources": []
       },
       {
+        "zoneId": "twilight-s-run",
+        "zoneName": "Twilight S Run",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 37.35,
+        "rawLeft": 57.32000000000001,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
         "zoneId": "badlands",
         "zoneName": "Badlands",
         "continent": "eastern-kingdoms",
@@ -74590,6 +75541,19 @@
           "width": 5.64381328506861,
           "height": 16.88555604906204
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "dustwind-cave",
+        "zoneName": "Dustwind Cave",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 29.62,
+        "rawLeft": 46.42,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -75132,6 +76096,19 @@
           "width": 5.54347826086957,
           "height": 5.573300395063498
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "skull-rock",
+        "zoneName": "Skull Rock",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 70.26,
+        "rawLeft": 24.98,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -77160,6 +78137,19 @@
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
+      },
+      {
+        "zoneId": "sinister-lair",
+        "zoneName": "Sinister Lair",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 33.69,
+        "rawLeft": 24.5,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
       }
     ]
   },
@@ -77209,6 +78199,19 @@
           "height": 7.436281859070476
         },
         "description": "Type: Consumable\nQuality: Rare\n\nPossibly lootable from the in world item Heat Tempered Sword",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "skull-rock",
+        "zoneName": "Skull Rock",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 39.2,
+        "rawLeft": 58.15,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
       },
@@ -77990,6 +78993,19 @@
           "width": 10.086956521739118,
           "height": 17.300813008130078
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "twilight-s-run",
+        "zoneName": "Twilight S Run",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 65.21000000000001,
+        "rawLeft": 32.62,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -78833,6 +79849,19 @@
           "width": 6.999999572753936,
           "height": 14.31784107946028
         },
+        "description": "Type: Consumable\nQuality: Legendary",
+        "quality": "legendary",
+        "resources": []
+      },
+      {
+        "zoneId": "palemane-rock",
+        "zoneName": "Palemane Rock",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 32.4,
+        "rawLeft": 80.25999999999999,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Legendary",
         "quality": "legendary",
         "resources": []
@@ -79906,6 +80935,19 @@
     "normalizedName": "blades of blood",
     "locations": [
       {
+        "zoneId": "dustwind-cave",
+        "zoneName": "Dustwind Cave",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 74.94,
+        "rawLeft": 39.21,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Epic",
+        "quality": "epic",
+        "resources": []
+      },
+      {
         "zoneId": "dustwallow-marsh",
         "zoneName": "Dustwallow Marsh",
         "continent": "kalimdor",
@@ -80432,6 +81474,19 @@
           "width": 6.065217391304351,
           "height": 10.853269190386811
         },
+        "description": "Type: Consumable\nQuality: Epic",
+        "quality": "epic",
+        "resources": []
+      },
+      {
+        "zoneId": "palemane-rock",
+        "zoneName": "Palemane Rock",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 31.869999999999997,
+        "rawLeft": 80.34,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Epic",
         "quality": "epic",
         "resources": []
@@ -82189,6 +83244,19 @@
           "width": 10.714287068215711,
           "height": 20.28649049661496
         },
+        "description": "Type: Consumable\nQuality: Epic",
+        "quality": "epic",
+        "resources": []
+      },
+      {
+        "zoneId": "sinister-lair",
+        "zoneName": "Sinister Lair",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 37.04,
+        "rawLeft": 28.71,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Epic",
         "quality": "epic",
         "resources": []
@@ -84887,6 +85955,32 @@
         "resources": []
       },
       {
+        "zoneId": "maraudon-orange",
+        "zoneName": "Maraudon Orange",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 14.78,
+        "rawLeft": 67.24,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "the-slithering-scar",
+        "zoneName": "The Slithering Scar",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 42.47,
+        "rawLeft": 82.92,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
         "zoneId": "the-barrens",
         "zoneName": "The Barrens",
         "continent": "kalimdor",
@@ -85450,6 +86544,19 @@
         "resources": []
       },
       {
+        "zoneId": "lower-blackrock-mountain",
+        "zoneName": "Lower Blackrock Mountain",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 63.24999999999999,
+        "rawLeft": 46.69,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
         "zoneId": "the-barrens",
         "zoneName": "The Barrens",
         "continent": "kalimdor",
@@ -85553,6 +86660,19 @@
           "width": 7.939999999999998,
           "height": 5.787106446776605
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "palemane-rock",
+        "zoneName": "Palemane Rock",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 32.26,
+        "rawLeft": 80.19,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -86743,6 +87863,19 @@
         "resources": []
       },
       {
+        "zoneId": "palemane-rock",
+        "zoneName": "Palemane Rock",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 32.2,
+        "rawLeft": 80.17,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
         "zoneId": "teldrassil",
         "zoneName": "Teldrassil",
         "continent": "kalimdor",
@@ -87577,6 +88710,19 @@
         "resources": []
       },
       {
+        "zoneId": "lower-blackrock-mountain",
+        "zoneName": "Lower Blackrock Mountain",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 53.169999999999995,
+        "rawLeft": 39.62,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
         "zoneId": "feralas",
         "zoneName": "Feralas",
         "continent": "kalimdor",
@@ -87680,6 +88826,45 @@
           "width": 12.037825370573131,
           "height": 22.364465101488058
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "blackrock-mountain",
+        "zoneName": "Blackrock Mountain",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 59.309999999999995,
+        "rawLeft": 48.38,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "the-slithering-scar",
+        "zoneName": "The Slithering Scar",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 31.480000000000004,
+        "rawLeft": 81.52000000000001,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "dustwind-cave",
+        "zoneName": "Dustwind Cave",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 56.88999999999999,
+        "rawLeft": 76.52,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -87982,6 +89167,19 @@
         "description": "Found in: Gnomeregan\nCoords: (0.25, 0.61)\nType: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
+      },
+      {
+        "zoneId": "sinister-lair",
+        "zoneName": "Sinister Lair",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 23.189999999999998,
+        "rawLeft": 58.85,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
       }
     ]
   },
@@ -88197,6 +89395,19 @@
         "resources": []
       },
       {
+        "zoneId": "the-slithering-scar",
+        "zoneName": "The Slithering Scar",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 58.81999999999999,
+        "rawLeft": 78.71000000000001,
+        "zoneBounds": null,
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
         "zoneId": "wetlands",
         "zoneName": "Wetlands",
         "continent": "eastern-kingdoms",
@@ -88318,6 +89529,19 @@
           "width": 11.609622032553368,
           "height": 11.829097831688145
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "maraudon-orange",
+        "zoneName": "Maraudon Orange",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 27.029999999999998,
+        "rawLeft": 77.03,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []
@@ -89626,6 +90850,19 @@
           "width": 5.195652173913047,
           "height": 4.927191707629291
         },
+        "description": "Type: Consumable\nQuality: Rare",
+        "quality": "rare",
+        "resources": []
+      },
+      {
+        "zoneId": "the-slithering-scar",
+        "zoneName": "The Slithering Scar",
+        "continent": null,
+        "top": null,
+        "left": null,
+        "rawTop": 16.259999999999998,
+        "rawLeft": 23.22,
+        "zoneBounds": null,
         "description": "Type: Consumable\nQuality: Rare",
         "quality": "rare",
         "resources": []

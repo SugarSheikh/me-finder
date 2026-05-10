@@ -18,12 +18,12 @@ export type ZoneBounds = { top: number; left: number; width: number; height: num
 export type Location = {
   zoneId: string;
   zoneName: string;
-  continent: string;       // "kalimdor" | "eastern-kingdoms"
-  top: number;             // % on continent map
-  left: number;            // % on continent map
-  rawTop: number;          // % within zone
-  rawLeft: number;         // % within zone
-  zoneBounds: ZoneBounds;  // zone position on continent (for crop fallback)
+  continent: string | null;       // null for sub-zones (no continent projection)
+  top: number | null;              // % on continent map
+  left: number | null;             // % on continent map
+  rawTop: number;                  // % within zone
+  rawLeft: number;                 // % within zone
+  zoneBounds: ZoneBounds | null;
   description: string;
   quality: string | null;
   resources: LocationResource[];

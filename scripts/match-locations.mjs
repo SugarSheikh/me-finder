@@ -19,12 +19,15 @@ function titleCase(s) {
 }
 
 // Marker zoneId aliases — slug differences between marker data and zone catalog.
-// Sub-zones / dungeons not listed here just don't render in v1 (described in
-// data/raw/location_match_report.json).
 const ZONE_ALIASES = {
   'un-goro-crater': 'ungoro-crater',
   'barrens': 'the-barrens',
 };
+
+// zoneIds we want to surface even when they're not in the continent zones
+// catalog (sub-zones / dungeons). Pin on the zone map only — no continent
+// projection because we have no zoneBounds for them.
+const zoneMaps = JSON.parse(readFileSync('public/data/zone_maps.json', 'utf8'));
 
 const zoneById = new Map();
 for (const z of zones) {
@@ -65,9 +68,11 @@ for (const mk of meMarkers) {
   const classes = Array.isArray(mk.classes) && mk.classes.length ? mk.classes : null;
   const resolvedZoneId = ZONE_ALIASES[mk.zoneId] || mk.zoneId;
   const zone = zoneById.get(resolvedZoneId);
-  if (!zone || !zone.bounds) { zoneMissing++; continue; }
-  const continentTop = zone.bounds.top + zone.bounds.height * (mk.top / 100);
-  const continentLeft = zone.bounds.left + zone.bounds.width * (mk.left / 100);
+  // Either a known continent zone, OR a sub-zone we have a map for.
+  const subZoneHasMap = !zone && Boolean(zoneMaps[mk.zoneId]);
+  if (!zone && !subZoneHasMap) { zoneMissing++; continue; }
+  const continentTop = zone?.bounds ? zone.bounds.top + zone.bounds.height * (mk.top / 100) : null;
+  const continentLeft = zone?.bounds ? zone.bounds.left + zone.bounds.width * (mk.left / 100) : null;
 
   // Try matching against each class in the marker's classes array (one ME entry per class)
   const tryClasses = classes || [...new Set(mes.map(x => x.class))]; // fallback: try all classes
@@ -79,14 +84,14 @@ for (const mk of meMarkers) {
       const me = meByKey.get(`${c}:${t}`);
       if (!me) continue;
       me.locations.push({
-        zoneId: zone.id,
-        zoneName: zone.name,
-        continent: zone.parentId,
-        top: +continentTop.toFixed(3),
-        left: +continentLeft.toFixed(3),
+        zoneId: zone ? zone.id : mk.zoneId,
+        zoneName: zone ? zone.name : titleCase(mk.zoneId),
+        continent: zone ? zone.parentId : null,
+        top: continentTop !== null ? +continentTop.toFixed(3) : null,
+        left: continentLeft !== null ? +continentLeft.toFixed(3) : null,
         rawTop: mk.top,
         rawLeft: mk.left,
-        zoneBounds: zone.bounds,
+        zoneBounds: zone?.bounds || null,
         description: mk.description || '',
         quality: mk.quality || null,
         resources: Array.isArray(mk.resources)
