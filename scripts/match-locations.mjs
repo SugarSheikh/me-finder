@@ -89,7 +89,11 @@ for (const mk of meMarkers) {
         zoneBounds: zone.bounds,
         description: mk.description || '',
         quality: mk.quality || null,
-        resources: Array.isArray(mk.resources) ? mk.resources.map(r => ({ url: r.url, label: r.label })) : [],
+        resources: Array.isArray(mk.resources)
+          ? mk.resources
+              .filter(r => r.url && !/discord\.com|discord\.gg/.test(r.url))
+              .map(r => ({ url: r.url, label: r.label }))
+          : [],
       });
       any = true;
     }

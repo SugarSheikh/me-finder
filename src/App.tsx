@@ -286,21 +286,17 @@ function LocationSection({ locations }: { locations: Location[] }) {
             {loc.description && <p className="location-desc">{loc.description}</p>}
             {loc.resources.length > 0 && (
               <div className="location-resources">
-                {loc.resources.map((r, j) => {
-                  const isDiscord = /discord\.com|discord\.gg/.test(r.url);
-                  return (
-                    <a
-                      key={j}
-                      href={r.url}
-                      target="_blank"
-                      rel="noreferrer"
-                      onClick={e => e.stopPropagation()}
-                      title={isDiscord ? 'Goes to a closed community Discord — you may need an invite.' : undefined}
-                    >
-                      {r.label}{isDiscord ? ' (closed)' : ''} ↗
-                    </a>
-                  );
-                })}
+                {loc.resources.map((r, j) => (
+                  <a
+                    key={j}
+                    href={r.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    onClick={e => e.stopPropagation()}
+                  >
+                    {r.label} ↗
+                  </a>
+                ))}
               </div>
             )}
           </button>
