@@ -14,14 +14,16 @@ export type VideoRef = {
 export type RequiredTab = { tab: string; investment: number };
 
 export type LocationResource = { url: string; label: string };
+export type ZoneBounds = { top: number; left: number; width: number; height: number };
 export type Location = {
   zoneId: string;
   zoneName: string;
   continent: string;       // "kalimdor" | "eastern-kingdoms"
   top: number;             // % on continent map
   left: number;            // % on continent map
-  rawTop: number;
-  rawLeft: number;
+  rawTop: number;          // % within zone
+  rawLeft: number;         // % within zone
+  zoneBounds: ZoneBounds;  // zone position on continent (for crop fallback)
   description: string;
   quality: string | null;
   resources: LocationResource[];
@@ -44,4 +46,5 @@ export type ME = {
   requiredSpellIds: string[] | null;
   videos: VideoRef[];
   locations: Location[];
+  source?: 'community';
 };

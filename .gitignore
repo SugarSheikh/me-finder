@@ -49,4 +49,8 @@ scripts/debug-bounds-gap.mjs
 scripts/probe-availability.mjs
 scripts/probe-embeds.mjs
 scripts/suggest-aliases.mjs
+scripts/probe-zone-images.mjs
+scripts/fetch-zone-maps.mjs
+scripts/analyze-marker-counts.mjs
+scripts/add-community-mes.mjs
 

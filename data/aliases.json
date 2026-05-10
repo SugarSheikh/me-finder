@@ -14,8 +14,6 @@
 
   "warrior:dragon roar dragon warrior": ["dragon roar", "dragon warrior"],
   "hunter:blood tracker deadly bite glaive toss": ["blood tracker deadly bite", "blood tracker glaive toss"],
-  "paladin:holy templar light of dawn": ["holy templar", "light of dawn"],
-  "paladin:holy templar holy power": ["holy templar"],
 
-  "_residual_orphans": "These remain unmatched because the ME doesn't exist in bisbeard's catalog under any close name — likely stale Whiter videos for MEs that were renamed or removed: warrior:Stormhammer, mage:Temporal Haste, priest:Wanding, rogue:Crimson Tempest. They stay as orphans until/unless verified."
+  "_community_added_no_alias_needed": "paladin:Holy Templar: Holy Power and paladin:Holy Templar: Light of Dawn now exist as community-sourced stubs (added by scripts/add-community-mes.mjs from azerothhub markers); video matches resolve directly."
 }

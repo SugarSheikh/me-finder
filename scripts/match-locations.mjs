@@ -86,6 +86,7 @@ for (const mk of meMarkers) {
         left: +continentLeft.toFixed(3),
         rawTop: mk.top,
         rawLeft: mk.left,
+        zoneBounds: zone.bounds,
         description: mk.description || '',
         quality: mk.quality || null,
         resources: Array.isArray(mk.resources) ? mk.resources.map(r => ({ url: r.url, label: r.label })) : [],

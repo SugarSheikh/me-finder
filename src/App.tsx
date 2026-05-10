@@ -8,6 +8,10 @@ const CONTINENT_MAPS: Record<string, { src: string; label: string }> = {
   'eastern-kingdoms': { src: 'maps/eastern_kingdoms.png', label: 'Eastern Kingdoms' },
 };
 
+// Loaded once at startup. Maps zoneId -> static path of a zone-level image.
+// Zones not in this manifest fall back to a continent-map crop using zoneBounds.
+let ZONE_MAPS: Record<string, string> = {};
+
 type Filters = {
   cls: ClassKey | null;
   rarities: Set<Rarity>;
@@ -31,9 +35,14 @@ export default function App() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}data/mes.json`)
-      .then(r => r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`)))
-      .then((data: ME[]) => setMes(data))
+    Promise.all([
+      fetch(`${import.meta.env.BASE_URL}data/mes.json`).then(r => r.json()),
+      fetch(`${import.meta.env.BASE_URL}data/zone_maps.json`).then(r => r.ok ? r.json() : {}),
+    ])
+      .then(([mes, zoneMaps]: [ME[], Record<string, string>]) => {
+        ZONE_MAPS = zoneMaps;
+        setMes(mes);
+      })
       .catch(e => setError(String(e)));
   }, []);
 
@@ -198,6 +207,7 @@ function MeCard({ me, selected, onClick }: { me: ME; selected: boolean; onClick:
           {me.specs.map(s => <span key={s} className="badge dim">{prettySpec(s)}</span>)}
           {me.videos.length > 0 && <span className="badge video">▶ {me.videos.length}</span>}
           {me.locations.length > 0 && <span className="badge location">📍 {me.locations.length}</span>}
+          {me.source === 'community' && <span className="badge community" title="Not in bisbeard's catalog — sourced from azerothhub markers + Whiter videos">Community</span>}
         </div>
       </div>
     </button>
@@ -217,6 +227,7 @@ function MeDetail({ me }: { me: ME }) {
             <span className="badge" style={{ color: RARITY_COLOR[me.rarity] }}>{me.rarityLabel}</span>
             <span className="badge dim">{levelDisplay(me)}</span>
             {me.specs.map(s => <span key={s} className="badge dim">{prettySpec(s)}</span>)}
+            {me.source === 'community' && <span className="badge community" title="Not in bisbeard's catalog — sourced from azerothhub markers + Whiter videos">Community</span>}
           </div>
         </div>
       </div>
@@ -247,55 +258,25 @@ function MeDetail({ me }: { me: ME }) {
 }
 
 function LocationSection({ locations }: { locations: Location[] }) {
-  const [activeLoc, setActiveLoc] = useState<number | null>(locations.length > 0 ? 0 : null);
+  const [activeLoc, setActiveLoc] = useState<number>(0);
   if (locations.length === 0) return null;
-
-  // Group locations by continent so we render one map image per continent group.
-  const byContinent = new Map<string, { idxs: number[] }>();
-  for (let i = 0; i < locations.length; i++) {
-    const c = locations[i].continent;
-    if (!byContinent.has(c)) byContinent.set(c, { idxs: [] });
-    byContinent.get(c)!.idxs.push(i);
-  }
+  const active = locations[Math.min(activeLoc, locations.length - 1)];
 
   return (
     <div className="locations">
       <h3>Locations ({locations.length})</h3>
-      {[...byContinent.entries()].map(([continent, { idxs }]) => {
-        const mapInfo = CONTINENT_MAPS[continent];
-        if (!mapInfo) return null;
-        return (
-          <div key={continent} className="continent-block">
-            <div className="continent-label">{mapInfo.label}</div>
-            <div className="continent-map">
-              <img src={`${import.meta.env.BASE_URL}${mapInfo.src}`} alt={mapInfo.label} loading="lazy" />
-              {idxs.map(i => {
-                const loc = locations[i];
-                const isActive = activeLoc === i;
-                return (
-                  <button
-                    key={i}
-                    className={`pin${isActive ? ' active' : ''}`}
-                    style={{ top: `${loc.top}%`, left: `${loc.left}%` }}
-                    onClick={() => setActiveLoc(i)}
-                    title={loc.zoneName}
-                    aria-label={`Pin in ${loc.zoneName}`}
-                  >
-                    <span className="pin-dot" />
-                    <span className="pin-num">{i + 1}</span>
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-        );
-      })}
+
+      <ZoneZoomMap location={active} />
+
+      <ContinentOverview locations={locations} activeIdx={activeLoc} onSelect={setActiveLoc} />
+
       <div className="location-list">
         {locations.map((loc, i) => (
           <button
             key={i}
             className={`location-card${activeLoc === i ? ' selected' : ''}`}
             onClick={() => setActiveLoc(i)}
+            type="button"
           >
             <div className="location-head">
               <span className="location-num">{i + 1}</span>
@@ -305,11 +286,21 @@ function LocationSection({ locations }: { locations: Location[] }) {
             {loc.description && <p className="location-desc">{loc.description}</p>}
             {loc.resources.length > 0 && (
               <div className="location-resources">
-                {loc.resources.map((r, j) => (
-                  <a key={j} href={r.url} target="_blank" rel="noreferrer" onClick={e => e.stopPropagation()}>
-                    {r.label} ↗
-                  </a>
-                ))}
+                {loc.resources.map((r, j) => {
+                  const isDiscord = /discord\.com|discord\.gg/.test(r.url);
+                  return (
+                    <a
+                      key={j}
+                      href={r.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      onClick={e => e.stopPropagation()}
+                      title={isDiscord ? 'Goes to a closed community Discord — you may need an invite.' : undefined}
+                    >
+                      {r.label}{isDiscord ? ' (closed)' : ''} ↗
+                    </a>
+                  );
+                })}
               </div>
             )}
           </button>
@@ -356,3 +347,81 @@ function VideoEmbed({ v }: { v: VideoRef }) {
 
 function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1).toLowerCase(); }
 function prettySpec(s: string) { return s.charAt(0) + s.slice(1).toLowerCase(); }
+
+// Zone-level zoom map. Only rendered when a zone-level image exists for the
+// selected location's zone. For zones without an image (29/52 currently),
+// users still see the pin on the continent overview below.
+function ZoneZoomMap({ location }: { location: Location }) {
+  const zoneSrc = ZONE_MAPS[location.zoneId];
+  const base = import.meta.env.BASE_URL;
+  if (!zoneSrc) {
+    return (
+      <div className="zone-zoom">
+        <div className="zone-zoom-label">{location.zoneName}</div>
+        <div className="zone-zoom-empty">
+          No zone-level map for {location.zoneName} yet — pin shown on the continent overview below.
+        </div>
+      </div>
+    );
+  }
+  return (
+    <div className="zone-zoom">
+      <div className="zone-zoom-label">{location.zoneName}</div>
+      <div className="zone-zoom-frame">
+        <img src={`${base}${zoneSrc}`} alt={location.zoneName} />
+        <button
+          className="pin active"
+          style={{ top: `${location.rawTop}%`, left: `${location.rawLeft}%` }}
+          disabled
+          aria-hidden
+        >
+          <span className="pin-dot" />
+        </button>
+      </div>
+    </div>
+  );
+}
+
+// Smaller continent overview with all pins — keeps the global "where in the world" view.
+function ContinentOverview({ locations, activeIdx, onSelect }:
+  { locations: Location[]; activeIdx: number; onSelect: (i: number) => void }) {
+  const byContinent = new Map<string, number[]>();
+  for (let i = 0; i < locations.length; i++) {
+    const c = locations[i].continent;
+    if (!byContinent.has(c)) byContinent.set(c, []);
+    byContinent.get(c)!.push(i);
+  }
+  const base = import.meta.env.BASE_URL;
+  return (
+    <div className="continent-overview">
+      {[...byContinent.entries()].map(([continent, idxs]) => {
+        const map = CONTINENT_MAPS[continent];
+        if (!map) return null;
+        return (
+          <div key={continent} className="continent-thumb">
+            <div className="continent-label">{map.label}</div>
+            <div className="continent-map">
+              <img src={`${base}${map.src}`} alt={map.label} loading="lazy" />
+              {idxs.map(i => {
+                const loc = locations[i];
+                const isActive = activeIdx === i;
+                return (
+                  <button
+                    key={i}
+                    className={`pin small${isActive ? ' active' : ''}`}
+                    style={{ top: `${loc.top}%`, left: `${loc.left}%` }}
+                    onClick={() => onSelect(i)}
+                    title={loc.zoneName}
+                    aria-label={`Pin ${i + 1} in ${loc.zoneName}`}
+                  >
+                    <span className="pin-dot" />
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
