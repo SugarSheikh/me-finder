@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import type { ME, ClassKey, Rarity } from './types';
+import type { ME, ClassKey, Rarity, VideoRef } from './types';
 import { CLASS_ORDER, CLASS_COLOR, RARITY_COLOR, iconUrl, levelDisplay, rarityRank } from './util';
 import './App.css';
 
@@ -231,26 +231,44 @@ function MeDetail({ me }: { me: ME }) {
         <p className="muted small">No how-to-find video has been catalogued for this ME yet.</p>
       ) : (
         <div className="video-grid">
-          {me.videos.map(v => (
-            <div key={v.videoId} className="video">
-              <div className="video-frame">
-                <iframe
-                  src={`https://www.youtube-nocookie.com/embed/${v.videoId}`}
-                  title={v.title}
-                  loading="lazy"
-                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
-              </div>
-              <div className="video-caption">
-                {v.rank ? <span className="badge dim">Rank {v.rank}</span> : null}
-                {v.faction ? <span className="badge dim">{cap(v.faction)}</span> : null}
-                <a href={v.url} target="_blank" rel="noreferrer">Open on YouTube ↗</a>
-              </div>
-            </div>
-          ))}
+          {me.videos.map(v => <VideoEmbed key={v.videoId} v={v} />)}
         </div>
       )}
+    </div>
+  );
+}
+
+function VideoEmbed({ v }: { v: VideoRef }) {
+  const [playing, setPlaying] = useState(false);
+  const thumb = `https://i.ytimg.com/vi/${v.videoId}/hqdefault.jpg`;
+  return (
+    <div className="video">
+      <div className="video-frame">
+        {playing ? (
+          <iframe
+            src={`https://www.youtube.com/embed/${v.videoId}?autoplay=1`}
+            title={v.title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        ) : (
+          <button
+            type="button"
+            className="video-play"
+            onClick={() => setPlaying(true)}
+            aria-label={`Play video for ${v.title}`}
+          >
+            <img src={thumb} alt="" loading="lazy"
+              onError={e => { (e.currentTarget as HTMLImageElement).style.opacity = '0.2'; }} />
+            <span className="video-play-icon" aria-hidden>▶</span>
+          </button>
+        )}
+      </div>
+      <div className="video-caption">
+        {v.rank ? <span className="badge dim">Rank {v.rank}</span> : null}
+        {v.faction ? <span className="badge dim">{cap(v.faction)}</span> : null}
+        <a href={v.url} target="_blank" rel="noreferrer">Watch on YouTube ↗</a>
+      </div>
     </div>
   );
 }
