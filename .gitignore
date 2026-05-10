@@ -36,4 +36,17 @@ scripts/find-mes.mjs
 scripts/find-levels.mjs
 scripts/inspect-bisbeard.mjs
 scripts/peek*.mjs
+scripts/fetch-azerothhub.mjs
+scripts/inspect-azerothhub.mjs
+scripts/inspect-azerothhub-markers.mjs
+scripts/inspect-azerothhub-zones.mjs
+scripts/find-zone-images.mjs
+scripts/find-base-path.mjs
+scripts/find-subzones.mjs
+scripts/dump-azerothhub.mjs
+scripts/debug-zones.mjs
+scripts/debug-bounds-gap.mjs
+scripts/probe-availability.mjs
+scripts/probe-embeds.mjs
+scripts/suggest-aliases.mjs
 

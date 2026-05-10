@@ -120,6 +120,113 @@
 }
 .badge.dim { color: var(--text-dim); }
 .badge.video { color: #69ccf0; border-color: #205775; }
+.badge.location { color: #abd473; border-color: #45612d; }
+
+.locations { margin-bottom: 18px; }
+.continent-block { margin-bottom: 12px; }
+.continent-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--text-dim);
+  margin-bottom: 4px;
+}
+.continent-map {
+  position: relative;
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  background: #000;
+  line-height: 0;
+}
+.continent-map img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.pin {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  margin: -11px 0 0 -11px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+.pin-dot {
+  position: absolute;
+  inset: 4px;
+  border-radius: 50%;
+  background: #ff4d4d;
+  border: 2px solid #fff;
+  box-shadow: 0 0 4px rgba(0,0,0,.6);
+  transition: transform .12s, background-color .12s;
+}
+.pin-num {
+  position: absolute;
+  inset: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9px;
+  font-weight: 700;
+  color: #fff;
+  pointer-events: none;
+}
+.pin:hover .pin-dot { transform: scale(1.25); }
+.pin.active .pin-dot { background: #ffd24a; transform: scale(1.35); border-color: #fff; box-shadow: 0 0 8px rgba(255, 210, 74, 0.8); }
+
+.location-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 8px;
+}
+.location-card {
+  text-align: left;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 10px;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.location-card:hover { border-color: var(--border-strong); }
+.location-card.selected { border-color: #ffd24a; background: var(--bg-3); }
+.location-head { display: flex; align-items: center; gap: 8px; }
+.location-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #ff4d4d;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.location-card.selected .location-num { background: #ffd24a; color: #000; }
+.location-zone { font-weight: 600; color: var(--text-h); font-size: 13px; }
+.location-desc {
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--text);
+  margin: 0;
+  white-space: pre-wrap;
+}
+.location-resources {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
 
 .detail-pane {
   background: var(--bg-2);

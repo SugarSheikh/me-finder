@@ -13,6 +13,20 @@ export type VideoRef = {
 
 export type RequiredTab = { tab: string; investment: number };
 
+export type LocationResource = { url: string; label: string };
+export type Location = {
+  zoneId: string;
+  zoneName: string;
+  continent: string;       // "kalimdor" | "eastern-kingdoms"
+  top: number;             // % on continent map
+  left: number;            // % on continent map
+  rawTop: number;
+  rawLeft: number;
+  description: string;
+  quality: string | null;
+  resources: LocationResource[];
+};
+
 export type ME = {
   id: string;
   name: string;
@@ -29,4 +43,5 @@ export type ME = {
   requiredTabs: RequiredTab[] | null;
   requiredSpellIds: string[] | null;
   videos: VideoRef[];
+  locations: Location[];
 };

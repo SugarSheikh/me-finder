@@ -1,7 +1,12 @@
 import { useEffect, useMemo, useState } from 'react';
-import type { ME, ClassKey, Rarity, VideoRef } from './types';
+import type { ME, ClassKey, Rarity, VideoRef, Location } from './types';
 import { CLASS_ORDER, CLASS_COLOR, RARITY_COLOR, iconUrl, levelDisplay, rarityRank } from './util';
 import './App.css';
+
+const CONTINENT_MAPS: Record<string, { src: string; label: string }> = {
+  'kalimdor': { src: 'maps/kalimdor.png', label: 'Kalimdor' },
+  'eastern-kingdoms': { src: 'maps/eastern_kingdoms.png', label: 'Eastern Kingdoms' },
+};
 
 type Filters = {
   cls: ClassKey | null;
@@ -192,6 +197,7 @@ function MeCard({ me, selected, onClick }: { me: ME; selected: boolean; onClick:
           <span className="badge dim">{levelDisplay(me)}</span>
           {me.specs.map(s => <span key={s} className="badge dim">{prettySpec(s)}</span>)}
           {me.videos.length > 0 && <span className="badge video">▶ {me.videos.length}</span>}
+          {me.locations.length > 0 && <span className="badge location">📍 {me.locations.length}</span>}
         </div>
       </div>
     </button>
@@ -226,14 +232,89 @@ function MeDetail({ me }: { me: ME }) {
         </div>
       )}
 
+      <LocationSection locations={me.locations} />
+
       <h3>{me.videos.length === 0 ? 'No video yet' : me.videos.length === 1 ? 'How to get it' : `Videos (${me.videos.length})`}</h3>
       {me.videos.length === 0 ? (
-        <p className="muted small">No how-to-find video has been catalogued for this ME yet.</p>
+        <p className="muted small">{me.locations.length > 0 ? 'No video yet — see locations above.' : 'No how-to-find video or pin location catalogued yet.'}</p>
       ) : (
         <div className="video-grid">
           {me.videos.map(v => <VideoEmbed key={v.videoId} v={v} />)}
         </div>
       )}
+    </div>
+  );
+}
+
+function LocationSection({ locations }: { locations: Location[] }) {
+  const [activeLoc, setActiveLoc] = useState<number | null>(locations.length > 0 ? 0 : null);
+  if (locations.length === 0) return null;
+
+  // Group locations by continent so we render one map image per continent group.
+  const byContinent = new Map<string, { idxs: number[] }>();
+  for (let i = 0; i < locations.length; i++) {
+    const c = locations[i].continent;
+    if (!byContinent.has(c)) byContinent.set(c, { idxs: [] });
+    byContinent.get(c)!.idxs.push(i);
+  }
+
+  return (
+    <div className="locations">
+      <h3>Locations ({locations.length})</h3>
+      {[...byContinent.entries()].map(([continent, { idxs }]) => {
+        const mapInfo = CONTINENT_MAPS[continent];
+        if (!mapInfo) return null;
+        return (
+          <div key={continent} className="continent-block">
+            <div className="continent-label">{mapInfo.label}</div>
+            <div className="continent-map">
+              <img src={`${import.meta.env.BASE_URL}${mapInfo.src}`} alt={mapInfo.label} loading="lazy" />
+              {idxs.map(i => {
+                const loc = locations[i];
+                const isActive = activeLoc === i;
+                return (
+                  <button
+                    key={i}
+                    className={`pin${isActive ? ' active' : ''}`}
+                    style={{ top: `${loc.top}%`, left: `${loc.left}%` }}
+                    onClick={() => setActiveLoc(i)}
+                    title={loc.zoneName}
+                    aria-label={`Pin in ${loc.zoneName}`}
+                  >
+                    <span className="pin-dot" />
+                    <span className="pin-num">{i + 1}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        );
+      })}
+      <div className="location-list">
+        {locations.map((loc, i) => (
+          <button
+            key={i}
+            className={`location-card${activeLoc === i ? ' selected' : ''}`}
+            onClick={() => setActiveLoc(i)}
+          >
+            <div className="location-head">
+              <span className="location-num">{i + 1}</span>
+              <span className="location-zone">{loc.zoneName}</span>
+              <span className="muted small">{loc.rawTop.toFixed(1)}, {loc.rawLeft.toFixed(1)}</span>
+            </div>
+            {loc.description && <p className="location-desc">{loc.description}</p>}
+            {loc.resources.length > 0 && (
+              <div className="location-resources">
+                {loc.resources.map((r, j) => (
+                  <a key={j} href={r.url} target="_blank" rel="noreferrer" onClick={e => e.stopPropagation()}>
+                    {r.label} ↗
+                  </a>
+                ))}
+              </div>
+            )}
+          </button>
+        ))}
+      </div>
     </div>
   );
 }
