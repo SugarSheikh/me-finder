@@ -39,7 +39,7 @@
 .chip:hover { background: var(--bg-3); }
 .chip.on { background: var(--bg-3); border-color: var(--accent); color: var(--text-h); }
 
-.search {
+.search, .dropdown {
   background: var(--bg);
   border: 1px solid var(--border-strong);
   color: var(--text-h);
@@ -47,8 +47,28 @@
   padding: 8px 10px;
   font: inherit;
   outline: none;
+  width: 100%;
 }
-.search:focus { border-color: var(--accent); }
+.search:focus, .dropdown:focus { border-color: var(--accent); }
+.dropdown { cursor: pointer; appearance: none; padding-right: 28px;
+  background-image: linear-gradient(45deg, transparent 50%, var(--text-dim) 50%),
+                    linear-gradient(-45deg, transparent 50%, var(--text-dim) 50%);
+  background-position: calc(100% - 14px) 50%, calc(100% - 9px) 50%;
+  background-size: 5px 5px;
+  background-repeat: no-repeat;
+}
+.clear-link {
+  background: none;
+  border: 0;
+  color: var(--accent);
+  font-size: 11px;
+  text-transform: none;
+  letter-spacing: 0;
+  padding: 0 0 0 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.clear-link:hover { text-decoration: underline; }
 
 .toggle {
   display: inline-flex;

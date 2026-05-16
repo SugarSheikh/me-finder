@@ -16,6 +16,7 @@ type Filters = {
   cls: ClassKey | null;
   rarities: Set<Rarity>;
   spec: string | null;
+  zoneId: string | null;
   q: string;
   withVideoOnly: boolean;
   hideNoData: boolean;
@@ -30,6 +31,7 @@ export default function App() {
     cls: null,
     rarities: new Set(ALL_RARITIES),
     spec: null,
+    zoneId: null,
     q: '',
     withVideoOnly: false,
     hideNoData: false,
@@ -55,6 +57,27 @@ export default function App() {
     return [...set].sort();
   }, [mes, filters.cls]);
 
+  // All distinct zones across all MEs' locations, with ME counts.
+  // Filtered by class when a class is selected so the dropdown stays relevant.
+  const zonesAvailable = useMemo<{ id: string; name: string; count: number }[]>(() => {
+    if (!mes) return [];
+    const counts = new Map<string, { name: string; count: number }>();
+    for (const m of mes) {
+      if (filters.cls && m.class !== filters.cls) continue;
+      const seen = new Set<string>();
+      for (const l of m.locations) {
+        if (seen.has(l.zoneId)) continue;
+        seen.add(l.zoneId);
+        const entry = counts.get(l.zoneId);
+        if (entry) entry.count++;
+        else counts.set(l.zoneId, { name: l.zoneName, count: 1 });
+      }
+    }
+    return [...counts.entries()]
+      .map(([id, { name, count }]) => ({ id, name, count }))
+      .sort((a, b) => a.name.localeCompare(b.name));
+  }, [mes, filters.cls]);
+
   const filtered = useMemo<ME[]>(() => {
     if (!mes) return [];
     const q = filters.q.trim().toLowerCase();
@@ -62,6 +85,7 @@ export default function App() {
     if (filters.cls) list = list.filter(m => m.class === filters.cls);
     list = list.filter(m => filters.rarities.has(m.rarity));
     if (filters.spec) list = list.filter(m => m.specs.includes(filters.spec!));
+    if (filters.zoneId) list = list.filter(m => m.locations.some(l => l.zoneId === filters.zoneId));
     if (q) list = list.filter(m =>
       m.name.toLowerCase().includes(q) || m.description.toLowerCase().includes(q));
     if (filters.withVideoOnly) list = list.filter(m => m.videos.length > 0);
@@ -94,14 +118,14 @@ export default function App() {
           <div className="chip-grid">
             <button
               className={`chip${filters.cls === null ? ' on' : ''}`}
-              onClick={() => setFilters(f => ({ ...f, cls: null, spec: null }))}
+              onClick={() => setFilters(f => ({ ...f, cls: null, spec: null, zoneId: null }))}
             >All</button>
             {CLASS_ORDER.map(c => (
               <button
                 key={c}
                 className={`chip${filters.cls === c ? ' on' : ''}`}
                 style={filters.cls === c ? { borderColor: CLASS_COLOR[c], color: CLASS_COLOR[c] } : undefined}
-                onClick={() => setFilters(f => ({ ...f, cls: c, spec: null }))}
+                onClick={() => setFilters(f => ({ ...f, cls: c, spec: null, zoneId: null }))}
               >{cap(c)}</button>
             ))}
           </div>
@@ -147,6 +171,20 @@ export default function App() {
             </div>
           </section>
         )}
+
+        <section>
+          <h3>Zone {filters.zoneId && <button className="clear-link" onClick={() => setFilters(f => ({ ...f, zoneId: null }))}>clear</button>}</h3>
+          <select
+            className="dropdown"
+            value={filters.zoneId ?? ''}
+            onChange={e => setFilters(f => ({ ...f, zoneId: e.target.value || null }))}
+          >
+            <option value="">Any zone</option>
+            {zonesAvailable.map(z => (
+              <option key={z.id} value={z.id}>{z.name} ({z.count})</option>
+            ))}
+          </select>
+        </section>
 
         <section>
           <h3>Search</h3>
