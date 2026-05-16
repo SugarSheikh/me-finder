@@ -37,6 +37,9 @@ export default function App() {
     hideNoData: false,
   });
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [mobileView, setMobileView] = useState<'list' | 'detail'>('list');
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const selectMe = (id: string) => { setSelectedId(id); setMobileView('detail'); };
 
   useEffect(() => {
     Promise.all([
@@ -105,12 +108,19 @@ export default function App() {
   if (error) return <div className="error">Failed to load data: {error}</div>;
   if (!mes) return <div className="loading">Loading…</div>;
 
+  const appClass = `app${mobileView === 'detail' ? ' show-detail' : ' show-list'}${filtersOpen ? ' filters-open' : ''}`;
   return (
-    <div className="app">
+    <div className={appClass}>
+      {filtersOpen && <div className="backdrop" onClick={() => setFiltersOpen(false)} />}
       <aside className="sidebar">
         <header>
-          <h1>Bronzebeard ME Finder</h1>
-          <p className="tagline">Filter the catalog · find the video · go get it.</p>
+          <div className="sidebar-top">
+            <div>
+              <h1>Bronzebeard ME Finder</h1>
+              <p className="tagline">Filter the catalog · find the video · go get it.</p>
+            </div>
+            <button className="mobile-close" onClick={() => setFiltersOpen(false)} aria-label="Close filters">✕</button>
+          </div>
         </header>
 
         <section>
@@ -220,6 +230,12 @@ export default function App() {
       </aside>
 
       <main className="list-pane">
+        <header className="mobile-bar">
+          <button className="mobile-btn" onClick={() => setFiltersOpen(true)}>
+            <span aria-hidden>☰</span> Filters
+          </button>
+          <span className="mobile-bar-info">{filtered.length} of {mes.length}</span>
+        </header>
         {filtered.length === 0
           ? <div className="empty">No MEs match these filters.</div>
           : filtered.map(m => (
@@ -227,12 +243,17 @@ export default function App() {
               key={m.id}
               me={m}
               selected={m.id === selectedId}
-              onClick={() => setSelectedId(m.id)}
+              onClick={() => selectMe(m.id)}
             />
           ))}
       </main>
 
       <aside className="detail-pane">
+        <header className="mobile-bar">
+          <button className="mobile-btn" onClick={() => setMobileView('list')}>
+            <span aria-hidden>←</span> Back
+          </button>
+        </header>
         {selected ? <MeDetail me={selected} /> : <div className="muted center pad">Pick an ME to see details + video.</div>}
       </aside>
     </div>

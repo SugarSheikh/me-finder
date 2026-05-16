@@ -70,4 +70,5 @@ scripts/test-blp2.mjs
 scripts/inspect-descriptions.mjs
 scripts/inspect-descriptions2.mjs
 scripts/fetch-stock-zones.mjs
+scripts/analyze-worldforged.mjs
 
