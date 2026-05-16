@@ -13,7 +13,16 @@
   "druid:flourishing nourish": "flourishing nature",
 
   "warrior:dragon roar dragon warrior": ["dragon roar", "dragon warrior"],
+  "warrior:dragon roar and dragon warrior": ["dragon roar", "dragon warrior"],
   "hunter:blood tracker deadly bite glaive toss": ["blood tracker deadly bite", "blood tracker glaive toss"],
+  "hunter:defense of the turle": "defense of the turtle",
+  "hunter:carving strikes": "blood tracker carving strikes",
+  "shaman:restoration mastery shaman": "restoration mastery",
+  "druid:restoration mastery druid": "restoration mastery",
+  "rogue:blade vortex and bleeding edge": ["blade vortex", "bleeding edge"],
+  "rogue:sword and thunder fatal counter": ["sword and thunder", "fatal counter"],
+  "warlock:crackling flames nature s abundance": ["crackling flames", "nature s abundance"],
+  "mage:pendulum": "pendulum",
 
   "_community_added_no_alias_needed": "paladin:Holy Templar: Holy Power and paladin:Holy Templar: Light of Dawn now exist as community-sourced stubs (added by scripts/add-community-mes.mjs from azerothhub markers); video matches resolve directly."
 }

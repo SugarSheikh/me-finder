@@ -7,39 +7,60 @@ import { join } from 'node:path';
 
 const YTDLP = join(homedir(), 'bin', 'yt-dlp.exe');
 
+// Video sources. Each playlist tags a class. The parser handles title shape per source.
 const PLAYLISTS = [
-  { class: 'warrior', id: 'PLdApKfDWsi1_GG7rGZeHQ69lcAnJWcb3v' },
-  { class: 'mage',    id: 'PLdApKfDWsi18yLtWHluSWp2EjqdMIu13W' },
-  { class: 'priest',  id: 'PLdApKfDWsi1_LHfYoxGkiZfUOjJUprYQS' },
-  { class: 'rogue',   id: 'PLdApKfDWsi1-vBkurLCl510vHGkm0_bJb' },
-  { class: 'druid',   id: 'PLdApKfDWsi1-YnlzstjkV0HbgDw3hZrAq' },
-  { class: 'hunter',  id: 'PLdApKfDWsi1_6vR0rLLvs9KxU7eH7cb0A' },
-  { class: 'shaman',  id: 'PLdApKfDWsi19OxpycEuMOUI8hjPd87wXO' },
-  { class: 'paladin', id: 'PLdApKfDWsi1-KR5TJw5fzutC4DQGlfiHy' },
-  { class: 'warlock', id: 'PLdApKfDWsi18S-Y7K-oWyJRKMZOz4y5Ry' },
+  // Whiter | Bronzebeard & More
+  { class: 'warrior', id: 'PLdApKfDWsi1_GG7rGZeHQ69lcAnJWcb3v', source: 'whiter' },
+  { class: 'mage',    id: 'PLdApKfDWsi18yLtWHluSWp2EjqdMIu13W', source: 'whiter' },
+  { class: 'priest',  id: 'PLdApKfDWsi1_LHfYoxGkiZfUOjJUprYQS', source: 'whiter' },
+  { class: 'rogue',   id: 'PLdApKfDWsi1-vBkurLCl510vHGkm0_bJb', source: 'whiter' },
+  { class: 'druid',   id: 'PLdApKfDWsi1-YnlzstjkV0HbgDw3hZrAq', source: 'whiter' },
+  { class: 'hunter',  id: 'PLdApKfDWsi1_6vR0rLLvs9KxU7eH7cb0A', source: 'whiter' },
+  { class: 'shaman',  id: 'PLdApKfDWsi19OxpycEuMOUI8hjPd87wXO', source: 'whiter' },
+  { class: 'paladin', id: 'PLdApKfDWsi1-KR5TJw5fzutC4DQGlfiHy', source: 'whiter' },
+  { class: 'warlock', id: 'PLdApKfDWsi18S-Y7K-oWyJRKMZOz4y5Ry', source: 'whiter' },
+  // Shadowmeld GG
+  { class: 'hunter',  id: 'PLXCFdLURG4z_NZOhFdKPXO9SOVOYduwY3', source: 'shadowmeld' },
+  { class: 'mage',    id: 'PLXCFdLURG4z83HenvnJt3qpelkGsK5fsl', source: 'shadowmeld' },
+  { class: 'rogue',   id: 'PLXCFdLURG4z-2mMmC4Oat-MuV4yGYGqxq', source: 'shadowmeld' },
+  { class: 'priest',  id: 'PLXCFdLURG4z9Z63mdkXnGzr-CtSAv8HUS', source: 'shadowmeld' },
+  { class: 'warlock', id: 'PLXCFdLURG4z-3MpUTXr9op571CLDo_Gn0', source: 'shadowmeld' },
+  { class: 'shaman',  id: 'PLXCFdLURG4z-4JnZLMuvS9q5eH__gVnHQ', source: 'shadowmeld' },
+  { class: 'druid',   id: 'PLXCFdLURG4z-AC3xO1BWX3g62mRRpas6Q', source: 'shadowmeld' },
+  { class: 'warrior', id: 'PLXCFdLURG4z9cxF44WG9Xnfv996oRjM33', source: 'shadowmeld' },
+  { class: 'paladin', id: 'PLXCFdLURG4z8w_ea0L_td49XPVrKKBzTg', source: 'shadowmeld' },
 ];
 
-// Title patterns to strip:
+// Whiter title patterns:
 //   "How to get Mystic Enchant: <Name> | <Class> [...]"
 //   "Mystic Enchant: <Name> | <Class> [...]"
-//   "Mystic Scroll: <Name> | ..."  (Whiter has used both phrasings)
-//   "Mystic Enchant <Name>: | ..." (typo'd colon position seen on at least one video)
-//   "<Name> (2) | ..."
-//   "<Name> (Alliance Version) | ..."
-const TITLE_RE_STRICT = /^(?:How to get )?Mystic (?:Enchant|Scroll):\s*(.+?)\s*\|/i;
-const TITLE_RE_LOOSE  = /^(?:How to get )?Mystic (?:Enchant|Scroll)\s+(.+?):?\s*\|/i;
-const RANK_RE = /\s*\((\d+)\)\s*$/;
-// Faction suffix variants seen in the wild:
-//   " (Alliance Version)" / " (Horde Version)"
-//   " (Alliance)" / " (Horde)"
-//   " as Alliance" / " as Horde"
-//   " (alliance version)" — lowercase inside parens
-const FACTION_RE = /\s*(?:as\s+|\(\s*)?(Alliance|Horde)(?:\s+[Vv]ersion)?\s*\)?\s*$/i;
+//   "Mystic Scroll: <Name> | ..."
+const WHITER_RE_STRICT = /^(?:How to get )?Mystic (?:Enchant|Scroll):\s*(.+?)\s*\|/i;
+const WHITER_RE_LOOSE  = /^(?:How to get )?Mystic (?:Enchant|Scroll)\s+(.+?):?\s*\|/i;
+// Shadowmeld GG title pattern:
+//   "how to get <NAME> in Warcraft reborn - ascension bronzebeard! [optional flair]"
+const SHADOWMELD_RE = /^how to get\s+(.+?)\s+in\s+[Ww]arcraft\s+[Rr]eborn/i;
 
-function parseTitle(title) {
-  const m = title.match(TITLE_RE_STRICT) || title.match(TITLE_RE_LOOSE);
+const RANK_RE = /\s*[#(]?(\d+)\)?\s*$/;     // " (2)" or " #2"
+const FACTION_RE = /\s*(?:as\s+|[#(]\s*)?(Alliance|Horde)(?:\s+[Vv]ersion)?\s*\)?\s*$/i;
+const FLAIR_RE = /\s*(?:UPDATED(?:\s+\w+){0,3}|NEW\s+SPOT|A\+H|EASY|FAST)\s*$/i;
+
+// Patterns that indicate a video is about a gear item (BiS libram, ring,
+// trinket, etc.) rather than a mystic enchant — skip these entirely.
+const NON_ME_RE = /\b(BiS|BEST IN SLOT|LIBRAM|TRINKET|RING|POLEARM|DAGGER|STAFF|EPIC POLEARM|EPIC DAGGER|WF (?:Dagger|Polearm|Staff)|Spell Penetration)\b/i;
+
+function parseTitle(title, source) {
+  if (NON_ME_RE.test(title)) return null;
+  let m;
+  if (source === 'shadowmeld') {
+    m = title.match(SHADOWMELD_RE);
+  } else {
+    m = title.match(WHITER_RE_STRICT) || title.match(WHITER_RE_LOOSE);
+  }
   if (!m) return null;
   let name = m[1];
+  // Strip trailing flair like "UPDATED NEW SPOT", "A+H", etc.
+  while (FLAIR_RE.test(name)) name = name.replace(FLAIR_RE, '').trim();
   let rank = null;
   let faction = null;
   // Faction first because it can come before/after rank
@@ -76,18 +97,22 @@ function listPlaylist(playlistId) {
 
 const videos = [];
 const skipped = [];
-for (const { class: cls, id } of PLAYLISTS) {
-  console.log(`-- ${cls} (${id})`);
+const seen = new Set();
+for (const { class: cls, id, source } of PLAYLISTS) {
+  console.log(`-- ${source}/${cls} (${id})`);
   const rows = listPlaylist(id);
   console.log(`   ${rows.length} videos`);
   for (const r of rows) {
-    const parsed = parseTitle(r.title);
-    if (!parsed) { skipped.push({ class: cls, ...r, reason: 'no_me_title' }); continue; }
+    if (seen.has(r.videoId)) continue;
+    seen.add(r.videoId);
+    const parsed = parseTitle(r.title, source);
+    if (!parsed) { skipped.push({ source, class: cls, ...r, reason: 'no_me_title' }); continue; }
     videos.push({
       videoId: r.videoId,
       url: `https://www.youtube.com/watch?v=${r.videoId}`,
       title: r.title,
       class: cls,
+      source,
       displayName: parsed.displayName,
       normalizedName: normalize(parsed.displayName),
       rank: parsed.rank,

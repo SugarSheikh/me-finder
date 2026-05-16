@@ -67,5 +67,7 @@ scripts/check-patch-a-zones.mjs
 scripts/debug-bounds-gap.mjs
 scripts/test-blp.mjs
 scripts/test-blp2.mjs
-scripts/inspect-azerothhub-zones.mjs
+scripts/inspect-descriptions.mjs
+scripts/inspect-descriptions2.mjs
+scripts/fetch-stock-zones.mjs
 
